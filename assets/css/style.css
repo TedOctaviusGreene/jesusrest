@@ -1,11 +1,12 @@
-/* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
 
 :root {
-  --primary: #4b2e83;   /* deep purple */
-  --secondary: #6c63ff; /* lighter accent purple */
+  --warm-neutral: #A47864;
+  --soft-cream: #F5E8D6;
+  --refined-teal: #4E7D7C;
+  --sage: #B2C1A3;
   --text: #333;
-  --background: #fdfdfd;
+  --background: #FFFFFF;
   --max-width: 900px;
 }
 
@@ -22,9 +23,8 @@ body {
   line-height: 1.6;
 }
 
-/* Header / Navbar */
 header {
-  background: var(--primary);
+  background: var(--warm-neutral);
   color: white;
   padding: 1rem 2rem;
   display: flex;
@@ -48,17 +48,15 @@ nav a {
 }
 
 nav a:hover {
-  color: var(--secondary);
+  color: var(--soft-cream);
 }
 
-/* Main container */
 main {
   max-width: var(--max-width);
   margin: 2rem auto;
   padding: 0 1rem;
 }
 
-/* Articles list page */
 #articles-list ul {
   list-style: none;
   display: grid;
@@ -67,7 +65,7 @@ main {
 }
 
 #articles-list li {
-  background: white;
+  background: var(--soft-cream);
   border: 1px solid #eee;
   border-radius: 8px;
   padding: 1.2rem;
@@ -82,20 +80,21 @@ main {
 
 #articles-list a {
   text-decoration: none;
-  color: var(--primary);
+  color: var(--refined-teal);
   font-weight: 600;
 }
 
-/* Read article */
 #article-content {
-  background: white;
+  background: var(--soft-cream);
   padding: 2rem;
   border-radius: 10px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 }
 
-#article-content h1, #article-content h2, #article-content h3 {
-  color: var(--primary);
+#article-content h1,
+#article-content h2,
+#article-content h3 {
+  color: var(--warm-neutral);
   margin: 1.2rem 0 0.6rem;
 }
 
@@ -103,12 +102,12 @@ main {
   margin-bottom: 1rem;
 }
 
-/* Footer */
 footer {
   text-align: center;
   padding: 1rem;
   margin-top: 2rem;
-  background: #f5f5f5;
-  color: #666;
+  background: var(--sage);
+  color: #555;
   font-size: 0.9rem;
 }
+
