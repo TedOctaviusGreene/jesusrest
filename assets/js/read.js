@@ -9,12 +9,24 @@ async function loadArticle() {
   }
 
   try {
-    const response = await fetch(`https://raw.githubusercontent.com/TedOctaviusGreene/jesusrest/main/articles/${file}`);
-    if (!response.ok) throw new Error("GitHub fetch failed");
+    console.log("Fetching article:", file);
+
+    const response = await fetch(
+      `https://raw.githubusercontent.com/TedOctaviusGreene/jesusrest/main/articles/${file}`
+    );
+
+    if (!response.ok) throw new Error("GitHub fetch failed: " + response.status);
+
     const text = await response.text();
-    contentEl.innerHTML = marked.parse(text);
+
+    if (typeof marked !== "undefined") {
+      contentEl.innerHTML = marked.parse(text);
+    } else {
+      contentEl.textContent = text; // fallback
+    }
   } catch (err) {
-    contentEl.innerHTML = `<p>Error loading article: ${err.message}</p>`;
+    console.error("Article load failed:", err);
+    contentEl.innerHTML = `<p style="color:red;">Error loading article: ${err.message}</p>`;
   }
 }
 
