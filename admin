@@ -1,22 +1,60 @@
-# Use DecapBridge auth (required)
 backend:
-  name: git-gateway
+  name: github
   repo: TedOctaviusGreene/jesusrest
   branch: main
-  identity_url: https://auth.decapbridge.com/sites/7c706fac-7ed7-4d76-9943-b1a8437617e1
+  base_url: https://auth.decapbridge.com/sites/7c706fac-7ed7-4d76-9943-b1a8437617e1
+  auth_endpoint: /api/authorize
   gateway_url: https://gateway.decapbridge.com
 
-  # Quickly see who did what (optional)
-  commit_messages:
-    create: Create {{collection}} “{{slug}}” - {{author-name}} <{{author-login}}> via DecapBridge
-    update: Update {{collection}} “{{slug}}” - {{author-name}} <{{author-login}}> via DecapBridge
-    delete: Delete {{collection}} “{{slug}}” - {{author-name}} <{{author-login}}> via DecapBridge
-    uploadMedia: Upload “{{path}}” - {{author-name}} <{{author-login}}> via DecapBridge
-    deleteMedia: Delete “{{path}}” - {{author-name}} <{{author-login}}> via DecapBridge
-    openAuthoring: Message {{message}} - {{author-name}} <{{author-login}}> via DecapBridge
+media_folder: "assets/media"
+public_folder: "/assets/media"
 
-# Better Decap + Bridge logo (optional)
-logo_url: https://decapbridge.com/decapcms-with-bridge.svg
+collections:
+  - name: "articles"
+    label: "Articles"
+    folder: "articles"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Summary", name: "summary", widget: "text" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
 
-# Add site links in DecapCMS (optional)
-site_url: https://jesusrest.com
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "About"
+        name: "about"
+        file: "pages/about.html"
+        fields:
+          - { label: "Content (HTML)", name: "body", widget: "text" }
+      - label: "Donate"
+        name: "donate"
+        file: "pages/donate.html"
+        fields:
+          - { label: "Content (HTML)", name: "body", widget: "text" }
+      - label: "Contact"
+        name: "contact"
+        file: "pages/contact.html"
+        fields:
+          - { label: "Content (HTML)", name: "body", widget: "text" }
+
+  - name: "article_index"
+    label: "Article List (Homepage)"
+    files:
+      - label: "Articles Index"
+        name: "indexjson"
+        file: "articles/index.json"
+        fields:
+          - label: "Articles"
+            name: "articles"
+            widget: "list"
+            fields:
+              - { label: "Slug", name: "slug", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Summary", name: "summary", widget: "text" }
+              - { label: "Date", name: "date", widget: "datetime" }
