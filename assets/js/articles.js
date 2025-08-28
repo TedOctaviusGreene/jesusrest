@@ -16,11 +16,12 @@ async function loadArticles() {
     // Turn each file into a clickable link to the /read/ page
     const items = mdFiles.map(file => {
       const slug = file.name.replace(".md", "");
-      return `<li><a href="../read/?file=${file.name}">${slug.replace(/-/g, " ")}</a></li>`;
+      return `<li><a href="/read/?file=${file.name}">${slug.replace(/-/g, " ")}</a></li>`;
     });
 
     list.innerHTML = `<ul>${items.join("")}</ul>`;
   } catch (e) {
-    list.innerHTML = `<p>Error loading articles: ${e.message}</p>`;
+    console.error("Error loading article list:", e);
+    list.innerHTML = `<p style="color:red;">Error loading articles: ${e.message}</p>`;
   }
 }
