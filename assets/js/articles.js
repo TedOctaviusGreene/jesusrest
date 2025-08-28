@@ -13,10 +13,10 @@ async function loadArticles() {
     // Filter for .md files only
     const mdFiles = files.filter(file => file.name.endsWith(".md"));
 
-    // Turn each file into a clickable link to read.html
+    // Turn each file into a clickable link to the /read/ page
     const items = mdFiles.map(file => {
       const slug = file.name.replace(".md", "");
-      return `<li><a href="read.html?file=${file.name}">${slug.replace(/-/g, " ")}</a></li>`;
+      return `<li><a href="../read/?file=${file.name}">${slug.replace(/-/g, " ")}</a></li>`;
     });
 
     list.innerHTML = `<ul>${items.join("")}</ul>`;
