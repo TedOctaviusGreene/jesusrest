@@ -75,4 +75,78 @@ footer {
   background: #333;
   color: #fff;
 }
+/* ============================
+   ARTICLE CONTENT STYLES
+   ============================ */
+#article-content {
+  max-width: 800px;
+  margin: 80px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #222;
+}
+
+/* Headings */
+#article-content h1,
+#article-content h2,
+#article-content h3,
+#article-content h4 {
+  margin: 1.5em 0 0.6em;
+  line-height: 1.3;
+  font-weight: bold;
+}
+#article-content h1 { font-size: 2rem; border-bottom: 2px solid #eee; padding-bottom: 0.3em; }
+#article-content h2 { font-size: 1.6rem; color: #444; }
+#article-content h3 { font-size: 1.3rem; color: #555; }
+
+/* Paragraphs & Lists */
+#article-content p { margin: 1em 0; }
+#article-content ul,
+#article-content ol {
+  margin: 1em 0 1em 2em;
+  padding-left: 1em;
+}
+#article-content li { margin: 0.4em 0; }
+
+/* Links */
+#article-content a {
+  color: #0066cc;
+  text-decoration: none;
+  border-bottom: 1px solid #0066cc33;
+}
+#article-content a:hover {
+  color: #004999;
+  border-bottom-color: #004999;
+}
+
+/* Blockquotes */
+#article-content blockquote {
+  margin: 1.5em 0;
+  padding: 0.8em 1.2em;
+  border-left: 4px solid #ccc;
+  background: #f9f9f9;
+  font-style: italic;
+  color: #444;
+}
+
+/* Code blocks */
+#article-content pre {
+  background: #272822;
+  color: #f8f8f2;
+  padding: 1em;
+  border-radius: 6px;
+  overflow-x: auto;
+  margin: 1.5em 0;
+}
+#article-content code {
+  background: #f4f4f4;
+  padding: 0.2em 0.5em;
+  border-radius: 4px;
+  font-family: Consolas, Monaco, monospace;
+  font-size: 0.95rem;
+}
 
