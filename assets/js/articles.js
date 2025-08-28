@@ -1,3 +1,4 @@
+console.log("✅ articles.js is running");
 async function loadArticles() {
   const list = document.getElementById("articles-list");
 
