@@ -1,0 +1,60 @@
+backend:
+  name: github
+  repo: TedOctaviusGreene/jesusrest
+  branch: main
+  base_url: https://auth.decapbridge.com/sites/7c706fac-7ed7-4d76-9943-b1a8437617e1
+  auth_endpoint: /api/authorize
+  gateway_url: https://gateway.decapbridge.com
+
+media_folder: "assets/media"
+public_folder: "/assets/media"
+
+collections:
+  - name: "articles"
+    label: "Articles"
+    folder: "articles"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Summary", name: "summary", widget: "text" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "About"
+        name: "about"
+        file: "pages/about.html"
+        fields:
+          - { label: "Content (HTML)", name: "body", widget: "text" }
+      - label: "Donate"
+        name: "donate"
+        file: "pages/donate.html"
+        fields:
+          - { label: "Content (HTML)", name: "body", widget: "text" }
+      - label: "Contact"
+        name: "contact"
+        file: "pages/contact.html"
+        fields:
+          - { label: "Content (HTML)", name: "body", widget: "text" }
+
+  - name: "article_index"
+    label: "Article List (Homepage)"
+    files:
+      - label: "Articles Index"
+        name: "indexjson"
+        file: "articles/index.json"
+        fields:
+          - label: "Articles"
+            name: "articles"
+            widget: "list"
+            fields:
+              - { label: "Slug", name: "slug", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Summary", name: "summary", widget: "text" }
+              - { label: "Date", name: "date", widget: "datetime" }
