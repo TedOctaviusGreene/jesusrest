@@ -1,100 +1,43 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Jesus Rest — Truth Letters</title>
-  <meta name="description" content="Scripture-first letters for life in the New Covenant.">
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <style>
-    body, html {
-      margin: 0; padding: 0;
-      font-family: system-ui, sans-serif;
-      background: #fff; color: #222;
-    }
-    header.site {
-      position: relative;
-      z-index: 2;
-      background: rgba(0,0,0,0.6);
-      color: #fff;
-      padding: 1rem 0;
-    }
-    header .brand {
-      font-weight: bold; color: #fff; text-decoration: none;
-    }
-    nav.bar {
-      display: flex; align-items: center; justify-content: space-between;
-      max-width: 960px; margin: 0 auto; padding: 0 1rem;
-    }
-    nav .menu a {
-      margin-left: 1rem; color: #fff; text-decoration: none;
-    }
-    .hero {
-      position: relative;
-      height: 80vh;
-      display: flex; flex-direction: column; justify-content: center; align-items: center;
-      text-align: center; color: #fff; z-index: 2;
-    }
-    .hero h1 { font-size: 2.5rem; margin-bottom: 1rem; }
-    .hero p { max-width: 600px; margin: 0 auto 1.5rem; }
-    .hero .buttons { display: flex; gap: 1rem; justify-content: center; }
-    .button {
-      background: #fff; color: #000; padding: 0.6rem 1.2rem;
-      border-radius: 4px; text-decoration: none; font-weight: bold;
-    }
-    .button.ghost {
-      background: transparent; border: 2px solid #fff; color: #fff;
-    }
-    /* Background video */
-    .video-bg {
-      position: absolute;
-      top: 0; left: 0; width: 100%; height: 100%;
-      overflow: hidden; z-index: 1;
-    }
-    .video-bg video {
-      width: 100%; height: 100%; object-fit: cover;
-      filter: brightness(0.6);
-    }
-    footer.site {
-      padding: 2rem 1rem; text-align: center; background: #f7f7f7; color: #555;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jesus Rest</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-
-<header class="site">
-  <nav class="bar">
-    <a class="brand" href="/"><em>Jesus Rest</em> · Truth Letters</a>
-    <div class="menu">
-      <a href="/articles">Articles</a>
-      <a href="/pages/about.html">About</a>
-      <a href="/pages/donate.html">Donate</a>
-      <a href="/pages/contact.html">Contact</a>
-      <a href="/admin/" style="opacity:.6">Admin</a>
-    </div>
-  </nav>
-</header>
-
-<!-- Video background -->
-<div class="video-bg">
-  <video autoplay muted loop playsinline>
-    <source src="https://cdn.coverr.co/videos/coverr-cross-on-the-hill-1234/1080p.mp4" type="video/mp4">
-  </video>
-</div>
-
-<main class="hero">
-  <h1>Jesus finished what the first covenant started.</h1>
-  <p>We publish Scripture-first, anonymous letters to help friends see the freedom of the New Covenant in Christ.</p>
-  <div class="buttons">
-    <a class="button" href="/articles">Read Articles</a>
-    <a class="button ghost" href="/pages/about.html">Learn More</a>
+  <!-- Background video -->
+  <div class="video-background">
+    <video autoplay muted loop>
+      <source src="https://cdn.coverr.co/videos/coverr-sunlight-through-trees-8479/1080p.mp4" type="video/mp4">
+    </video>
+    <div class="overlay"></div>
   </div>
-</main>
 
-<footer class="site">
-  <p>© <span id="y"></span> Jesus Rest — jesusrest.com</p>
-</footer>
+  <!-- Header / Navbar -->
+  <header>
+    <h1>Jesus Rest</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="articles.html">Articles</a>
+      <a href="donate.html">Donate</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
 
-<script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+  <!-- Main content -->
+  <main>
+    <h2>Welcome to Jesus Rest</h2>
+    <p>
+      Discover the freedom and joy of the new covenant in Christ. 
+      This site is dedicated to helping people rest in His finished work.
+    </p>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Jesus Rest</p>
+  </footer>
 </body>
 </html>
