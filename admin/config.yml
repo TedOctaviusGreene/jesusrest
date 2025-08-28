@@ -2,7 +2,7 @@ backend:
   name: github
   repo: TedOctaviusGreene/jesusrest
   branch: main
-  base_url: https://auth.decapbridge.com/sites/7c706fac-7ed7-4d76-9943-b1a8437617e1
+  base_url: https://auth.decapbridge.com
   auth_endpoint: /authorize
   gateway_url: https://gateway.decapbridge.com
 
