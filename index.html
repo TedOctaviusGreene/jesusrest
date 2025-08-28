@@ -1,43 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jesus Rest</title>
-  <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jesus Rest — Truth Letters</title>
+  <meta name="description" content="Scripture-first letters for life in the New Covenant.">
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-  <!-- Background video -->
-  <div class="video-background">
-    <video autoplay muted loop>
-      <source src="https://cdn.coverr.co/videos/coverr-sunlight-through-trees-8479/1080p.mp4" type="video/mp4">
-    </video>
-    <div class="overlay"></div>
-  </div>
 
-  <!-- Header / Navbar -->
-  <header>
+<header>
   <h1><a href="index.html">Jesus Rest</a></h1>
   <nav>
-    <a href="articles/">Articles</a>
+    <a href="articles.html">Articles</a>
     <a href="donate.html">Donate</a>
     <a href="contact.html">Contact</a>
     <a href="admin/">Admin</a>
   </nav>
 </header>
 
-  <!-- Main content -->
-  <main>
-    <h2>Welcome to Jesus Rest</h2>
-    <p>
-      Discover the freedom and joy of the new covenant in Christ. 
-      This site is dedicated to helping people rest in His finished work.
-    </p>
-  </main>
+<!-- Hero Section -->
+<section style="
+  background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80') 
+    center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 6rem 2rem;
+">
+  <h1 style="font-size:2.5rem; font-weight:800; margin-bottom:1rem;">Jesus finished what the first covenant started.</h1>
+  <p style="font-size:1.25rem; max-width:700px; margin: 0 auto 2rem;">Scripture-first letters to help friends see the freedom of the New Covenant in Christ.</p>
+  <a href="articles.html" style="background:var(--refined-teal); color:white; padding:0.8rem 1.6rem; border-radius:6px; text-decoration:none; font-weight:600;">Read Articles</a>
+  <a href="donate.html" style="margin-left:1rem; background:var(--warm-neutral); color:white; padding:0.8rem 1.6rem; border-radius:6px; text-decoration:none; font-weight:600;">Support</a>
+</section>
 
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2025 Jesus Rest</p>
-  </footer>
+<main>
+  <h2 style="margin-bottom:1rem;">Latest Articles</h2>
+  <div id="articles-list"><p>Loading articles...</p></div>
+</main>
+
+<footer>
+  <p>&copy; 2025 Jesus Rest · Scripture-first letters for life in the New Covenant.</p>
+</footer>
+
+<script src="assets/js/articles.js"></script>
 </body>
 </html>
