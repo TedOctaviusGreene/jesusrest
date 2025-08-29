@@ -9,39 +9,56 @@
 </head>
 <body>
 
-<header>
-  <h1><a href="index.html">Jesus Rest</a></h1>
+<header style="background:var(--warm-neutral); padding:1rem 2rem; display:flex; justify-content:space-between; align-items:center;">
+  <div style="display:flex; align-items:center; gap:12px;">
+    <!-- Wave Logo -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="40" height="40" fill="var(--soft-cream)">
+      <path d="M2 40c6 0 10-8 16-8s10 8 16 8 10-8 16-8 10 8 16 8" 
+            stroke="var(--soft-cream)" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <!-- Logo Text -->
+    <h1 style="margin:0;">
+      <a href="index.html" style="font-size:1.6rem; font-weight:800; color:white; text-decoration:none;">
+        Jesus <span style="color:var(--soft-cream); font-weight:400;">Rest</span>
+      </a>
+    </h1>
+  </div>
+
   <nav>
     <a href="articles.html">Articles</a>
     <a href="donate.html">Donate</a>
     <a href="contact.html">Contact</a>
-    <a href="admin/">Admin</a>
   </nav>
 </header>
 
 <!-- Hero Section -->
-<section style="
-  background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80') 
-    center/cover no-repeat;
-  color: white;
-  text-align: center;
-  padding: 6rem 2rem;
-">
-  <h1 style="font-size:2.5rem; font-weight:800; margin-bottom:1rem;">Jesus finished what the first covenant started.</h1>
-  <p style="font-size:1.25rem; max-width:700px; margin: 0 auto 2rem;">Scripture-first letters to help friends see the freedom of the New Covenant in Christ.</p>
-  <a href="articles.html" style="background:var(--refined-teal); color:white; padding:0.8rem 1.6rem; border-radius:6px; text-decoration:none; font-weight:600;">Read Articles</a>
-  <a href="donate.html" style="margin-left:1rem; background:var(--warm-neutral); color:white; padding:0.8rem 1.6rem; border-radius:6px; text-decoration:none; font-weight:600;">Support</a>
+<section style="position:relative; height:75vh; color:white; text-align:center; display:flex; flex-direction:column; justify-content:center; align-items:center;">
+
+  <!-- Background video -->
+  <video autoplay muted loop playsinline poster="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80"
+         style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover; z-index:-1;">
+    <source src="https://player.vimeo.com/external/481172825.sd.mp4?s=3a92af4e7c13ee6f6d63d1ee2ebf4c0a9c0a4cbb&profile_id=164" type="video/mp4">
+  </video>
+
+  <!-- Overlay -->
+  <div style="background:rgba(0,0,0,0.5); padding:2rem; border-radius:8px; max-width:800px;">
+    <h1 style="font-size:2.5rem; font-weight:800; margin-bottom:1rem;">
+      Jesus finished what the first covenant started.
+    </h1>
+    <p style="font-size:1.25rem; margin-bottom:2rem;">
+      Scripture-first letters to help friends see the freedom of the New Covenant in Christ.
+    </p>
+    <a href="articles.html" style="background:var(--refined-teal); color:white; padding:0.8rem 1.6rem; border-radius:6px; text-decoration:none; font-weight:600;">Read Articles</a>
+    <a href="donate.html" style="margin-left:1rem; background:var(--warm-neutral); color:white; padding:0.8rem 1.6rem; border-radius:6px; text-decoration:none; font-weight:600;">Donate</a>
+  </div>
 </section>
 
-<main>
+<main style="max-width:900px; margin:2rem auto; padding:0 1rem;">
   <h2 style="margin-bottom:1rem;">Latest Articles</h2>
   <div id="articles-list"><p>Loading articles...</p></div>
 </main>
 
 <footer>
-  <p>&copy; 2025 Jesus Rest · Scripture-first letters for life in the New Covenant.</p>
-</footer>
-  <footer>
   <div style="max-width:900px; margin:0 auto; padding:1.5rem; text-align:center;">
     <p style="margin-bottom:1rem; color:#555;">
       © 2025 Jesus Rest · Scripture-first letters for life in the New Covenant.
@@ -53,7 +70,6 @@
     </a>
   </div>
 </footer>
-
 
 <script src="assets/js/articles.js"></script>
 </body>
