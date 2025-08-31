@@ -26,6 +26,64 @@
 
   <!-- Styles -->
   <link rel="stylesheet" href="assets/css/style.css">
+
+  <style>
+    /* Hero Section Background */
+    .hero {
+      position: relative;
+      height: 75vh;
+      color: white;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80") no-repeat center center/cover;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: -1;
+    }
+
+    /* Fade-up Animation */
+    .fade-up {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeUp 1.5s ease-out forwards;
+    }
+
+    @keyframes fadeUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Shimmer Effect (one-time) */
+    .shimmer {
+      position: relative;
+      display: inline-block;
+      overflow: hidden;
+    }
+
+    .shimmer::after {
+      content: "";
+      position: absolute;
+      top: 0; left: -100%;
+      width: 100%; height: 100%;
+      background: linear-gradient(120deg, transparent, rgba(255,255,255,0.6), transparent);
+      animation: shimmer 3s ease forwards;
+    }
+
+    @keyframes shimmer {
+      to { left: 100%; }
+    }
+  </style>
 </head>
 <body>
 
@@ -36,9 +94,9 @@
       <path d="M2 40c6 0 10-8 16-8s10 8 16 8 10-8 16-8 10 8 16 8" 
             stroke="var(--soft-cream)" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
     </svg>
-    <!-- Logo Text -->
+    <!-- Logo Text with shimmer -->
     <h1 style="margin:0;">
-      <a href="index.html" style="font-size:1.6rem; font-weight:800; color:white; text-decoration:none;">
+      <a href="index.html" class="shimmer" style="font-size:1.6rem; font-weight:800; color:white; text-decoration:none;">
         Jesus <span style="color:var(--soft-cream); font-weight:400;">Rest</span>
       </a>
     </h1>
@@ -52,16 +110,8 @@
 </header>
 
 <!-- Hero Section -->
-<section style="position:relative; height:75vh; color:white; text-align:center; display:flex; flex-direction:column; justify-content:center; align-items:center;">
-
-  <!-- Background video -->
-  <video autoplay muted loop playsinline poster="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80"
-         style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover; z-index:-1;">
-    <source src="https://player.vimeo.com/external/481172825.sd.mp4?s=3a92af4e7c13ee6f6d63d1ee2ebf4c0a9c0a4cbb&profile_id=164" type="video/mp4">
-  </video>
-
-  <!-- Overlay -->
-  <div style="background:rgba(0,0,0,0.5); padding:2rem; border-radius:8px; max-width:800px;">
+<section class="hero">
+  <div class="hero-content fade-up">
     <h1 style="font-size:2.5rem; font-weight:800; margin-bottom:1rem;">
       Jesus finished what the first covenant started.
     </h1>
@@ -94,3 +144,4 @@
 <script src="assets/js/articles.js"></script>
 </body>
 </html>
+
