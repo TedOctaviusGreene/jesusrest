@@ -111,3 +111,16 @@ footer {
   font-size: 0.9rem;
 }
 
+.hero {
+  position: relative;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+
+  /* Water background */
+  background: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80")
+    no-repeat center center/cover;
+}
