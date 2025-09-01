@@ -34,13 +34,17 @@
 <header style="background:var(--warm-neutral); padding:1rem 2rem; display:flex; justify-content:space-between; align-items:center;">
   <div style="display:flex; align-items:center; gap:12px;">
     <!-- Wave Logo -->
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="40" height="40" fill="var(--soft-cream)">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="40" height="40" 
+         style="position: relative; top: -3px;"  <!-- nudges logo upward -->
+         fill="var(--soft-cream)">
       <path d="M2 40c6 0 10-8 16-8s10 8 16 8 10-8 16-8 10 8 16 8" 
-            stroke="var(--soft-cream)" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+            stroke="var(--soft-cream)" stroke-width="4" fill="none" 
+            stroke-linecap="round" stroke-linejoin="round"/>
     </svg>
     <!-- Logo Text with shimmer -->
     <h1 style="margin:0;">
-      <a href="index.html" class="shimmer" style="font-size:1.6rem; font-weight:800; color:white; text-decoration:none;">
+      <a href="index.html" class="shimmer" 
+         style="font-size:1.6rem; font-weight:800; color:white; text-decoration:none;">
         Jesus <span style="color:var(--soft-cream); font-weight:400;">Rest</span>
       </a>
     </h1>
@@ -48,7 +52,7 @@
 
   <nav>
     <a href="articles.html">Articles</a>
-    <a href="donate.html">Donate</a>
+    <a href="donate.html" class="donate-shimmer">Donate</a>
     <a href="contact.html">Contact</a>
   </nav>
 </header>
