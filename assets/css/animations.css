@@ -31,3 +31,18 @@
 @keyframes shimmer {
   to { left: 100%; }
 }
+/* Donate shimmer effect (3s shimmer once every 5 minutes) */
+@keyframes donateShimmer {
+  0% { color: white; text-shadow: none; }
+  1% { color: var(--soft-cream); text-shadow: 0 0 8px var(--soft-cream); }
+  2% { color: white; text-shadow: none; }
+  3% { color: var(--soft-cream); text-shadow: 0 0 8px var(--soft-cream); }
+  4% { color: white; text-shadow: none; }
+  5% { color: var(--soft-cream); text-shadow: 0 0 8px var(--soft-cream); }
+  6% { color: white; text-shadow: none; }
+  100% { color: white; text-shadow: none; }
+}
+
+.donate-shimmer {
+  animation: donateShimmer 300s infinite; /* total cycle = 5 minutes */
+}
