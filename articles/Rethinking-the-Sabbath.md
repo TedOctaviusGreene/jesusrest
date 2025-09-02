@@ -274,5 +274,4 @@ This is why the Sabbath command, with all its prohibitions and penalties, was on
 So the good news of Hebrews 3 and 4 is this: the door into God’s own rest is still wide open. It is not locked to one day out of seven. It is unlocked to faith. *“Today, if you hear His voice, do not harden your hearts.”* Today, any day, every day, we may step into the very rest of God by trusting in His Son.  
 
 Therefore the Sabbath finds its true completion not in outwardly refraining from labor, but in inwardly resting every day in the finished work of Christ. To cling only to the shadow is to miss the substance. To insist on the sign is to overlook the reality. But to believe in Jesus is to finally taste what the Sabbath always pointed toward — the refreshing, satisfying, eternal rest of God Himself.
-A rest found not in a day but anyday in the finished work of Christ. By resting in Him, we honor the substance rather than clinging to the shadow.
 
