@@ -170,4 +170,94 @@ While the moral call to love God and neighbor continues (Matt 22:37-40), the rit
 
 ## Armstrong’s Claim and the Sabbath’s Place
 
-Herbert W. Armstrong was correct in noting that the Sabbath predates Sinai. Genesis 2 records that God ceased from His creative work, blessed the seventh day and sanctified it. Jesus affirmed that *“the Sabbath was made for man”* (Mark 2:27)—a gift for humanity rather than a burden
+Herbert W. Armstrong was correct in noting that the Sabbath predates Sinai. Genesis 2 records that God ceased from His creative work, blessed the seventh day and sanctified it. Jesus affirmed that *“the Sabbath was made for man”* (Mark 2:27)—a gift for humanity rather than a burden— and on this point we agree. Armstrong’s mistake was to conclude that because the Sabbath predates Sinai it must remain a binding legal requirement after the cross. To defend this, he proposed a separate Sabbath covenant based on Exodus 31:12-17. In his reading, God made an everlasting covenant about the Sabbath after the Sinai covenant was sealed, ensuring that Sabbath observance continues under the new covenant.
+
+Many in the Churches of God continue to emphasize these claims. They insist that because the Fourth Commandment predates Sinai it cannot pass away. Sunday worship is viewed as a pagan innovation, and identity as God’s people is tied to seventh-day observance. The Sabbath, they believe, stands apart from the rest of the law. We honor the sincerity and zeal behind this commitment even as we invite you to reconsider how the Sabbath fits within God’s unfolding covenants.
+
+Scripture, however, places the Sabbath squarely within the covenant that has been fulfilled. Moses told Israel, *“He declared to you His covenant … the Ten Commandments, and He wrote them on two tablets of stone”* (Deut 4:13). The Decalogue itself was the covenant. It contained the Fourth Commandment precisely because Israel needed a weekly sign to remind them of their deliverance from Egypt (Deut 5:15). When Israel later broke the covenant, God compared their violation of the Sabbath to adultery and idolatry (Ezek 20:12-13)—a warning that underscored the covenantal nature of the day. Exodus 31 explicitly calls the Sabbath a sign between God and *“the children of Israel”* (Exod 31:16-17). This sign marked out Israel’s relationship with God during that specific covenant; it was never given to the nations.  
+
+The Hebrew word **ʿolam** (“everlasting”) can mean “age-long”; other rituals described as *“perpetual,”* such as circumcision and the Levitical priesthood, ceased when the new covenant arrived (Gen 17:13; Lev 6:18; 2 Cor 3:11). Armstrong’s notion of a separate Sabbath covenant arises from a desire to preserve the Sabbath, but Scripture never distinguishes it from the rest of the law.
+
+Some in the Churches of God respond that if the covenant sign was for Israel, then Gentile believers must become “Israel” to receive salvation. They cite passages such as Romans 11, where Paul compares Israel to an olive tree and Gentiles to wild branches grafted in, or Ephesians 2, which speaks of being brought near to the *“commonwealth of Israel.”* From these texts they conclude that Gentiles must adopt Israel’s covenant—including the Sabbath—to remain in the tree.  
+
+This interpretation misunderstands Paul’s metaphors. In Romans 11 Paul warns Gentile believers not to boast against unbelieving Jews; he reminds them that they share in the nourishing root, not the branches, and that continuing in God’s kindness is by faith, not by law (Rom 11:17–22). He does not instruct them to keep Israel’s calendar; he exhorts humility and perseverance in faith.  
+
+Ephesians 2 explains that Gentiles were once *“strangers to the covenants of promise”* but have been brought near by the blood of Christ (Eph 2:12–13). Christ *“made both one,”* creating *“one new man from the two”* and breaking down *“the dividing wall of hostility”* by abolishing in His flesh the law of commandments contained in ordinances (Eph 2:14–15). Believers are united to the people of God not by taking on old covenant rituals but by sharing the faith of Abraham. Paul declares that those who are of faith are sons of Abraham (Gal 3:7) and that there is neither Jew nor Greek, slave nor free, male nor female, for all are one in Christ Jesus (Gal 3:28). If you belong to Christ, then you are Abraham’s seed and heirs according to promise (Gal 3:29).  
+
+Our grafting into the olive tree does not resurrect the Sinai sign; it unites us to the promise given to Abraham centuries before the law.
+
+---
+
+## The New Covenant Sign
+
+In the new covenant the sign is not a day but a Person. Jesus said that the cup and the bread of the Lord’s Supper represent *“the new covenant in My blood”* (Luke 22:20). Paul writes that God has sealed us with His Holy Spirit as a guarantee (2 Cor 1:22; Eph 1:13). Faith in Christ, expressed in baptism and the Lord’s Table, is the outward sign of belonging to the new covenant.
+
+Instead of clinging to an obsolete sign, the Sabbath now points beyond itself. It foreshadowed the true *“rest that remains”* and redemption found in Christ. There remains a rhythm of work and worship that wise believers may embrace, but the covenantal sign has served its purpose and given way to the reality. What counts now is resting our faith and hearts in Jesus, who tore the veil and opened the way for us to enter God’s presence and rest every day.
+
+---
+
+## Paul’s Missionary Custom and Early Christian Practice
+
+Armstrong also emphasized that the apostles continued to attend synagogue services after the resurrection. He notes that Paul *“went in unto them, and three Sabbath days reasoned with them out of the scriptures”* and counts eighty-four Sabbaths Paul allegedly kept to prove that Sabbath-keeping continued under the new covenant.  
+
+Let us give credit where it is due: Paul did enter synagogues on the Sabbath. Why? Luke explains that it was his practice to preach *“to the Jew first and also to the Greek”* (Rom 1:16). The synagogue was where he could find his primary audience. Acts 17:2–3 records that Paul went into the synagogue *“as was his custom”* and *“explained and demonstrated that the Christ had to suffer and rise again from the dead.”* In Acts 13:14–44, after preaching in the synagogue on the Sabbath, he is invited to speak again the following week.  
+
+These passages reveal Paul’s missionary strategy, not a binding observance. Paul himself says he became *“to those under the law, as under the law”* in order to win those under the law (1 Cor 9:20). His synagogue visits were evangelistic, not liturgical.
+
+The book of Acts also records believers gathering on the first day of the week. At Troas, *“on the first day of the week, when the disciples came together to break bread, Paul, ready to depart the next day, spoke to them”* (Acts 20:7). Paul instructed the Corinthians to set aside their contributions *“on the first day of the week”* (1 Cor 16:2).  
+
+These references do not establish a mandatory Sunday observance any more than Acts 17:2 mandates Sabbath-keeping; they simply show the freedom of the early church to meet when convenient.
+
+These historical observations raise an important question: do Paul’s Sabbath visits mean he expected Gentile believers to keep the old covenant sign? Luke’s narrative shows Paul adapting to Jewish audiences, not prescribing a universal pattern. To answer the question definitively we must examine Paul’s teaching on days and rituals in his epistles. Having looked at his missionary strategy, we now turn to his explicit instructions.
+
+---
+
+## Colossians 2:16–17 — A Foreshadow, Not a Command
+
+Paul, a devout Jew, nevertheless warns against judging or being judged over Sabbaths. He tells the Colossians:  
+
+> *“So let no one judge you in food or in drink, or regarding a festival or a new moon or Sabbaths, which are a shadow of things to come, but the substance is of Christ.”*  
+> — Colossians 2:16–17 (NKJV)  
+
+Armstrongians counter that this cannot abolish holy days because Paul uses present-tense verbs and the phrase *“body of Christ.”* They argue that if the annual festivals are shadows then the weekly Sabbath must also be a shadow, and since the weekly Sabbath remains, so do the festivals. Others insist that the church (*“the body of Christ”*) should judge how its members keep these days. Do these arguments hold up under close examination?
+
+The Greek of Colossians 2:16–17 clarifies Paul’s intent. The passage appears in a warning against human regulations and asceticism (Col 2:20–23). Paul writes: **Μὴ οὖν τις ὑμᾶς κρινέτω** — *“Therefore let no one judge you.”* This is not permission for the church to judge but a prohibition against anyone sitting in judgment over matters of food, drink and sacred times.  
+
+The triad of ἑορτή (*heortē, festival*), νουμηνία (*noumēnia, new moon*) and σαββάτων (*sabbatōn, Sabbaths*) is a standard summary of the Jewish calendar. All three are plural, indicating that Paul has in mind yearly, monthly and weekly observances. By grouping them he removes any basis for treating one category differently from the others. If the weekly Sabbath remains binding, so do the annual festivals; if the festivals are shadows, so is the weekly Sabbath.
+
+Next, the clause ἅ ἐστιν σκιὰ τῶν μελλόντων — *“which are a shadow of things to come”* — describes the function of these days, not their duration. Greek often uses the present tense in a general or proverbial sense—the “gnomic present.” Hebrews 10:1 employs identical grammar to say that the law *“has a shadow of the good things to come,”* yet the writer simultaneously declares that the sacrificial system has been superseded by Christ.  
+
+The festivals and Sabbaths were types, foreshadows, pointing toward Christ; now that the **σῶμα (sōma, body or substance)** has come, the **σκιά (skia, shadow)** no longer dictates practice. Armstrong’s emphasis on the word *“are”* misses this idiomatic use.
+
+Moreover, the phrase **τὸ δὲ σῶμα τοῦ Χριστοῦ** lacks an explicit verb. Many translations supply *“is,”* yielding *“but the substance belongs to Christ.”* Armstrong’s teachers supply a different verb: *“but [let] the body of Christ [judge you].”* This reading imports words not in the text. In koine Greek, contrasts between *skia* (shadow) and *sōma* (body) were common metaphors for picture versus reality. Paul’s contrast therefore means that the food laws and days are shadows, but the reality—the substance—is found in Christ. Interpreting *“body”* as the church contradicts Paul’s repeated warnings against human judgementalism in this passage (Col 2:18, 23).
+
+---
+
+## Paul’s Broader Teaching Reinforces Liberty
+
+In Romans 14 he affirms:  
+
+> *“One person esteems one day above another; another esteems every day alike. Let each be fully convinced in his own mind. He who observes the day, observes it to the Lord.”*  
+> — Romans 14:5–6  
+
+The Churches of God often respond that this passage refers only to optional fasting days and not the weekly Sabbath. They argue that Paul would never equate God’s holy day with *“one day”* being esteemed above another. However, Paul’s language is broad; he uses the general term *“one day”* without qualification.  
+
+The verbs translated *“esteems”* and *“observes”* come from the Greek roots **krinō** (to judge or regard) and **phroneō** (to set one’s mind), indicating personal evaluation rather than ascetic fasting. Paul’s point is that differences over days should not divide the church. He allows each person to be fully convinced in his own mind and cautions the strong not to despise the weak. He nowhere restricts the principle to minor fasts.  
+
+In Galatians 4:9–11 he expresses alarm that Gentiles were *“observing days and months and seasons and years,”* calling such observance a return to slavery. Colossians 2 fits within this ethos of freedom: the old calendar served as a foreshadow of Christ’s work; believers now rest in the reality of those shadows, the Almighty Christ.
+
+---
+
+## Conclusion: The True Rest in Christ
+
+When Jesus inaugurated the new covenant and tore the temple veil, He closed the book on a legal system that was designed for a specific people, time and purpose. Armstrong was right that the Sabbath predates Sinai and that Israel’s identity was tied to it. He was wrong, however, to detach the Sabbath from the covenant in which it served as a sign.  
+
+The old covenant has been fulfilled; its sign has served its purpose. Christians may certainly enjoy the rest and rhythm of a weekly Sabbath, just as they may celebrate Israel’s festivals to appreciate God’s redemptive plan. But these observances are no longer covenant obligations.  
+
+Instead:  
+
+> *“There remains a sabbath-rest for the people of God.”*  
+> — Hebrews 4:9  
+
+A rest found not in a day but in the finished work of Christ. By resting in Him, we honor the substance rather than clinging to the shadow.
+
