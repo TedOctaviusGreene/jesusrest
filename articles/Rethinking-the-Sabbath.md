@@ -258,6 +258,21 @@ Instead:
 
 > *“There remains a sabbath-rest for the people of God.”*  
 > — Hebrews 4:9  
+ 
+In conclusion, the writer of Hebrews is not pointing us back to Sinai, but forward into something far greater — the *katapausis*, the deep rest of God Himself. This word does not merely mean “stopping,” as though the goal were simply ceasing activity. It means **refreshment, satisfaction, a settled peace.** God used it in Exodus 33:14 when He promised His presence to Moses: *“My presence will go with you, and I will give you rest [katapauseō].”* It is the same word Stephen quotes in Acts 7:49 when God says, *“What is the place of My rest [katapauseōs]?”* This is no mere pause from labor. This is God’s own delighted rest, the joy He felt at creation when He looked at His finished work and declared, *“It is very good.”*  
 
-A rest found not in a day but in the finished work of Christ. By resting in Him, we honor the substance rather than clinging to the shadow.
+And that is precisely what Hebrews sets before us. Israel had the Sabbath day, they had the land of Canaan, they had rituals and ordinances. Yet Hebrews says they still did not enter God’s rest because of unbelief (Heb 3:19). Joshua could not give it, and David was still urging the people centuries later: *“Today, if you hear His voice, do not harden your hearts”* (Heb 4:7). The rest that remained was never tied to a calendar day. It was always tied to faith.  
+
+That is why Hebrews 4:9 uses a unique word, **sabbatismos** — “a Sabbath-rest that remains.” It does not say the seventh day continues as the covenant sign. It says that the true rest — the magnified Sabbath — is still open, still available, still waiting for all who will believe. This rest that remains is entered not by observing a prohibition of labor one day a week, but by ceasing from the restless striving of our own works and trusting fully in Christ’s finished work.  
+
+> *“For the one who has entered His rest has himself also ceased from his works as God did from His.”* (Heb 4:10)  
+
+Here is the gospel in one verse. God rested from His work because it was complete and satisfying. Christ rested from His work when He cried, *“It is finished”* (John 19:30). And we enter that same rest when we finally stop trying to make ourselves righteous and place our faith entirely in the Son of God. Just as God delighted in His creation, we now delight in His new creation — the salvation accomplished in Jesus Christ.  
+
+This is why the Sabbath command, with all its prohibitions and penalties, was only a shadow. The true **katapausis** and the true **sabbatismos** are not bound to a calendar but are found in Christ Himself. The weekly Sabbath may still be enjoyed as a rhythm of rest and worship — but it no longer defines covenant membership, nor carries the threat of death for working. Its role as a legal sign has ended.  
+
+So the good news of Hebrews 3 and 4 is this: the door into God’s own rest is still wide open. It is not locked to one day out of seven. It is unlocked to faith. *“Today, if you hear His voice, do not harden your hearts.”* Today, any day, every day, we may step into the very rest of God by trusting in His Son.  
+
+Therefore the Sabbath finds its true completion not in outwardly refraining from labor, but in inwardly resting every day in the finished work of Christ. To cling only to the shadow is to miss the substance. To insist on the sign is to overlook the reality. But to believe in Jesus is to finally taste what the Sabbath always pointed toward — the refreshing, satisfying, eternal rest of God Himself.
+A rest found not in a day but anyday in the finished work of Christ. By resting in Him, we honor the substance rather than clinging to the shadow.
 
