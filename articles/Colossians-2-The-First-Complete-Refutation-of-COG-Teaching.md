@@ -54,7 +54,7 @@ And yet — how do the Churches of God handle it?
 
 ### The Living Church of God’s Silence  
 
-The Living Church of God, in their main booklet on the Sabbath, does not even mention Colossians 2:16–17. Page after page is spent trying to prove that the Sabbath is binding, but the one passage that directly speaks to the issue is left untouched.  
+The Living Church of God, in their main booklet on the Sabbath, barely mentions Colossians 2:16–17. Page after page is spent trying to prove that the Sabbath is binding, but the one passage that directly speaks to the issue is left untouched and misused.  
 
 Why? Likely because it is too dangerous to their argument. To engage the text honestly would unravel their entire framework. Better to pass over it in silence than to let Paul speak plainly. But that silence is deafening. The omission itself reveals how fragile their case truly is.  
 
