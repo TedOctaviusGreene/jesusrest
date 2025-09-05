@@ -76,4 +76,4 @@ Does this mean Christians cannot enjoy a Sabbath rest or celebrate the festivals
 
 The true sign is faith in Christ, sealed by the Spirit. The true rest is not a day on the calendar but a Person who said: *“Come to Me… and I will give you rest.”* (Matt 11:28).  
 
-So let no one judge you. The shadows have served their purpose. The body is Christ. And in Him, you are complete. (Col 2:10).  
+So let no one judge you. The shadows are gone and the clear reality emerges. That reality is Christ. And in Him, you are complete. (Col 2:10).  
