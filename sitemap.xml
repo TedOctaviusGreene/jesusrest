@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Core pages -->
+  <url><loc>https://jesusrest.com/</loc></url>
+  <url><loc>https://jesusrest.com/articles.html</loc></url>
+  <url><loc>https://jesusrest.com/donate.html</loc></url>
+  <url><loc>https://jesusrest.com/contact.html</loc></url>
+
+  <!-- Articles (served via read.html?file=...) -->
+  <url><loc>https://jesusrest.com/read.html?file=Are-You-Satisfied-with-the-Works-of-Jesus.md</loc></url>
+  <url><loc>https://jesusrest.com/read.html?file=Colossians-2-The-First-Complete-Refutation-of-COG-Teaching.md</loc></url>
+  <url><loc>https://jesusrest.com/read.html?file=Isaiah-58-Doing-Your-Own-Ways.md</loc></url>
+  <url><loc>https://jesusrest.com/read.html?file=Rethinking-the-Sabbath.md</loc></url>
+  <url><loc>https://jesusrest.com/read.html?file=The-Danger-of-Putting-Faith-in-Your-Own-Obedience.md</loc></url>
+</urlset>
