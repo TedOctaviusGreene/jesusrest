@@ -6,6 +6,16 @@
 
   <!-- Title & Description -->
   <title>Jesus Rest — Truth Letters</title>
+  <!-- Canonical (dynamic per article) -->
+<link id="canonical" rel="canonical" href="https://jesusrest.com/read.html">
+<script>
+  (function () {
+    var u = new URL(window.location.href);
+    var f = u.searchParams.get('file'); // only keep ?file=
+    var href = u.origin + u.pathname + (f ? ('?file=' + encodeURIComponent(f)) : '');
+    document.getElementById('canonical').href = href;
+  })();
+</script>
   <meta name="description" content="Scripture-first letters for life in the New Covenant. Discover freedom in Christ through Scripture-first letters of encouragement, study, and truth.">
 
   <!-- Favicon (SVG wave logo) -->
