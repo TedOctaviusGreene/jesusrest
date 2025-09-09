@@ -1,5 +1,9 @@
 # Colossians 2:16–17 — The First Complete Refutation of COG Teaching
 
+# Colossians 2 Explained: Did Paul Abolish the Sabbath and Holy Days?
+
+Paul’s words in Colossians 2:16–17 are often used to defend keeping the Sabbath and Holy Days. But what did he really mean? This study shows how the Weekly and Annual Sabbaths foreshadow Christ; they show us the reality of what they promised, Him.
+
 # Shadows and the Substance of Christ  
 
 Few verses cut more directly to the heart of the Sabbath and holy day debate than Colossians 2:16–17:  
@@ -34,6 +38,23 @@ If the annual feasts are shadows, then so are the Sabbaths. If the Sabbaths rema
 
 ---
 
+## The Word “Body” in Colossians: What Does Paul Mean?
+
+One of the most important words in Colossians 2:17 is *body*—Greek *sōma*. This is the very word that the United Church of God seizes upon in their booklet. They claim that when Paul says, “but the body is of Christ,” he must mean “the body of Christ—that is, the Church—has the authority to decide these matters.” In their own words, they argue that the church is the one qualified to judge how believers should observe Sabbaths and holy days. See also [Rethinking the Sabbath](https://jesusrest.com/read.html?file=Rethinking-the-Sabbath.md).
+
+But is that what Paul actually wrote? Let’s carefully test their claim by looking at how Paul uses the word *sōma* throughout Colossians.
+
+When Paul truly meant “the body” as the Church, he always added an identifier. In Colossians 1:18 we read, *“And He is the head of the body, the church (tēs ekklēsias).”* Again in 1:24, Paul writes, *“…for the sake of His body, which is the church (hos estin hē ekklēsia).”* Notice the consistency: Paul does not leave the meaning to guesswork. If he intends “church,” he explicitly says “the body, the church.”
+
+That pattern makes Colossians 2:17 stand out. Here Paul writes, *“These are a shadow of things to come, but the body is of Christ” (to de sōma tou Christou).* There is no mention of the church at all. He does not say, “the body, the church.” Instead, the phrase is simply “the body of Christ.” Every other time Paul used *sōma* for the church in this letter, he tagged it with *ekklēsia*. The absence here is striking—and deliberate.
+
+Paul’s point is not about church authority; it is about shadow versus substance. The shadows are the Old Covenant rituals—food laws, festivals, new moons, Sabbaths. The body, the *sōma*, is the substance, the reality, which is Christ Himself. Hebrews echoes this same contrast: the law served *“as a copy and shadow of the heavenly things”* (Hebrews 8:5), and was only *“a shadow of good things to come, and not the very image of the things”* (Hebrews 10:1).
+
+This makes the United Church of God’s interpretation a serious mistake. They drag Paul’s earlier phrase from chapter 1 (“the body, the church”) into chapter 2, even though the words “the church” are not written there. That is not exegesis, but eisegesis—reading into the text what is not present. By doing so, they actually undermine Paul’s own warning in this very passage: *“Let no one judge you.”* He was setting the believer free from human judgment over shadows of the law, because the reality is found in Christ.
+
+So what is Paul really saying? He is saying that no one should judge you by Old Covenant shadows. Those shadows only pointed forward. The reality, the substance, is Christ Himself—His body, His work, His fulfillment. The United Church of God reads “church” into Colossians 2:17 where Paul never wrote it. But Scripture, read on its own terms, shows Paul’s contrast is not shadow versus church, but shadow versus Christ.
+
+
 ## Shadows and Substance  
 
 Paul explains: *“which are a shadow of things to come, but the substance [σῶμα, sōma] is of Christ.”*  
@@ -54,9 +75,9 @@ And yet — how do the Churches of God handle it?
 
 ### The Living Church of God’s Silence  
 
-The Living Church of God, in their main booklet on the Sabbath, barely mentions Colossians 2:16–17. Page after page is spent trying to prove that the Sabbath is binding, but the one passage that directly speaks to the issue is left untouched and misused.  
+The Living Church of God, in their main booklet on the Sabbath, barely mentions Colossians 2:16–17. Page after page is spent trying to prove that the Sabbath is binding, but the one passage that directly speaks to the issue is the one that they give no explanation of; they only admit that it is indeed speaking of the weekly Sabbath.  
 
-Why? Likely because it is too dangerous to their argument. To engage the text honestly would unravel their entire framework. Better to pass over it in silence than to let Paul speak plainly. But that silence is deafening. The omission itself reveals how fragile their case truly is.  
+Why? Likely because it is too dangerous to their argument. To engage the text honestly would unravel their entire framework. Better to pass over it in silence than to let Paul speak plainly. But that silence is deafening. Their neglect of letting this verse speak for itself reveals how fragile their case truly is.  
 
 ### The United Church of God’s Attempt  
 
