@@ -1,6 +1,6 @@
 # Our Respect and Acknowledgment of Truths Herbert W. Armstrong Helped Restore
 
-It is easy, in the heat of correcting error, to forget to acknowledge truth. But fairness requires us to say plainly: there were truths Herbert W. Armstrong boldly taught that were not widely accepted in Christianity, and for these we give thanks. We are not his disciples — we follow Christ. Yet we recognize that God does sometimes use even flawed men to recover forgotten truths. Armstrong was wrong about the Sabbath and holy days as binding law, but that does not mean he was wrong about everything. And in certain areas, his voice was a trumpet against the tide of tradition.  
+It is easy, in the heat of correcting error, to forget to acknowledge truth. But fairness requires us to say plainly: there were truths Herbert W. Armstrong boldly taught that were not widely accepted in Christianity, and for these we give thanks. We are not his disciples — we follow Christ. > Yet it is God’s way to use weak and imperfect servants to shine light on truths that others have overlooked. Armstrong was wrong about the Sabbath and holy days as binding law, but that does not mean he was wrong about everything. And in certain areas, his voice was a trumpet against the tide of tradition.  
 
 ---
 
@@ -52,4 +52,4 @@ Yet Armstrong erred gravely when he bound Christians under the Sabbath and holy 
 
 The lesson for us is humility. No man has all truth, save Christ alone. God may use a flawed man to sound a trumpet, but we must always test by Scripture. Armstrong found real truths — but also stumbled into grievous error.  
 
-> Let us then acknowledge the truths, while rejecting the errors, and stand together on the foundation that cannot be shaken: **Jesus Christ crucified, risen, and coming again to bring His Kingdom.**
+> Let us then acknowledge the truths of the Bible, while rejecting the errors of men, and stand together on the foundation that cannot be shaken: **Jesus Christ crucified, risen, and coming again to bring His Kingdom.**
