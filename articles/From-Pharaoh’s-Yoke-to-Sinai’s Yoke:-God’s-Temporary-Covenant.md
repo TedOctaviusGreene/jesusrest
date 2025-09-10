@@ -1,4 +1,6 @@
-# From Egypt to Sinai: Why Did God Deliver Israel from Bondage Only to Put Them Back Under the Law?
+# From Pharaoh’s Yoke to Sinai’s Yoke: God’s Temporary Covenant
+
+# Why Did God Deliver Israel from Bondage Only to Put Them Back Under the Law?
 
 Israel’s story begins with freedom. God broke the yoke of Pharaoh, parted the Red Sea, and brought His people out of Egypt with a mighty hand and an outstretched arm. *“I am the LORD your God who brought you out of the land of Egypt, out of the house of bondage.”* (Exodus 20:2)
 
