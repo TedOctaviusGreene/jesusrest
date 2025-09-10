@@ -91,4 +91,4 @@ And so we keep the commandments of God — not the bondage of rituals, but the f
 
 ---
 
-📌 *Next article in this series: [From Egypt to Sinai: Why Did God Deliver Israel from Bondage Only to Put Them Back Under the Law?](#)*
+
