@@ -83,4 +83,3 @@ But now the Savior has come. The tutor’s job is done. The yoke is broken.
 
 ---
 
-📌 *Next article in this series: [The Law of Christ: Commandments That Are Not Burdensome](#)*
