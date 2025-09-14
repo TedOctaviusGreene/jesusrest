@@ -84,4 +84,88 @@
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script src="assets/js/read.js"></script>
 </body>
+  <script>
+(function () {
+  function setMeta(name, content) {
+    if (!content) return;
+    let el = document.querySelector(`meta[name="${name}"]`) ||
+             document.querySelector(`meta[property="${name}"]`);
+    if (!el) {
+      el = document.createElement('meta');
+      if (name.startsWith('og:')) el.setAttribute('property', name);
+      else el.setAttribute('name', name);
+      document.head.appendChild(el);
+    }
+    el.setAttribute('content', content);
+  }
+  function setCanonical(href) {
+    let link = document.querySelector('link[rel="canonical"]');
+    if (!link) { link = document.createElement('link'); link.rel = 'canonical'; document.head.appendChild(link); }
+    link.href = href;
+  }
+  function firstParagraph(root) {
+    const ps = root.querySelectorAll('p');
+    for (const p of ps) {
+      const t = p.textContent.trim();
+      if (t.length > 40) return t;
+    }
+    return '';
+  }
+  function clip(s, n=180){ return s && s.length>n ? s.slice(0,n-1)+'…' : s; }
+
+  function applySEO() {
+    const params = new URLSearchParams(location.search);
+    const file = params.get('file') || '';
+    const url = location.origin + location.pathname + (file ? `?file=${encodeURIComponent(file)}` : '');
+    const article = document.getElementById('article-content');
+    if (!article) return false;
+
+    const h1 = article.querySelector('h1');
+    const textLen = (article.textContent || '').trim().length;
+    if (!h1 || textLen < 80) return false; // wait until content is actually there
+
+    const title = h1.textContent.trim() || 'Jesus Rest';
+    const desc = clip(firstParagraph(article)) || 'Scripture-first letters for life in the New Covenant.';
+    const pageTitle = `${title} — Jesus Rest`;
+
+    document.title = pageTitle;
+    setCanonical(url);
+    setMeta('description', desc);
+
+    setMeta('og:type', 'article');
+    setMeta('og:title', title);
+    setMeta('og:description', desc);
+    setMeta('og:url', url);
+
+    setMeta('twitter:title', title);
+    setMeta('twitter:description', desc);
+
+    // Optional: if you add per-article images later, set them here.
+    // setMeta('og:image', 'https://jesusrest.com/assets/preview.jpg');
+    // setMeta('twitter:image', 'https://jesusrest.com/assets/preview.jpg');
+
+    // JSON-LD Article
+    const ld = {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": title,
+      "description": desc,
+      "mainEntityOfPage": url,
+      "publisher": { "@type": "Organization", "name": "Jesus Rest" }
+    };
+    let ldEl = document.querySelector('script[type="application/ld+json"]#jr-article');
+    if (!ldEl) { ldEl = document.createElement('script'); ldEl.type = 'application/ld+json'; ldEl.id = 'jr-article'; document.head.appendChild(ldEl); }
+    ldEl.textContent = JSON.stringify(ld, null, 2);
+    return true;
+  }
+
+  // Try immediately, then observe until content is injected by read.js
+  if (!applySEO()) {
+    const target = document.getElementById('article-content');
+    if (!target) return;
+    const obs = new MutationObserver(() => { if (applySEO()) obs.disconnect(); });
+    obs.observe(target, { childList: true, subtree: true });
+  }
+})();
+</script>
 </html>
