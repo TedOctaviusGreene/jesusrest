@@ -94,37 +94,7 @@
   </div>
 </footer>
 
-<script src="assets/js/articles.js"></script><script>
-(function () {
-  function emitItemList() {
-    const links = Array.from(document.querySelectorAll('#articles-list a[href]'));
-    if (!links.length) return;
-    const ld = {
-      "@context": "https://schema.org",
-      "@type": "ItemList",
-      "name": "Jesus Rest Articles",
-      "itemListElement": links.map((a, i) => ({
-        "@type": "ListItem",
-        "position": i + 1,
-        "url": new URL(a.getAttribute('href'), location.origin).href
-      }))
-    };
-    let s = document.getElementById('jr-itemlist');
-    if (!s) { s = document.createElement('script'); s.type = 'application/ld+json'; s.id = 'jr-itemlist'; document.head.appendChild(s); }
-    s.textContent = JSON.stringify(ld, null, 2);
-  }
-  // run once DOM is ready; run again after articles.js renders
-  document.addEventListener('DOMContentLoaded', () => {
-    // try immediately
-    emitItemList();
-    // observe changes to the list (covers async population)
-    const target = document.getElementById('articles-list');
-    if (!target) return;
-    const mo = new MutationObserver(() => emitItemList());
-    mo.observe(target, { childList: true, subtree: true });
-  });
-})();
-</script>
+<script src="assets/js/articles.js"></script>
    <script type="application/ld+json">
 {
   "@context": "https://schema.org",
