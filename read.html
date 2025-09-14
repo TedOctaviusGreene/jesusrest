@@ -153,7 +153,8 @@
   "mainEntityOfPage": url,
   "author": {
     "@type": "Person",
-    "name": "Jesus Rest"
+    "name": "Jesus Rest",
+    "url": "https://jesusrest.com/"
   },
   "publisher": {
     "@type": "Organization",
@@ -166,7 +167,7 @@
   "image": [
     "https://jesusrest.com/assets/preview.jpg"
   ]
-  };
+};
     let ldEl = document.querySelector('script[type="application/ld+json"]#jr-article');
     if (!ldEl) { ldEl = document.createElement('script'); ldEl.type = 'application/ld+json'; ldEl.id = 'jr-article'; document.head.appendChild(ldEl); }
     ldEl.textContent = JSON.stringify(ld, null, 2);
