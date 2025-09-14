@@ -146,13 +146,27 @@
 
     // JSON-LD Article
     const ld = {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "headline": title,
-      "description": desc,
-      "mainEntityOfPage": url,
-      "publisher": { "@type": "Organization", "name": "Jesus Rest" }
-    };
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": title,
+  "description": desc,
+  "mainEntityOfPage": url,
+  "author": {
+    "@type": "Person",
+    "name": "Jesus Rest"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Jesus Rest",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://jesusrest.com/assets/preview.jpg"
+    }
+  },
+  "image": [
+    "https://jesusrest.com/assets/preview.jpg"
+  ]
+  };
     let ldEl = document.querySelector('script[type="application/ld+json"]#jr-article');
     if (!ldEl) { ldEl = document.createElement('script'); ldEl.type = 'application/ld+json'; ldEl.id = 'jr-article'; document.head.appendChild(ldEl); }
     ldEl.textContent = JSON.stringify(ld, null, 2);
