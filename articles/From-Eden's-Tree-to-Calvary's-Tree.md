@@ -2,6 +2,8 @@
 
 ## How the Covenants Pointed to Christ
 
+From Eden’s tree to Calvary’s cross, see how every covenant was only a shadow—Christ Himself is the reality that brings life, freedom, and rest.
+
 From the very beginning, the story of God’s covenants was marked by trees. In Eden stood two trees—one that promised life, the other that carried the curse of death. Centuries later, Abraham split the wood of covenant sacrifice, and God Himself passed between the pieces. And at last, on Calvary’s tree, the Son of God bore the curse for us all.  
 
 These are not disconnected images, but living symbols that tell one story: every covenant was pointing toward Christ.  
