@@ -274,3 +274,28 @@ So the good news of Hebrews 3 and 4 is this: the door into God’s own rest is s
 
 Therefore the Sabbath finds its true completion not in outwardly refraining from labor, but in inwardly resting every day in the finished work of Christ. To cling only to the shadow is to miss the substance. To insist on the sign is to overlook the reality. But to believe in Jesus is to finally taste what the Sabbath always pointed toward — the refreshing, satisfying, eternal rest of God Himself.
 
+<hr>
+<p style="margin-top:2rem; font-size:1.05rem; line-height:1.6;">
+  📖 For a loving warning about the danger of putting your faith in your own obediance read:<br>
+  <a href="https://jesusrest.com/read.html?file=The-Danger-of-Putting-Faith-in-Your-Own-Obedience.md" 
+     style="color:var(--refined-teal); font-weight:600; text-decoration:none;">
+     Feast of Tabernacles 2025 and the Sabbath
+  </a>.
+</p>
+
+<p style="margin-top:1.2rem; font-size:1.05rem; line-height:1.6;">
+  🙏 If these Scripture-first letters have blessed you, please consider supporting this work. 
+  As Paul wrote: <em>“The Lord has commanded that those who preach the gospel should live from the gospel.”</em> 
+  (1 Corinthians 9:14). And Jesus said: <em>“Whoever gives one of these little ones only a cup of cold water 
+  in the name of a disciple, assuredly, I say to you, he shall by no means lose his reward.”</em> 
+  (Matthew 10:42).
+</p>
+
+<p style="margin-top:1rem;">
+  <a href="/donate.html" 
+     style="background:var(--refined-teal); color:white; padding:0.6rem 1.2rem; 
+            border-radius:6px; text-decoration:none; font-weight:600;">
+     ❤️ Support This Work
+  </a>
+</p>
+<hr>
