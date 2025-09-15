@@ -74,3 +74,31 @@ So the question is personal: **are you satisfied with the works of Jesus?**
 If you are, then you have found the true *sabbatismos*, the rest that remains for the people of God. And if not, then hear His voice today: *“Today, if you will hear His voice, do not harden your hearts”* (Heb 4:7).  
 
 Today, you can cease from your own works and rest in His finished work—forever.  
+
+<hr>
+<p style="margin-top:2rem; font-size:1.05rem; line-height:1.6;">
+  📖 For a deeper, comprehensive biblical study of the covenants and the Sabbath, 
+  read our full article here:<br>
+  <a href="https://jesusrest.com/read.html?file=Feast-of-Tabernacles-2025%20and-the-Sabbath.md" 
+     style="color:var(--refined-teal); font-weight:600; text-decoration:none;">
+     Feast of Tabernacles 2025 and the Sabbath
+  </a>.
+</p>
+
+<p style="margin-top:1.2rem; font-size:1.05rem; line-height:1.6;">
+  🙏 If these Scripture-first letters have blessed you, please consider supporting this work. 
+  As Paul wrote: <em>“The Lord has commanded that those who preach the gospel should live from the gospel.”</em> 
+  (1 Corinthians 9:14). And Jesus said: <em>“Whoever gives one of these little ones only a cup of cold water 
+  in the name of a disciple, assuredly, I say to you, he shall by no means lose his reward.”</em> 
+  (Matthew 10:42).
+</p>
+
+<p style="margin-top:1rem;">
+  <a href="/donate.html" 
+     style="background:var(--refined-teal); color:white; padding:0.6rem 1.2rem; 
+            border-radius:6px; text-decoration:none; font-weight:600;">
+     ❤️ Support This Work
+  </a>
+</p>
+<hr>
+
