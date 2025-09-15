@@ -1,6 +1,6 @@
 # Colossians 2:16–17 — The First Complete Refutation of COG Teaching
 
-# Colossians 2 Explained: Did Paul Abolish the Sabbath and Holy Days?
+## Colossians 2 Explained: Did Paul Abolish the Sabbath and Holy Days?
 
 Paul’s words in Colossians 2:16–17 are often used to defend keeping the Sabbath and Holy Days. But what did he really mean? This study shows how the Weekly and Annual Sabbaths foreshadow Christ; they show us the reality of what they promised, Him.
 
@@ -185,6 +185,34 @@ It is God, not our works, who qualifies us.
 ## Conclusion: The Reality Has Come  
 
 Colossians 2:16–17 could not be clearer: the covenant calendar—festivals, new moons, Sabbaths—were shadows. The reality is Christ. To cling to the shadow as the requirement of salvation is to miss the substance.  
+
+<hr>
+<p style="margin-top:2rem; font-size:1.05rem; line-height:1.6;">
+  📖 For a deeper, comprehensive biblical study of the covenants and the Sabbath, 
+  read our full article here:<br>
+  <a href="https://jesusrest.com/read.html?file=Feast-of-Tabernacles-2025%20and-the-Sabbath.md" 
+     style="color:var(--refined-teal); font-weight:600; text-decoration:none;">
+     Feast of Tabernacles 2025 and the Sabbath
+  </a>.
+</p>
+
+<p style="margin-top:1.2rem; font-size:1.05rem; line-height:1.6;">
+  🙏 If these Scripture-first letters have blessed you, please consider supporting this work. 
+  As Paul wrote: <em>“The Lord has commanded that those who preach the gospel should live from the gospel.”</em> 
+  (1 Corinthians 9:14). And Jesus said: <em>“Whoever gives one of these little ones only a cup of cold water 
+  in the name of a disciple, assuredly, I say to you, he shall by no means lose his reward.”</em> 
+  (Matthew 10:42).
+</p>
+
+<p style="margin-top:1rem;">
+  <a href="/donate.html" 
+     style="background:var(--refined-teal); color:white; padding:0.6rem 1.2rem; 
+            border-radius:6px; text-decoration:none; font-weight:600;">
+     ❤️ Support This Work
+  </a>
+</p>
+<hr>
+
 
 Does this mean Christians cannot enjoy a Sabbath rest or celebrate the festivals? Not at all. These can be beautiful reminders. But they are no longer covenant obligations, no longer signs of belonging.  
 
