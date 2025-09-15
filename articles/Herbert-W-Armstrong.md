@@ -53,3 +53,29 @@ Yet Armstrong erred gravely when he bound Christians under the Sabbath and holy 
 The lesson for us is humility. No man has all truth, save Christ alone. God may use a flawed man to sound a trumpet, but we must always test by Scripture. Armstrong found real truths — but also stumbled into grievous error.  
 
 > Let us then acknowledge the truths of the Bible, while rejecting the errors of men, and stand together on the foundation that cannot be shaken: **Jesus Christ crucified, risen, and coming again to bring His Kingdom.**
+<hr>
+<p style="margin-top:2rem; font-size:1.05rem; line-height:1.6;">
+  📖 For a deeper, comprehensive biblical study of the covenants and the Sabbath, 
+  read our full article here:<br>
+  <a href="https://jesusrest.com/read.html?file=Feast-of-Tabernacles-2025%20and-the-Sabbath.md" 
+     style="color:var(--refined-teal); font-weight:600; text-decoration:none;">
+     Feast of Tabernacles 2025 and the Sabbath
+  </a>.
+</p>
+
+<p style="margin-top:1.2rem; font-size:1.05rem; line-height:1.6;">
+  🙏 If these Scripture-first letters have blessed you, please consider supporting this work. 
+  As Paul wrote: <em>“The Lord has commanded that those who preach the gospel should live from the gospel.”</em> 
+  (1 Corinthians 9:14). And Jesus said: <em>“Whoever gives one of these little ones only a cup of cold water 
+  in the name of a disciple, assuredly, I say to you, he shall by no means lose his reward.”</em> 
+  (Matthew 10:42).
+</p>
+
+<p style="margin-top:1rem;">
+  <a href="/donate.html" 
+     style="background:var(--refined-teal); color:white; padding:0.6rem 1.2rem; 
+            border-radius:6px; text-decoration:none; font-weight:600;">
+     ❤️ Support This Work
+  </a>
+</p>
+<hr>
