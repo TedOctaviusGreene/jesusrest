@@ -9,15 +9,15 @@
   <!-- Canonical -->
   <link rel="canonical" href="https://jesusrest.com/donate.html">
   <meta name="description" content="Support the work of Jesus Rest — helping others see the New Covenant freedom in Christ through Scripture-first teaching.">
-  <meta name="keywords" content="Church of God, Herbert W. Armstrong, Sabbaths, Holy Days, Feast of Tabernacles, New Covenant, Life in Christ, Faith in Jesus, Christian living, holy day calendar, feast of trumpets, the last great day, day of atonement, feast of unleavened bread, passover, the night to be much observed, faith and works, second tithe, clean foods, covenants, grace vs law, salvation by faith, gospel freedom, resurrections, walking in the Spirit">
+  <meta name="keywords" content="donate, support, Jesus Rest, New Covenant, Church of God, Herbert W. Armstrong, Sabbaths, Holy Days, Feast of Tabernacles, Christian living, gospel freedom">
   <meta name="author" content="Jesus Rest">
 
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 
-  <!-- OpenGraph for Social Sharing -->
+  <!-- OpenGraph -->
   <meta property="og:title" content="Jesus Rest — Support This Work">
-  <meta property="og:description" content="Scripture-first letters for life in the New Covenant. Discover freedom in Christ through Scripture-first letters of encouragement, study, and truth.">
+  <meta property="og:description" content="Help keep Jesus Rest available online — support Scripture-first letters about life in the New Covenant.">
   <meta property="og:image" content="https://jesusrest.com/assets/preview.jpg">
   <meta property="og:url" content="https://jesusrest.com/donate.html">
   <meta property="og:type" content="website">
@@ -25,7 +25,7 @@
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Jesus Rest — Support This Work">
-  <meta name="twitter:description" content="Scripture-first letters for life in the New Covenant. Discover freedom in Christ through Scripture-first letters of encouragement, study, and truth.">
+  <meta name="twitter:description" content="Help keep Jesus Rest available online — support Scripture-first letters about life in the New Covenant.">
   <meta name="twitter:image" content="https://jesusrest.com/assets/preview.jpg">
 
   <!-- Styles -->
@@ -59,54 +59,55 @@
 <main style="text-align:center; max-width:700px; margin:2rem auto;">
   <h2 style="margin-bottom:1rem;">Support This Work</h2>
   <p style="margin-bottom:2rem; color:#555;">
-    Jesus Rest is a reader-supported outreach.<br>
-    Every contribution helps keep these Scripture-first letters freely available online.<br>
+    Jesus Rest is a reader-supported outreach.  
+    Every contribution helps keep these Scripture-first letters freely available online.  
     Thank you for standing with us in sharing the freedom of the New Covenant in Christ.
   </p>
 
-  <!-- Square Donate Button (Popup Modal) -->
-  <div style="display:flex; justify-content:center; margin:20px 0;">
-    <a id="square-donate-button" 
-       data-url="https://square.link/u/QSf65xvk?src=embed"
-       href="#"
-       style="
-         display: inline-block;
-         font-size: 18px;
-         line-height: 48px;
-         height: 48px;
-         color: #ffffff;
-         min-width: 212px;
-         background-color: #006aff;
-         text-align: center;
-         border-radius: 6px;
-         text-decoration: none;
-         font-family: Helvetica, Arial, sans-serif;
-         padding: 0 20px;
-       ">
-       Donate
-    </a>
+  <!-- Donate Button -->
+  <div style="
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 259px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-family: SQ Market, Helvetica, Arial, sans-serif;
+    margin: 0 auto 2rem;
+  ">
+    <div style="padding: 20px;">
+      <a id="donate-button"
+         href="https://square.link/u/QSf65xvk?src=embed"
+         data-url="https://square.link/u/QSf65xvk?src=embed"
+         style="
+           display: inline-block;
+           font-size: 18px;
+           line-height: 48px;
+           height: 48px;
+           color: #ffffff;
+           min-width: 212px;
+           background-color: #006aff;
+           text-align: center;
+           border-radius: 6px;
+           font-weight: 600;
+           text-decoration: none;
+           box-shadow: 0 0 0 1px rgba(0,0,0,.1) inset;
+         ">
+         ❤️ Donate
+      </a>
+    </div>
   </div>
 
-  <script>
-    document.getElementById('square-donate-button').addEventListener('click', function (e) {
-      e.preventDefault();
-      const url = this.getAttribute('data-url');
-      const title = 'Donate – Jesus Rest';
-      const width = 500;
-      const height = Math.floor(window.innerHeight * 0.75);
-      const left = (window.innerWidth - width) / 2 + window.screenX;
-      const top = (window.innerHeight - height) / 2 + window.screenY;
-      window.open(url, title, `scrollbars=yes,width=${width},height=${height},top=${top},left=${left}`);
-    });
-  </script>
-
   <p style="color:#777; font-size:0.9rem; margin-top:1rem;">
-    Note: Contributions to Jesus Rest are <strong>not tax-deductible charitable donations</strong>.<br>
+    Note: Contributions to Jesus Rest are <strong>not tax-deductible charitable donations</strong>.  
     Funds are received as part of our LLC outreach program and go directly toward supporting this work.
   </p>
 
   <p style="color:#555; margin-top:2rem;">
-    Prefer another way to give?<br>
+    Prefer another way to give? <br>
     Contact us via the <a href="contact.html" style="color:var(--warm-neutral); font-weight:600;">Contact page</a>.
   </p>
 </main>
@@ -123,6 +124,32 @@
     </a>
   </div>
 </footer>
+
+<script>
+  function showCheckoutWindow(e) {
+    e.preventDefault();
+    const url = e.target.getAttribute('data-url');
+    const title = 'Donate to Jesus Rest';
+    const w = 500, h = 600;
+    const left = (screen.width - w) / 2;
+    const top = (screen.height - h) / 2;
+
+    const newWindow = window.open(
+      url,
+      title,
+      `width=${w},height=${h},top=${top},left=${left},scrollbars=yes`
+    );
+
+    if (window.focus) newWindow.focus();
+  }
+
+  // Event delegation so the Donate button always works
+  document.addEventListener('click', function(e) {
+    if (e.target && e.target.id === 'donate-button') {
+      showCheckoutWindow(e);
+    }
+  });
+</script>
 
 </body>
 </html>
