@@ -1,2 +1,5 @@
-/:page  /:page.html  200
-/thank-you  /thank-you.html  200
+# Always serve existing files normally
+/*    /:splat    200!
+
+# Allow /thank-you without the .html extension
+/thank-you    /thank-you.html    200
