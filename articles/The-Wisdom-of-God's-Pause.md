@@ -1,7 +1,5 @@
 # The Wisdom of God’s Pause: How the New Covenant Transforms the Feasts
 
-Dear friend,  
-
 You and I share something in common: we both love the Bible. And we both care deeply about honoring God, not the traditions of men. That is why I want to invite you to walk with me through the Scriptures carefully and slowly, with reverence, to see what God actually says about the feasts, the Sabbath, and the New Covenant.  
 
 My heart in writing this is not to condemn, but to search with you. We both want the truth, wherever it leads, and so let us allow the Word of God to guide us step by step.
@@ -220,7 +218,7 @@ God has moved the feasts across the ages—law, shadow, teaching, fulfillment—
 
 ## Chapter 9: A Word of Encouragement
 
-My friend, do not let anyone bind you under Sinai. Christ bore its curse and nailed it to the cross. He took away the first covenant so that He might establish the second.  
+So, do not let anyone bind you under Sinai. Christ bore its curse and nailed it to the cross. He took away the first covenant so that He might establish the second.  
 
 Ephesians 2:8–9 says:  
 
