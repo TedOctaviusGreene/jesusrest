@@ -1,7 +1,7 @@
 # Rethinking the Sabbath
 ## Understanding the New Covenant Sabbath and Holy Days-How they Still Existed but Without the Prohibtition to Work
 
-As the Feast of Tabernacles 2025 approaches, many wonder what the Sabbath and holy days mean under the New Covenant. Explore a surprising freedom hidden in Scripture.
+Many wonder what the Sabbath and holy days mean under the New Covenant. Explore a surprising freedom hidden in Scripture.
 
 The God of Scripture is both unimaginably holy and deeply loving. He longs to dwell among His people, yet His blazing holiness cannot tolerate sin (Ex 19:16-21). To protect sinful humans from being consumed by His glory, the Lord often revealed Himself through *“the angel of the LORD,”* a messenger who veiled His presence (Ex 3:2; Judg 6:12–23). The law and sacrificial system were gracious, provisional measures that allowed a holy God to live among a sinful nation. They taught Israel that sin separates us from God and that blood must be shed to cover guilt (Lev 17:11). The Sinai covenant therefore functioned as a tutor, revealing both God’s holiness and our need for a mediator—and foreshadowing the remedy that would come through the Messiah.
 
