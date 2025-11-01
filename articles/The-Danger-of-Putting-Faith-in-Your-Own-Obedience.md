@@ -17,7 +17,7 @@ Notice—while we were still sinners. Not after we cleaned ourselves up. Not aft
 
 ## The False Security of Obedience  
 
-The Churches of God often speak of “qualifying” for the Kingdom by obedience. But Scripture warns that putting trust in our obedience is deadly.  
+The legalists (modern day Pharisees) often speak of “qualifying” for the Kingdom by obedience. But Scripture warns that putting trust in our obedience is deadly.  
 
 - *“By the works of the law no flesh shall be justified.”* (Gal 2:16)  
 - *“For as many as are of the works of the law are under the curse; for it is written, ‘Cursed is everyone who does not continue in all things which are written in the book of the law, to do them.’”* (Gal 3:10)  
