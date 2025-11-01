@@ -1,4 +1,4 @@
-# Feast of Tabernacles 2025 and the Sabbath
+# Rethinking the Sabbath
 ## Understanding the New Covenant Sabbath and Holy Days-How they Still Existed but Without the Prohibtition to Work
 
 As the Feast of Tabernacles 2025 approaches, many wonder what the Sabbath and holy days mean under the New Covenant. Explore a surprising freedom hidden in Scripture.
