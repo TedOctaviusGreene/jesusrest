@@ -1,6 +1,6 @@
 # “Doing Your Own Ways” — Isaiah 58, the Sabbath, and the Freedom of the Gospel  
 
-The Churches of God love to quote Isaiah 58:13–14 as their strongest proof that the Sabbath must be guarded by strict rules. They insist this passage forbids working, talking about your job, or even enjoying what they call “your own pleasure.” To them, Sabbath is about *not doing.*  
+The legalists love to quote Isaiah 58:13–14 as their strongest proof that the Sabbath must be guarded by strict rules. They insist this passage forbids working, talking about your job, or even enjoying what they call “your own pleasure.” To them, Sabbath is about *not doing.*  
 
 But what if the passage doesn’t say what they think? What if Isaiah’s words, in their Hebrew meaning, show something very different? And what if the New Covenant in Christ takes us even further — into a Sabbath rest where there is no prohibition of work at all?  
 
@@ -40,7 +40,7 @@ Isaiah is not forbidding fun, joy, or ordinary conversation. He is condemning th
 
 The Hebrew word for “delight” here is *oneg* — meaning “exquisite delight, luxury, dainty, sweet.” God wanted Sabbath to be the most joyful, refreshing, happy day of the week.  
 
-The Churches of God have turned Isaiah’s invitation into a chain of rules. But Isaiah’s point is the opposite: the Sabbath was meant to be a feast of joy.  
+The legalists have turned Isaiah’s invitation into a chain of rules. But Isaiah’s point is the opposite: the Sabbath was meant to be a feast of joy.  
 
 Can you imagine Jesus laughing with His disciples on the Sabbath? Healing the sick? Telling stories? Of course. Because Sabbath was for *life-giving delight,* not ritual misery.  
 
@@ -115,9 +115,9 @@ Because the real Sabbath is Christ.
 
 ---
 
-## 8. The Lesson for the Churches of God  
+## 8. The Lesson for the legalists 
 
-The Churches of God have turned Isaiah 58 into a weapon of guilt. They forbid joy, forbid speech, forbid ordinary life. But they are reading the Hebrew backwards.  
+The legalists have turned Isaiah 58 into a weapon of guilt. They forbid joy, forbid speech, forbid ordinary life. But they are reading the Hebrew backwards.  
 
 Isaiah never condemned pleasure. He condemned business oppression. And Paul tells us the entire covenant of stone is obsolete.  
 
