@@ -3,14 +3,14 @@
 **“O foolish Galatians! Who has bewitched you that you should not obey the truth…?”**  
 Paul’s words in Galatians 3 still echo down through every century, exposing the same error wherever it resurfaces.
 
-Herbert W. Armstrong, and the churches that follow his doctrine on this point, insist that the Apostle’s phrase *“works of the law”* in Galatians 3 means only the sacrificial system. By narrowing Paul’s words in this way, they seek to preserve the Ten Commandments and holy days as binding today, while discarding sacrifices. But is that what Paul actually meant?
+Legalists or our modern day "Pharisees," insist that the Apostle’s phrase *“works of the law”* in Galatians 3 means only the sacrificial system. By narrowing Paul’s words in this way, they seek to preserve the Ten Commandments and holy days as binding today, while discarding sacrifices. But is that what Paul actually meant?
 
 ---
 
 ## The Phrase *Ergōn Nomou* — “Works of the Law”
 
 In Galatians 3:2, 3:5, and 3:10 Paul uses the Greek phrase *ergōn nomou* — literally, “works of law.”  
-The Armstrong position claims this refers merely to the rituals and sacrifices. But Paul himself shows it means much more.
+The legalist's position claims this refers merely to the rituals and sacrifices. But Paul himself shows it means much more.
 
 In Galatians 3:10 he quotes directly from **Deuteronomy 27:26**:
 
@@ -33,7 +33,7 @@ The principle of justification by “works of law” is opposed to justification
 
 ---
 
-## Why Armstrong’s Interpretation Fails
+## Why the Legalists Interpretation Fails
 
 If “works of the law” referred only to sacrifices, Paul’s argument collapses:  
 - Gentile believers in Galatia had never practiced sacrifices — why then would he rebuke them for trusting in sacrifices?  
