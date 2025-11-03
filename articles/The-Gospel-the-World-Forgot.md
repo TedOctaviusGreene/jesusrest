@@ -5,7 +5,7 @@
 
 ## **Preface – To the Reader**
 
-For almost two thousand years the church has spoken of grace, yet few have ever understood what Paul meant when he said, *“You are not under law but under grace”* (Romans 6:14, NKJV).  From the first century until now, believers have drifted between two cliffs—**legalism**, which builds new laws in God’s name, and **license**, which uses grace as permission for sin.  Between those cliffs lies the narrow path of life: *Christ in you, the hope of glory* (Colossians 1:27).
+For almost two thousand years the church has spoken of grace, yet few have ever understood what Paul meant when he said, *“You are not under law but under grace”* (Romans 6:14, NKJV).  From the first century until now, believers have drifted between two cliffs—**legalism**, legalism, when believers think that practicing the right religion, keeping Sabbaths, or performing commandments makes them more acceptable to God—not realizing that such effort replaces grace and resists the inward work of His Spirit., and **license**, which uses grace as permission for sin.  Between those cliffs lies the narrow path of life: *Christ in you, the hope of glory* (Colossians 1:27).
 
 This letter—*The Gospel the World Forgot*—is written to make that path plain.  It is not a new gospel, but the same that Paul defended before the Galatians, the same that the apostles confirmed in Jerusalem when they wrote, *“It seemed good to the Holy Spirit and to us to lay upon you no greater burden”* (Acts 15:28).  The message then is the message now: the covenant of law has ended; the covenant of the Spirit has begun.  
 
