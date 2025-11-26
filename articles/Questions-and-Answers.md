@@ -1,8 +1,9 @@
-# New Covenant Freedom: Questions and Answers on Law, Sin, and the Work of Christ
+# Questions and Answers on Law, Sin, and New Covenant Freedom in Christ
 
-Many believers feel the tension: *If I’m dead to the law, how do I grow? If sin is forgiven, does it still matter? If love is the only command, what does that actually look like when I fail?*  
+Many believers quietly wrestle with the same questions: *Are Christians still under the Ten Commandments? If we’re dead to the law, can we still sin? What is the law of Christ? Can I lose God’s love if I fail?* This Q&A walks through those questions using Scripture alone—showing how the cross ended the old covenant, what sin is now, how Christ Himself is our righteousness, and how to rest in His finished work instead of living in fear, legalism, or spiritual burnout.
 
-This Q&A gathers real questions Christians ask about law, grace, sin, fruit, and the finished work of Christ—and answers them from Scripture itself. If you’ve ever felt trapped between legalism and fear of “cheap grace,” these questions are for you. The goal is not to give you a new list of rules, but to point you back to a Person—the Lord Jesus Christ—who is Himself our righteousness, our rest, and our life.
+
+If you’ve ever felt trapped between legalism and fear of “cheap grace,” these questions are for you. The goal is not to give you a new list of rules, but to point you back to a Person—the Lord Jesus Christ—who is Himself our righteousness, our rest, and our life.
 
 ---
 
@@ -111,6 +112,26 @@ We do not maintain salvation.
 
 And that is why Christianity is not a life lived under rules—it is a life lived **inside a Person**.
 
+---
+
+### Keep Studying the New Covenant
+
+If these answers helped, you may also want to read:
+
+- **[The Gospel the World Forgot](https://jesusrest.com/read.html?file=The-Gospel-the-World-Forgot.md)**  
+  A letter-style study on the simple, forgotten gospel: not law plus effort, but Christ alone.
+
+- **[Colossians 2 Explained](https://jesusrest.com/read.html?file=Colossians-2-Explained.md)**  
+  A Scripture-first walk through Colossians 2, showing how Paul calls the law a shadow fulfilled in Christ and dismantles legalism about Sabbaths and holy days.
+
+- **[The Law of Christ](https://jesusrest.com/read.html?file=The-Law-of-Christ.md)**  
+  Explaining the law of Christ as the new covenant’s guiding principle of love, fulfilled by Christ living His life in us.
+
+- **[O Foolish Galatians: What Did Paul Mean by “Works of the Law”?](https://jesusrest.com/read.html?file=o-foolish-galatians-what-did-paul-mean-by-works-of-the-law.md)**  
+  A deep dive into Galatians that exposes the slavery of trusting our obedience instead of Christ’s finished work.
+
+- **[Rethinking the Sabbath](https://jesusrest.com/read.html?file=Rethinking-the-Sabbath.md)**  
+  Examining the Sabbath under the new covenant—showing how Christ fulfilled its shadow and brought a greater rest for believers.
 
 
 </details>
@@ -232,6 +253,26 @@ We do not hide sin.
 
 We bring it into the light where **grace transforms weakness into worship**.
 
+---
+
+### Keep Studying the New Covenant
+
+If these answers helped, you may also want to read:
+
+- **[The Gospel the World Forgot](https://jesusrest.com/read.html?file=The-Gospel-the-World-Forgot.md)**  
+  A letter-style study on the simple, forgotten gospel: not law plus effort, but Christ alone.
+
+- **[Colossians 2 Explained](https://jesusrest.com/read.html?file=Colossians-2-Explained.md)**  
+  A Scripture-first walk through Colossians 2, showing how Paul calls the law a shadow fulfilled in Christ and dismantles legalism about Sabbaths and holy days.
+
+- **[The Law of Christ](https://jesusrest.com/read.html?file=The-Law-of-Christ.md)**  
+  Explaining the law of Christ as the new covenant’s guiding principle of love, fulfilled by Christ living His life in us.
+
+- **[O Foolish Galatians: What Did Paul Mean by “Works of the Law”?](https://jesusrest.com/read.html?file=o-foolish-galatians-what-did-paul-mean-by-works-of-the-law.md)**  
+  A deep dive into Galatians that exposes the slavery of trusting our obedience instead of Christ’s finished work.
+
+- **[Rethinking the Sabbath](https://jesusrest.com/read.html?file=Rethinking-the-Sabbath.md)**  
+  Examining the Sabbath under the new covenant—showing how Christ fulfilled its shadow and brought a greater rest for believers.
 
 </details>
 
@@ -362,6 +403,26 @@ This is the Gospel legalism cannot bear, but sinners fall in love with:
 Christ is the Author and Finisher.  
 We are the beloved, learning slowly how to love like Him.
 
+---
+
+### Keep Studying the New Covenant
+
+If these answers helped, you may also want to read:
+
+- **[The Gospel the World Forgot](https://jesusrest.com/read.html?file=The-Gospel-the-World-Forgot.md)**  
+  A letter-style study on the simple, forgotten gospel: not law plus effort, but Christ alone.
+
+- **[Colossians 2 Explained](https://jesusrest.com/read.html?file=Colossians-2-Explained.md)**  
+  A Scripture-first walk through Colossians 2, showing how Paul calls the law a shadow fulfilled in Christ and dismantles legalism about Sabbaths and holy days.
+
+- **[The Law of Christ](https://jesusrest.com/read.html?file=The-Law-of-Christ.md)**  
+  Explaining the law of Christ as the new covenant’s guiding principle of love, fulfilled by Christ living His life in us.
+
+- **[O Foolish Galatians: What Did Paul Mean by “Works of the Law”?](https://jesusrest.com/read.html?file=o-foolish-galatians-what-did-paul-mean-by-works-of-the-law.md)**  
+  A deep dive into Galatians that exposes the slavery of trusting our obedience instead of Christ’s finished work.
+
+- **[Rethinking the Sabbath](https://jesusrest.com/read.html?file=Rethinking-the-Sabbath.md)**  
+  Examining the Sabbath under the new covenant—showing how Christ fulfilled its shadow and brought a greater rest for believers.
 
 
 </details>
@@ -481,6 +542,26 @@ For the Judge we serve is also the One who said:
 
 And neither should we.
 
+---
+
+### Keep Studying the New Covenant
+
+If these answers helped, you may also want to read:
+
+- **[The Gospel the World Forgot](https://jesusrest.com/read.html?file=The-Gospel-the-World-Forgot.md)**  
+  A letter-style study on the simple, forgotten gospel: not law plus effort, but Christ alone.
+
+- **[Colossians 2 Explained](https://jesusrest.com/read.html?file=Colossians-2-Explained.md)**  
+  A Scripture-first walk through Colossians 2, showing how Paul calls the law a shadow fulfilled in Christ and dismantles legalism about Sabbaths and holy days.
+
+- **[The Law of Christ](https://jesusrest.com/read.html?file=The-Law-of-Christ.md)**  
+  Explaining the law of Christ as the new covenant’s guiding principle of love, fulfilled by Christ living His life in us.
+
+- **[O Foolish Galatians: What Did Paul Mean by “Works of the Law”?](https://jesusrest.com/read.html?file=o-foolish-galatians-what-did-paul-mean-by-works-of-the-law.md)**  
+  A deep dive into Galatians that exposes the slavery of trusting our obedience instead of Christ’s finished work.
+
+- **[Rethinking the Sabbath](https://jesusrest.com/read.html?file=Rethinking-the-Sabbath.md)**  
+  Examining the Sabbath under the new covenant—showing how Christ fulfilled its shadow and brought a greater rest for believers.
 
 
 </details>
@@ -602,6 +683,26 @@ We bear fruit because **He is the Vine**, and we are simply branches.
 The Gospel is not God plus effort.  
 The Gospel is **Christ in me**, the hope of glory (Colossians 1:27).
 
+---
+
+### Keep Studying the New Covenant
+
+If these answers helped, you may also want to read:
+
+- **[The Gospel the World Forgot](https://jesusrest.com/read.html?file=The-Gospel-the-World-Forgot.md)**  
+  A letter-style study on the simple, forgotten gospel: not law plus effort, but Christ alone.
+
+- **[Colossians 2 Explained](https://jesusrest.com/read.html?file=Colossians-2-Explained.md)**  
+  A Scripture-first walk through Colossians 2, showing how Paul calls the law a shadow fulfilled in Christ and dismantles legalism about Sabbaths and holy days.
+
+- **[The Law of Christ](https://jesusrest.com/read.html?file=The-Law-of-Christ.md)**  
+  Explaining the law of Christ as the new covenant’s guiding principle of love, fulfilled by Christ living His life in us.
+
+- **[O Foolish Galatians: What Did Paul Mean by “Works of the Law”?](https://jesusrest.com/read.html?file=o-foolish-galatians-what-did-paul-mean-by-works-of-the-law.md)**  
+  A deep dive into Galatians that exposes the slavery of trusting our obedience instead of Christ’s finished work.
+
+- **[Rethinking the Sabbath](https://jesusrest.com/read.html?file=Rethinking-the-Sabbath.md)**  
+  Examining the Sabbath under the new covenant—showing how Christ fulfilled its shadow and brought a greater rest for believers.
 
 
 </details>
@@ -726,6 +827,26 @@ He is the Glory.
 And we?  
 We are the beloved branches, held in His hands, carried by His grace.
 
+---
+
+### Keep Studying the New Covenant
+
+If these answers helped, you may also want to read:
+
+- **[The Gospel the World Forgot](https://jesusrest.com/read.html?file=The-Gospel-the-World-Forgot.md)**  
+  A letter-style study on the simple, forgotten gospel: not law plus effort, but Christ alone.
+
+- **[Colossians 2 Explained](https://jesusrest.com/read.html?file=Colossians-2-Explained.md)**  
+  A Scripture-first walk through Colossians 2, showing how Paul calls the law a shadow fulfilled in Christ and dismantles legalism about Sabbaths and holy days.
+
+- **[The Law of Christ](https://jesusrest.com/read.html?file=The-Law-of-Christ.md)**  
+  Explaining the law of Christ as the new covenant’s guiding principle of love, fulfilled by Christ living His life in us.
+
+- **[O Foolish Galatians: What Did Paul Mean by “Works of the Law”?](https://jesusrest.com/read.html?file=o-foolish-galatians-what-did-paul-mean-by-works-of-the-law.md)**  
+  A deep dive into Galatians that exposes the slavery of trusting our obedience instead of Christ’s finished work.
+
+- **[Rethinking the Sabbath](https://jesusrest.com/read.html?file=Rethinking-the-Sabbath.md)**  
+  Examining the Sabbath under the new covenant—showing how Christ fulfilled its shadow and brought a greater rest for believers.
 
 </details>
 
@@ -862,6 +983,26 @@ A decision to let Him carry what we cannot.
 
 We do not rest because we are strong — **we rest because Christ is strong for us.**
 
+---
+
+### Keep Studying the New Covenant
+
+If these answers helped, you may also want to read:
+
+- **[The Gospel the World Forgot](https://jesusrest.com/read.html?file=The-Gospel-the-World-Forgot.md)**  
+  A letter-style study on the simple, forgotten gospel: not law plus effort, but Christ alone.
+
+- **[Colossians 2 Explained](https://jesusrest.com/read.html?file=Colossians-2-Explained.md)**  
+  A Scripture-first walk through Colossians 2, showing how Paul calls the law a shadow fulfilled in Christ and dismantles legalism about Sabbaths and holy days.
+
+- **[The Law of Christ](https://jesusrest.com/read.html?file=The-Law-of-Christ.md)**  
+  Explaining the law of Christ as the new covenant’s guiding principle of love, fulfilled by Christ living His life in us.
+
+- **[O Foolish Galatians: What Did Paul Mean by “Works of the Law”?](https://jesusrest.com/read.html?file=o-foolish-galatians-what-did-paul-mean-by-works-of-the-law.md)**  
+  A deep dive into Galatians that exposes the slavery of trusting our obedience instead of Christ’s finished work.
+
+- **[Rethinking the Sabbath](https://jesusrest.com/read.html?file=Rethinking-the-Sabbath.md)**  
+  Examining the Sabbath under the new covenant—showing how Christ fulfilled its shadow and brought a greater rest for believers.
 
 </details>
 
@@ -979,6 +1120,27 @@ And He will not fail.
 
 Amen.  
 Let it be so.
+
+---
+
+### Keep Studying the New Covenant
+
+If these answers helped, you may also want to read:
+
+- **[The Gospel the World Forgot](https://jesusrest.com/read.html?file=The-Gospel-the-World-Forgot.md)**  
+  A letter-style study on the simple, forgotten gospel: not law plus effort, but Christ alone.
+
+- **[Colossians 2 Explained](https://jesusrest.com/read.html?file=Colossians-2-Explained.md)**  
+  A Scripture-first walk through Colossians 2, showing how Paul calls the law a shadow fulfilled in Christ and dismantles legalism about Sabbaths and holy days.
+
+- **[The Law of Christ](https://jesusrest.com/read.html?file=The-Law-of-Christ.md)**  
+  Explaining the law of Christ as the new covenant’s guiding principle of love, fulfilled by Christ living His life in us.
+
+- **[O Foolish Galatians: What Did Paul Mean by “Works of the Law”?](https://jesusrest.com/read.html?file=o-foolish-galatians-what-did-paul-mean-by-works-of-the-law.md)**  
+  A deep dive into Galatians that exposes the slavery of trusting our obedience instead of Christ’s finished work.
+
+- **[Rethinking the Sabbath](https://jesusrest.com/read.html?file=Rethinking-the-Sabbath.md)**  
+  Examining the Sabbath under the new covenant—showing how Christ fulfilled its shadow and brought a greater rest for believers.
 
 </details>
 
