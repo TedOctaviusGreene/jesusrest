@@ -1,9 +1,9 @@
-# Questions and Answers on Law, Sin, and New Covenant Freedom in Christ
+## Questions and Answers
 
-Many believers quietly wrestle with the same questions: *Are Christians still under the Ten Commandments? If we’re dead to the law, can we still sin? What is the law of Christ? Can I lose God’s love if I fail?* This Q&A walks through those questions using Scripture alone—showing how the cross ended the old covenant, what sin is now, how Christ Himself is our righteousness, and how to rest in His finished work instead of living in fear, legalism, or spiritual burnout.
+# Are Christians Still Under the Law? Questions and Answers on the Ten Commandments, Sin, and New Covenant Freedom
 
+Many believers quietly wrestle with the same questions: **Are Christians still under the Ten Commandments? If we’re dead to the law, can we still sin? What is the “law of Christ”? Can a real Christian be unloving and still be saved?** This Q&A walks slowly through those questions using Scripture alone—showing how the cross ended the old covenant, what sin is now for those in Christ, how righteousness is no longer written on stone but in our hearts by the Spirit, and why our standing with God rests on **Jesus’ finished work**, not on our fluctuating obedience. If you’ve struggled with legalism, fear of losing salvation, or confusion about law versus grace, these answers are meant to help you see the difference between the **law of Sinai** and the **law of Christ**, and to rest in the One who keeps His promises even when we stumble.
 
-If you’ve ever felt trapped between legalism and fear of “cheap grace,” these questions are for you. The goal is not to give you a new list of rules, but to point you back to a Person—the Lord Jesus Christ—who is Himself our righteousness, our rest, and our life.
 
 ---
 
