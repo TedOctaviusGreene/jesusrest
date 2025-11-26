@@ -4,25 +4,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Title & Description -->
+  <!-- Title & Description (will be overridden dynamically once article loads) -->
   <title>Jesus Rest — Truth Letters</title>
+
   <!-- Canonical (dynamic per article) -->
-<link id="canonical" rel="canonical" href="https://jesusrest.com/read.html">
-<script>
-  (function () {
-    var u = new URL(window.location.href);
-    var f = u.searchParams.get('file'); // only keep ?file=
-    var href = u.origin + u.pathname + (f ? ('?file=' + encodeURIComponent(f)) : '');
-    document.getElementById('canonical').href = href;
-  })();
-</script>
+  <link id="canonical" rel="canonical" href="https://jesusrest.com/read.html">
+  <script>
+    (function () {
+      var u = new URL(window.location.href);
+      var f = u.searchParams.get('file'); // only keep ?file=
+      var href = u.origin + u.pathname + (f ? ('?file=' + encodeURIComponent(f)) : '');
+      document.getElementById('canonical').href = href;
+    })();
+  </script>
+
+  <!-- Base meta fallbacks (will be refined per article by SEO script) -->
   <meta name="description" content="Jesus Rest shares Scripture-first articles exposing errors in Church of God teachings, while proclaiming the New Covenant life, freedom, and faith in Jesus Christ.">
-<meta name="keywords" content="Church of God, Herbert W. Armstrong, Sabbaths, Holy Days, Feast of Tabernacles, New Covenant, Life in Christ, Faith in Jesus, Christian living, holy day calendar, feast of trumpets, the last great day, day of atonement, feast of unleavened bread, passover, the night to be much observed, faith and works, second tithe, clean foods, covenants, grace vs law, salvation by faith, gospel freedom, resurrections, walking in the Spirit">
-<meta name="author" content="Jesus Rest">
+  <meta name="keywords" content="Church of God, Herbert W. Armstrong, Sabbaths, Holy Days, Feast of Tabernacles, New Covenant, Life in Christ, Faith in Jesus, Christian living, holy day calendar, feast of trumpets, the last great day, day of atonement, feast of unleavened bread, passover, the night to be much observed, faith and works, second tithe, clean foods, covenants, grace vs law, salvation by faith, gospel freedom, resurrections, walking in the Spirit">
+  <meta name="author" content="Jesus Rest Ministry">
+
   <!-- Favicon (SVG wave logo) -->
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 
-  <!-- OpenGraph for Social Sharing -->
+  <!-- OpenGraph for Social Sharing (will get dynamic title/description per article) -->
   <meta property="og:title" content="Jesus Rest — Truth Letters">
   <meta property="og:description" content="Scripture-first letters for life in the New Covenant. Discover freedom in Christ through Scripture-first letters of encouragement, study, and truth.">
   <meta property="og:image" content="https://jesusrest.com/assets/preview.jpg">
@@ -55,10 +59,10 @@
     </h1>
   </div>
   <nav>
-  <a href="articles.html">Articles</a>
-  <a href="donate.html" class="donate-shimmer">Donate</a>
-  <a href="contact.html">Contact</a>
-</nav>
+    <a href="articles.html">Articles</a>
+    <a href="donate.html" class="donate-shimmer">Donate</a>
+    <a href="contact.html">Contact</a>
+  </nav>
 </header>
 
 <main style="max-width:900px; margin:2rem auto; padding:0 1rem;">
@@ -84,68 +88,73 @@
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script src="assets/js/read.js"></script>
 </body>
-  <script>
+
+<script>
 (function () {
   // Map of article files to publish / modified dates
-  // You can adjust these anytime; they just need to be ISO format YYYY-MM-DD.
+  // You can adjust these anytime; they just need to be ISO format YYYY-MM-DD with timezone.
   const articleMeta = {
-  "The-Gospel-the-World-Forgot.md": {
-    datePublished: "2025-01-10T00:00:00-06:00",
-    dateModified: "2025-01-15T00:00:00-06:00"
-  },
-  "Are-You-Satisfied-with-the-Works-of-Jesus.md": {
-    datePublished: "2025-02-05T00:00:00-06:00",
-    dateModified: "2025-02-10T00:00:00-06:00"
-  },
-  "The-Law-of-Christ.md": {
-    datePublished: "2025-03-01T00:00:00-06:00",
-    dateModified: "2025-03-05T00:00:00-06:00"
-  },
-  "Rethinking-the-Sabbath.md": {
-    datePublished: "2025-04-01T00:00:00-06:00",
-    dateModified: "2025-04-05T00:00:00-06:00"
-  },
-  "The-Danger-of-Putting-Faith-in-Your-Own-Obedience.md": {
-    datePublished: "2025-05-01T00:00:00-06:00",
-    dateModified: "2025-05-05T00:00:00-06:00"
-  },
-  "Colossians-2-Explained.md": {
-    datePublished: "2025-06-01T00:00:00-06:00",
-    dateModified: "2025-06-05T00:00:00-06:00"
-  },
-  "Galatians-4:-Days-Months-and-Seasons.md": {
-    datePublished: "2025-07-01T00:00:00-06:00",
-    dateModified: "2025-07-05T00:00:00-06:00"
-  },
-  "From-Pharaoh%E2%80%99s-Yoke-to-Sinai%E2%80%99s-Yoke:-God%E2%80%99s-Temporary-Covenant.md": {
-    datePublished: "2025-08-01T00:00:00-06:00",
-    dateModified: "2025-08-05T00:00:00-06:00"
-  },
-  "From-Eden%27s-Tree-to-Calvary%27s-Tree.md": {
-    datePublished: "2025-09-01T00:00:00-06:00",
-    dateModified: "2025-09-05T00:00:00-06:00"
-  },
-  "Isaiah-58-What%27s-Doing-Your-Own-Ways-Mean.md": {
-    datePublished: "2025-09-15T00:00:00-06:00",
-    dateModified: "2025-09-20T00:00:00-06:00"
-  },
-  "The-Wisdom-of-God%27s-Pause.md": {
-    datePublished: "2025-10-01T00:00:00-06:00",
-    dateModified: "2025-10-05T00:00:00-06:00"
-  },
-  "When-the-Shadows-Vanished:-The-Sabbath,-the-Law,-and-the-Fulfillment-in-Christ.md": {
-    datePublished: "2025-10-15T00:00:00-06:00",
-    dateModified: "2025-10-20T00:00:00-06:00"
-  },
-  "o-foolish-galatians-what-did-paul-mean-by-works-of-the-law.md": {
-    datePublished: "2025-11-01T00:00:00-06:00",
-    dateModified: "2025-11-05T00:00:00-06:00"
-  },
-  "should-christians-celebrate-christmas.md": {
-    datePublished: "2025-11-20T00:00:00-06:00",
-    dateModified: "2025-11-22T00:00:00-06:00"
-  }
-};
+    "The-Gospel-the-World-Forgot.md": {
+      datePublished: "2025-01-10T00:00:00-06:00",
+      dateModified: "2025-01-15T00:00:00-06:00"
+    },
+    "Are-You-Satisfied-with-the-Works-of-Jesus.md": {
+      datePublished: "2025-02-05T00:00:00-06:00",
+      dateModified: "2025-02-10T00:00:00-06:00"
+    },
+    "The-Law-of-Christ.md": {
+      datePublished: "2025-03-01T00:00:00-06:00",
+      dateModified: "2025-03-05T00:00:00-06:00"
+    },
+    "Rethinking-the-Sabbath.md": {
+      datePublished: "2025-04-01T00:00:00-06:00",
+      dateModified: "2025-04-05T00:00:00-06:00"
+    },
+    "The-Danger-of-Putting-Faith-in-Your-Own-Obedience.md": {
+      datePublished: "2025-05-01T00:00:00-06:00",
+      dateModified: "2025-05-05T00:00:00-06:00"
+    },
+    "Colossians-2-Explained.md": {
+      datePublished: "2025-06-01T00:00:00-06:00",
+      dateModified: "2025-06-05T00:00:00-06:00"
+    },
+    "Galatians-4:-Days-Months-and-Seasons.md": {
+      datePublished: "2025-07-01T00:00:00-06:00",
+      dateModified: "2025-07-05T00:00:00-06:00"
+    },
+    "From-Pharaoh%E2%80%99s-Yoke-to-Sinai%E2%80%99s-Yoke:-God%E2%80%99s-Temporary-Covenant.md": {
+      datePublished: "2025-08-01T00:00:00-06:00",
+      dateModified: "2025-08-05T00:00:00-06:00"
+    },
+    "From-Eden%27s-Tree-to-Calvary%27s-Tree.md": {
+      datePublished: "2025-09-01T00:00:00-06:00",
+      dateModified: "2025-09-05T00:00:00-06:00"
+    },
+    "Isaiah-58-What%27s-Doing-Your-Own-Ways-Mean.md": {
+      datePublished: "2025-09-15T00:00:00-06:00",
+      dateModified: "2025-09-20T00:00:00-06:00"
+    },
+    "The-Wisdom-of-God%27s-Pause.md": {
+      datePublished: "2025-10-01T00:00:00-06:00",
+      dateModified: "2025-10-05T00:00:00-06:00"
+    },
+    "When-the-Shadows-Vanished:-The-Sabbath,-the-Law,-and-the-Fulfillment-in-Christ.md": {
+      datePublished: "2025-10-15T00:00:00-06:00",
+      dateModified: "2025-10-20T00:00:00-06:00"
+    },
+    "o-foolish-galatians-what-did-paul-mean-by-works-of-the-law.md": {
+      datePublished: "2025-11-01T00:00:00-06:00",
+      dateModified: "2025-11-05T00:00:00-06:00"
+    },
+    "should-christians-celebrate-christmas.md": {
+      datePublished: "2025-11-20T00:00:00-06:00",
+      dateModified: "2025-11-22T00:00:00-06:00"
+    },
+    "Questions-and-Answers.md": {
+      datePublished: "2025-11-26T00:00:00-06:00",
+      dateModified: "2025-11-26T00:00:00-06:00"
+    }
+  };
 
   function setMeta(name, content) {
     if (!content) return;
@@ -258,6 +267,90 @@
       document.head.appendChild(ldEl);
     }
     ldEl.textContent = JSON.stringify(ld, null, 2);
+
+    // If this is the Q&A page, also add FAQPage structured data
+    if (file === "Questions-and-Answers.md") {
+      const faqLd = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Are Christians really dead to every law, regulation, ordinance, statute, judgment, and command?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The New Testament teaches that believers have died to the law through the body of Christ (Romans 7:4) and are no longer under its jurisdiction for righteousness or condemnation. Christ fulfilled the law on our behalf, ended the old covenant, and brought us into a new covenant where righteousness is written on our hearts by His Spirit. We are not made better by returning to external regulations, but by Christ Himself living in us and producing what the law could only command but never supply."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "If believers are dead to the law, can they still sin?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, Christians can still walk according to the flesh, but their failures are no longer imputed to them for condemnation (Romans 8:1). Sin as behavior still matters because it hurts people and grieves the Spirit, but it does not bring believers back under the curse of the law. God deals with His children as sons and daughters through loving correction, discipline, and growth, not as criminals before a judge."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "If sin still exists, what counts as sin now for a Christian?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Under the new covenant, sin is not measured by the Sinai code but by the law of Christ, which is love (John 13:34; Galatians 6:2). Anything that violates love toward God or toward neighbor is sin. The Spirit exposes unloving attitudes, words, and actions—not to drive us back to the letter of the law, but to draw us deeper into dependence on Christ, who fulfills love in us."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can Christians judge one another?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Jesus forbids a condemning, self-righteous judgment in Matthew 7:1–5, yet calls us to discernment and restoration. The New Testament speaks of knowing people by their fruits and gently restoring those overtaken in a fault (Galatians 6:1). Believers are not called to sit as law-court judges over one another, but to walk in humility, discernment, and love, remembering that Christ alone is Judge and Savior."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is a Christian who acts unlovingly still a real Christian?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "If a person has truly trusted in Christ, they are His workmanship, not their own (Ephesians 2:10). Salvation is God\u2019s work from beginning to end. Believers can act unlovingly and immaturely, and God disciplines those He loves, but their failures do not un-adopt them. He often allows slow growth so that no one can boast in their own holiness and so that all glory goes to Christ, who began the good work and will finish it."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who actually bears the fruit in the Christian life?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Christ Himself is the vine, and we are the branches (John 15). The fruit of the Spirit is His fruit, not ours (Galatians 5:22–23). We are called to abide, trust, and receive. Any true fruit of love, joy, peace, and obedience in our lives is the result of His life flowing through us, so that no flesh can boast in His presence."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What do Christians do to feel right with God?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We do not work to feel right with God; we rest in what Christ has already done. Righteousness and acceptance are gifts received by faith, not feelings earned by performance. Christians return again and again to the finished work of the cross, agreeing with God that Jesus is enough, and allowing that assurance to quiet their conscience and produce grateful obedience."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do believers practically rest in Christ day to day?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Resting in Christ means actively trusting that He has finished the work for our righteousness and that He is at work in us for our growth. Practically, it looks like turning to Him in weakness instead of hiding, bringing our fears and failures into the light, feeding on His Word, and relying on His Spirit rather than our own willpower. We walk by faith, not by sight, confident that He who began a good work in us will carry it to completion."
+            }
+          }
+        ]
+      };
+
+      let faqEl = document.querySelector('script[type="application/ld+json"]#jr-faq');
+      if (!faqEl) {
+        faqEl = document.createElement('script');
+        faqEl.type = 'application/ld+json';
+        faqEl.id = 'jr-faq';
+        document.head.appendChild(faqEl);
+      }
+      faqEl.textContent = JSON.stringify(faqLd, null, 2);
+    }
+
     return true;
   }
 
@@ -273,4 +366,5 @@
 })();
 </script>
 </html>
+
 
