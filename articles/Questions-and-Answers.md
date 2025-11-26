@@ -114,6 +114,79 @@ And that is why Christianity is not a life lived under rules—it is a life live
 
 ---
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Are Christians dead to every law, regulation, ordinance, statute, judgment, and command that Christ fulfilled?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Scripture teaches that believers died to the law through the body of Christ, and are no longer under the written code but under grace. Christ fulfilled what we never could, and now lives in us to produce love — surpassing the old regulations that could only condemn (Romans 7:4; Galatians 2:19-21; Colossians 2:14-17)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "If Christians are dead to the law, can they still sin?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, believers still stumble in the flesh — but sin is no longer imputed to them because they are not under the law but under grace (Romans 6:14; 2 Corinthians 5:19). Their identity is secure in Christ, and He continues His work in them."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "If Christians can still sin, what counts as sin now?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sin is now defined by the law of Christ — the law of love (John 13:34; Galatians 6:2). It is no longer measured by the Sinai code or written ordinances. Anything unloving is sin, and only Christ in us produces real love."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can Christians judge one another?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Scripture says we know believers by their fruits — not to judge them in condemnation (Matthew 7:1-5; Galatians 6:1). We restore gently, because only God sees the heart and Christ alone is the Judge."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a Christian still saved even if they behave unlovingly?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. They remain saved because salvation is Christ's work, not theirs (Ephesians 2:8-9; Philippians 1:6). Growth is a process, and God often allows weakness to prevent pride and self-righteousness."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who produces the fruit in a believer’s life?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Christ does — not the believer’s effort or discipline (John 15:4-5). We bear fruit by abiding, not performing. All glory belongs to Him."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What do Christians do to feel right with God?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nothing. We rest in the finished work of Christ, trusting His righteousness as our identity (Hebrews 4:9-10; Colossians 1:22). There is no boasting in human effort — only receiving."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do Christians rest in Christ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We stay close to God by keeping faith in His gift, trusting Him to prune, produce fruit, and carry us through weakness. We rest by dependence, not striving, knowing we are dead to sin and the law and alive in Him (Romans 6:11; John 15:9-10)."
+      }
+    }
+  ]
+}
+</script>
+
 ### Keep Studying the New Covenant
 
 If these answers helped, you may also want to read:
@@ -254,6 +327,79 @@ We do not hide sin.
 We bring it into the light where **grace transforms weakness into worship**.
 
 ---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Are Christians dead to every law, regulation, ordinance, statute, judgment, and command that Christ fulfilled?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Scripture teaches that believers died to the law through the body of Christ, and are no longer under the written code but under grace. Christ fulfilled what we never could, and now lives in us to produce love — surpassing the old regulations that could only condemn (Romans 7:4; Galatians 2:19-21; Colossians 2:14-17)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "If Christians are dead to the law, can they still sin?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, believers still stumble in the flesh — but sin is no longer imputed to them because they are not under the law but under grace (Romans 6:14; 2 Corinthians 5:19). Their identity is secure in Christ, and He continues His work in them."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "If Christians can still sin, what counts as sin now?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sin is now defined by the law of Christ — the law of love (John 13:34; Galatians 6:2). It is no longer measured by the Sinai code or written ordinances. Anything unloving is sin, and only Christ in us produces real love."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can Christians judge one another?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Scripture says we know believers by their fruits — not to judge them in condemnation (Matthew 7:1-5; Galatians 6:1). We restore gently, because only God sees the heart and Christ alone is the Judge."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a Christian still saved even if they behave unlovingly?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. They remain saved because salvation is Christ's work, not theirs (Ephesians 2:8-9; Philippians 1:6). Growth is a process, and God often allows weakness to prevent pride and self-righteousness."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who produces the fruit in a believer’s life?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Christ does — not the believer’s effort or discipline (John 15:4-5). We bear fruit by abiding, not performing. All glory belongs to Him."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What do Christians do to feel right with God?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nothing. We rest in the finished work of Christ, trusting His righteousness as our identity (Hebrews 4:9-10; Colossians 1:22). There is no boasting in human effort — only receiving."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do Christians rest in Christ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We stay close to God by keeping faith in His gift, trusting Him to prune, produce fruit, and carry us through weakness. We rest by dependence, not striving, knowing we are dead to sin and the law and alive in Him (Romans 6:11; John 15:9-10)."
+      }
+    }
+  ]
+}
+</script>
 
 ### Keep Studying the New Covenant
 
@@ -405,6 +551,79 @@ We are the beloved, learning slowly how to love like Him.
 
 ---
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Are Christians dead to every law, regulation, ordinance, statute, judgment, and command that Christ fulfilled?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Scripture teaches that believers died to the law through the body of Christ, and are no longer under the written code but under grace. Christ fulfilled what we never could, and now lives in us to produce love — surpassing the old regulations that could only condemn (Romans 7:4; Galatians 2:19-21; Colossians 2:14-17)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "If Christians are dead to the law, can they still sin?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, believers still stumble in the flesh — but sin is no longer imputed to them because they are not under the law but under grace (Romans 6:14; 2 Corinthians 5:19). Their identity is secure in Christ, and He continues His work in them."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "If Christians can still sin, what counts as sin now?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sin is now defined by the law of Christ — the law of love (John 13:34; Galatians 6:2). It is no longer measured by the Sinai code or written ordinances. Anything unloving is sin, and only Christ in us produces real love."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can Christians judge one another?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Scripture says we know believers by their fruits — not to judge them in condemnation (Matthew 7:1-5; Galatians 6:1). We restore gently, because only God sees the heart and Christ alone is the Judge."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a Christian still saved even if they behave unlovingly?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. They remain saved because salvation is Christ's work, not theirs (Ephesians 2:8-9; Philippians 1:6). Growth is a process, and God often allows weakness to prevent pride and self-righteousness."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who produces the fruit in a believer’s life?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Christ does — not the believer’s effort or discipline (John 15:4-5). We bear fruit by abiding, not performing. All glory belongs to Him."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What do Christians do to feel right with God?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nothing. We rest in the finished work of Christ, trusting His righteousness as our identity (Hebrews 4:9-10; Colossians 1:22). There is no boasting in human effort — only receiving."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do Christians rest in Christ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We stay close to God by keeping faith in His gift, trusting Him to prune, produce fruit, and carry us through weakness. We rest by dependence, not striving, knowing we are dead to sin and the law and alive in Him (Romans 6:11; John 15:9-10)."
+      }
+    }
+  ]
+}
+</script>
+
 ### Keep Studying the New Covenant
 
 If these answers helped, you may also want to read:
@@ -543,6 +762,79 @@ For the Judge we serve is also the One who said:
 And neither should we.
 
 ---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Are Christians dead to every law, regulation, ordinance, statute, judgment, and command that Christ fulfilled?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Scripture teaches that believers died to the law through the body of Christ, and are no longer under the written code but under grace. Christ fulfilled what we never could, and now lives in us to produce love — surpassing the old regulations that could only condemn (Romans 7:4; Galatians 2:19-21; Colossians 2:14-17)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "If Christians are dead to the law, can they still sin?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, believers still stumble in the flesh — but sin is no longer imputed to them because they are not under the law but under grace (Romans 6:14; 2 Corinthians 5:19). Their identity is secure in Christ, and He continues His work in them."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "If Christians can still sin, what counts as sin now?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sin is now defined by the law of Christ — the law of love (John 13:34; Galatians 6:2). It is no longer measured by the Sinai code or written ordinances. Anything unloving is sin, and only Christ in us produces real love."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can Christians judge one another?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Scripture says we know believers by their fruits — not to judge them in condemnation (Matthew 7:1-5; Galatians 6:1). We restore gently, because only God sees the heart and Christ alone is the Judge."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a Christian still saved even if they behave unlovingly?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. They remain saved because salvation is Christ's work, not theirs (Ephesians 2:8-9; Philippians 1:6). Growth is a process, and God often allows weakness to prevent pride and self-righteousness."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who produces the fruit in a believer’s life?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Christ does — not the believer’s effort or discipline (John 15:4-5). We bear fruit by abiding, not performing. All glory belongs to Him."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What do Christians do to feel right with God?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nothing. We rest in the finished work of Christ, trusting His righteousness as our identity (Hebrews 4:9-10; Colossians 1:22). There is no boasting in human effort — only receiving."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do Christians rest in Christ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We stay close to God by keeping faith in His gift, trusting Him to prune, produce fruit, and carry us through weakness. We rest by dependence, not striving, knowing we are dead to sin and the law and alive in Him (Romans 6:11; John 15:9-10)."
+      }
+    }
+  ]
+}
+</script>
 
 ### Keep Studying the New Covenant
 
@@ -684,6 +976,79 @@ The Gospel is not God plus effort.
 The Gospel is **Christ in me**, the hope of glory (Colossians 1:27).
 
 ---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Are Christians dead to every law, regulation, ordinance, statute, judgment, and command that Christ fulfilled?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Scripture teaches that believers died to the law through the body of Christ, and are no longer under the written code but under grace. Christ fulfilled what we never could, and now lives in us to produce love — surpassing the old regulations that could only condemn (Romans 7:4; Galatians 2:19-21; Colossians 2:14-17)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "If Christians are dead to the law, can they still sin?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, believers still stumble in the flesh — but sin is no longer imputed to them because they are not under the law but under grace (Romans 6:14; 2 Corinthians 5:19). Their identity is secure in Christ, and He continues His work in them."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "If Christians can still sin, what counts as sin now?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sin is now defined by the law of Christ — the law of love (John 13:34; Galatians 6:2). It is no longer measured by the Sinai code or written ordinances. Anything unloving is sin, and only Christ in us produces real love."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can Christians judge one another?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Scripture says we know believers by their fruits — not to judge them in condemnation (Matthew 7:1-5; Galatians 6:1). We restore gently, because only God sees the heart and Christ alone is the Judge."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a Christian still saved even if they behave unlovingly?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. They remain saved because salvation is Christ's work, not theirs (Ephesians 2:8-9; Philippians 1:6). Growth is a process, and God often allows weakness to prevent pride and self-righteousness."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who produces the fruit in a believer’s life?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Christ does — not the believer’s effort or discipline (John 15:4-5). We bear fruit by abiding, not performing. All glory belongs to Him."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What do Christians do to feel right with God?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nothing. We rest in the finished work of Christ, trusting His righteousness as our identity (Hebrews 4:9-10; Colossians 1:22). There is no boasting in human effort — only receiving."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do Christians rest in Christ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We stay close to God by keeping faith in His gift, trusting Him to prune, produce fruit, and carry us through weakness. We rest by dependence, not striving, knowing we are dead to sin and the law and alive in Him (Romans 6:11; John 15:9-10)."
+      }
+    }
+  ]
+}
+</script>
 
 ### Keep Studying the New Covenant
 
@@ -828,6 +1193,79 @@ And we?
 We are the beloved branches, held in His hands, carried by His grace.
 
 ---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Are Christians dead to every law, regulation, ordinance, statute, judgment, and command that Christ fulfilled?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Scripture teaches that believers died to the law through the body of Christ, and are no longer under the written code but under grace. Christ fulfilled what we never could, and now lives in us to produce love — surpassing the old regulations that could only condemn (Romans 7:4; Galatians 2:19-21; Colossians 2:14-17)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "If Christians are dead to the law, can they still sin?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, believers still stumble in the flesh — but sin is no longer imputed to them because they are not under the law but under grace (Romans 6:14; 2 Corinthians 5:19). Their identity is secure in Christ, and He continues His work in them."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "If Christians can still sin, what counts as sin now?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sin is now defined by the law of Christ — the law of love (John 13:34; Galatians 6:2). It is no longer measured by the Sinai code or written ordinances. Anything unloving is sin, and only Christ in us produces real love."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can Christians judge one another?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Scripture says we know believers by their fruits — not to judge them in condemnation (Matthew 7:1-5; Galatians 6:1). We restore gently, because only God sees the heart and Christ alone is the Judge."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a Christian still saved even if they behave unlovingly?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. They remain saved because salvation is Christ's work, not theirs (Ephesians 2:8-9; Philippians 1:6). Growth is a process, and God often allows weakness to prevent pride and self-righteousness."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who produces the fruit in a believer’s life?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Christ does — not the believer’s effort or discipline (John 15:4-5). We bear fruit by abiding, not performing. All glory belongs to Him."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What do Christians do to feel right with God?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nothing. We rest in the finished work of Christ, trusting His righteousness as our identity (Hebrews 4:9-10; Colossians 1:22). There is no boasting in human effort — only receiving."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do Christians rest in Christ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We stay close to God by keeping faith in His gift, trusting Him to prune, produce fruit, and carry us through weakness. We rest by dependence, not striving, knowing we are dead to sin and the law and alive in Him (Romans 6:11; John 15:9-10)."
+      }
+    }
+  ]
+}
+</script>
 
 ### Keep Studying the New Covenant
 
@@ -985,6 +1423,79 @@ We do not rest because we are strong — **we rest because Christ is strong for 
 
 ---
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Are Christians dead to every law, regulation, ordinance, statute, judgment, and command that Christ fulfilled?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Scripture teaches that believers died to the law through the body of Christ, and are no longer under the written code but under grace. Christ fulfilled what we never could, and now lives in us to produce love — surpassing the old regulations that could only condemn (Romans 7:4; Galatians 2:19-21; Colossians 2:14-17)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "If Christians are dead to the law, can they still sin?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, believers still stumble in the flesh — but sin is no longer imputed to them because they are not under the law but under grace (Romans 6:14; 2 Corinthians 5:19). Their identity is secure in Christ, and He continues His work in them."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "If Christians can still sin, what counts as sin now?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sin is now defined by the law of Christ — the law of love (John 13:34; Galatians 6:2). It is no longer measured by the Sinai code or written ordinances. Anything unloving is sin, and only Christ in us produces real love."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can Christians judge one another?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Scripture says we know believers by their fruits — not to judge them in condemnation (Matthew 7:1-5; Galatians 6:1). We restore gently, because only God sees the heart and Christ alone is the Judge."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a Christian still saved even if they behave unlovingly?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. They remain saved because salvation is Christ's work, not theirs (Ephesians 2:8-9; Philippians 1:6). Growth is a process, and God often allows weakness to prevent pride and self-righteousness."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who produces the fruit in a believer’s life?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Christ does — not the believer’s effort or discipline (John 15:4-5). We bear fruit by abiding, not performing. All glory belongs to Him."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What do Christians do to feel right with God?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nothing. We rest in the finished work of Christ, trusting His righteousness as our identity (Hebrews 4:9-10; Colossians 1:22). There is no boasting in human effort — only receiving."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do Christians rest in Christ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We stay close to God by keeping faith in His gift, trusting Him to prune, produce fruit, and carry us through weakness. We rest by dependence, not striving, knowing we are dead to sin and the law and alive in Him (Romans 6:11; John 15:9-10)."
+      }
+    }
+  ]
+}
+</script>
+
 ### Keep Studying the New Covenant
 
 If these answers helped, you may also want to read:
@@ -1122,6 +1633,79 @@ Amen.
 Let it be so.
 
 ---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Are Christians dead to every law, regulation, ordinance, statute, judgment, and command that Christ fulfilled?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Scripture teaches that believers died to the law through the body of Christ, and are no longer under the written code but under grace. Christ fulfilled what we never could, and now lives in us to produce love — surpassing the old regulations that could only condemn (Romans 7:4; Galatians 2:19-21; Colossians 2:14-17)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "If Christians are dead to the law, can they still sin?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, believers still stumble in the flesh — but sin is no longer imputed to them because they are not under the law but under grace (Romans 6:14; 2 Corinthians 5:19). Their identity is secure in Christ, and He continues His work in them."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "If Christians can still sin, what counts as sin now?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sin is now defined by the law of Christ — the law of love (John 13:34; Galatians 6:2). It is no longer measured by the Sinai code or written ordinances. Anything unloving is sin, and only Christ in us produces real love."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can Christians judge one another?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Scripture says we know believers by their fruits — not to judge them in condemnation (Matthew 7:1-5; Galatians 6:1). We restore gently, because only God sees the heart and Christ alone is the Judge."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a Christian still saved even if they behave unlovingly?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. They remain saved because salvation is Christ's work, not theirs (Ephesians 2:8-9; Philippians 1:6). Growth is a process, and God often allows weakness to prevent pride and self-righteousness."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who produces the fruit in a believer’s life?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Christ does — not the believer’s effort or discipline (John 15:4-5). We bear fruit by abiding, not performing. All glory belongs to Him."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What do Christians do to feel right with God?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nothing. We rest in the finished work of Christ, trusting His righteousness as our identity (Hebrews 4:9-10; Colossians 1:22). There is no boasting in human effort — only receiving."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do Christians rest in Christ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We stay close to God by keeping faith in His gift, trusting Him to prune, produce fruit, and carry us through weakness. We rest by dependence, not striving, knowing we are dead to sin and the law and alive in Him (Romans 6:11; John 15:9-10)."
+      }
+    }
+  ]
+}
+</script>
 
 ### Keep Studying the New Covenant
 
