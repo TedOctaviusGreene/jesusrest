@@ -14,10 +14,8 @@ Every year millions of people type into Google:
 - Is the Christmas tree in Jeremiah 10?
 - Are we sinning by keeping Christmas?
 - Is it wrong to celebrate Christmas?
-
-
+  
 ---
-
 
 Every year, sincere believers land in very different places on Christmas—and it’s not because they don’t love Jesus. Some feel deep joy and closeness to Him as they celebrate; others feel a check in their conscience and step away from it. And honestly, part of why this is so confusing is that the Bible itself seems, at first glance, to pull us in different directions.
 
