@@ -80,7 +80,7 @@ Today, you can cease from your own works and rest in His finished work—forever
   For related reading try:<br>
   <a href="https://jesusrest.com/read.html?file=Rethinking-the-Sabbath.md" 
      style="color:var(--refined-teal); font-weight:600; text-decoration:none;">
-     Rethinking the Sabbath</a>.
+     Rethinking the Sabbath</a>
 </p>
 
 <p style="margin-top:1.2rem; font-size:1.05rem; line-height:1.6;">
