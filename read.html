@@ -86,6 +86,67 @@
 </body>
   <script>
 (function () {
+  // Map of article files to publish / modified dates
+  // You can adjust these anytime; they just need to be ISO format YYYY-MM-DD.
+  const articleMeta = {
+    "The-Gospel-the-World-Forgot.md": {
+      datePublished: "2025-01-10",
+      dateModified: "2025-01-15"
+    },
+    "Are-You-Satisfied-with-the-Works-of-Jesus.md": {
+      datePublished: "2025-02-05",
+      dateModified: "2025-02-10"
+    },
+    "The-Law-of-Christ.md": {
+      datePublished: "2025-03-01",
+      dateModified: "2025-03-05"
+    },
+    "Rethinking-the-Sabbath.md": {
+      datePublished: "2025-04-01",
+      dateModified: "2025-04-05"
+    },
+    "The-Danger-of-Putting-Faith-in-Your-Own-Obedience.md": {
+      datePublished: "2025-05-01",
+      dateModified: "2025-05-05"
+    },
+    "Colossians-2-Explained.md": {
+      datePublished: "2025-06-01",
+      dateModified: "2025-06-05"
+    },
+    "Galatians-4:-Days-Months-and-Seasons.md": {
+      datePublished: "2025-07-01",
+      dateModified: "2025-07-05"
+    },
+    "From-Pharaoh%E2%80%99s-Yoke-to-Sinai%E2%80%99s-Yoke:-God%E2%80%99s-Temporary-Covenant.md": {
+      datePublished: "2025-08-01",
+      dateModified: "2025-08-05"
+    },
+    "From-Eden%27s-Tree-to-Calvary%27s-Tree.md": {
+      datePublished: "2025-09-01",
+      dateModified: "2025-09-05"
+    },
+    "Isaiah-58-What%27s-Doing-Your-Own-Ways-Mean.md": {
+      datePublished: "2025-09-15",
+      dateModified: "2025-09-20"
+    },
+    "The-Wisdom-of-God%27s-Pause.md": {
+      datePublished: "2025-10-01",
+      dateModified: "2025-10-05"
+    },
+    "When-the-Shadows-Vanished:-The-Sabbath,-the-Law,-and-the-Fulfillment-in-Christ.md": {
+      datePublished: "2025-10-15",
+      dateModified: "2025-10-20"
+    },
+    "o-foolish-galatians-what-did-paul-mean-by-works-of-the-law.md": {
+      datePublished: "2025-11-01",
+      dateModified: "2025-11-05"
+    },
+    "should-christians-celebrate-christmas.md": {
+      datePublished: "2025-11-20",
+      dateModified: "2025-11-22"
+    }
+  };
+
   function setMeta(name, content) {
     if (!content) return;
     let el = document.querySelector(`meta[name="${name}"]`) ||
@@ -98,11 +159,17 @@
     }
     el.setAttribute('content', content);
   }
+
   function setCanonical(href) {
     let link = document.querySelector('link[rel="canonical"]');
-    if (!link) { link = document.createElement('link'); link.rel = 'canonical'; document.head.appendChild(link); }
+    if (!link) {
+      link = document.createElement('link');
+      link.rel = 'canonical';
+      document.head.appendChild(link);
+    }
     link.href = href;
   }
+
   function firstParagraph(root) {
     const ps = root.querySelectorAll('p');
     for (const p of ps) {
@@ -111,7 +178,10 @@
     }
     return '';
   }
-  function clip(s, n=180){ return s && s.length>n ? s.slice(0,n-1)+'…' : s; }
+
+  function clip(s, n = 180) {
+    return s && s.length > n ? s.slice(0, n - 1) + '…' : s;
+  }
 
   function applySEO() {
     const params = new URLSearchParams(location.search);
@@ -121,7 +191,8 @@
     if (!article) return false;
 
     const h1 = article.querySelector('h1');
-    const textLen = (article.textContent || '').trim().length;
+    const text = (article.textContent || '').trim();
+    const textLen = text.length;
     if (!h1 || textLen < 80) return false; // wait until content is actually there
 
     const title = h1.textContent.trim() || 'Jesus Rest';
@@ -140,36 +211,52 @@
     setMeta('twitter:title', title);
     setMeta('twitter:description', desc);
 
-    // Optional: if you add per-article images later, set them here.
-    // setMeta('og:image', 'https://jesusrest.com/assets/preview.jpg');
-    // setMeta('twitter:image', 'https://jesusrest.com/assets/preview.jpg');
+    // approx word count for schema
+    const wordCount = text ? text.split(/\s+/).length : undefined;
+
+    // look up date metadata from our map
+    const meta = file ? articleMeta[file] : null;
 
     // JSON-LD Article
     const ld = {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": title,
-  "description": desc,
-  "mainEntityOfPage": url,
-  "author": {
-    "@type": "Person",
-    "name": "Jesus Rest",
-    "url": "https://jesusrest.com/"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Jesus Rest",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://jesusrest.com/assets/preview.jpg"
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": title,
+      "description": desc,
+      "mainEntityOfPage": url,
+      "author": {
+        "@type": "Organization",
+        "name": "Jesus Rest Ministry",
+        "url": "https://jesusrest.com/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Jesus Rest Ministry",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://jesusrest.com/assets/preview.jpg"
+        }
+      },
+      "image": [
+        "https://jesusrest.com/assets/preview.jpg"
+      ]
+    };
+
+    if (wordCount) {
+      ld.wordCount = wordCount;
     }
-  },
-  "image": [
-    "https://jesusrest.com/assets/preview.jpg"
-  ]
-};
+    if (meta && meta.datePublished) {
+      ld.datePublished = meta.datePublished;
+      ld.dateModified = meta.dateModified || meta.datePublished;
+    }
+
     let ldEl = document.querySelector('script[type="application/ld+json"]#jr-article');
-    if (!ldEl) { ldEl = document.createElement('script'); ldEl.type = 'application/ld+json'; ldEl.id = 'jr-article'; document.head.appendChild(ldEl); }
+    if (!ldEl) {
+      ldEl = document.createElement('script');
+      ldEl.type = 'application/ld+json';
+      ldEl.id = 'jr-article';
+      document.head.appendChild(ldEl);
+    }
     ldEl.textContent = JSON.stringify(ld, null, 2);
     return true;
   }
@@ -178,9 +265,12 @@
   if (!applySEO()) {
     const target = document.getElementById('article-content');
     if (!target) return;
-    const obs = new MutationObserver(() => { if (applySEO()) obs.disconnect(); });
+    const obs = new MutationObserver(() => {
+      if (applySEO()) obs.disconnect();
+    });
     obs.observe(target, { childList: true, subtree: true });
   }
 })();
 </script>
 </html>
+
