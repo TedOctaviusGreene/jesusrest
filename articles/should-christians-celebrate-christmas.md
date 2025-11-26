@@ -15,17 +15,59 @@ Every year millions of people type into Google:
 - Are we sinning by keeping Christmas?
 - Is it wrong to celebrate Christmas?
 
-Every year, sincere believers land in very different places on Christmas—and it’s not because they don’t love Jesus. Some feel deep joy and closeness to Him as they celebrate; others feel a check in their conscience and step away from it. And honestly, part of why this is so confusing is that the Bible itself seems, at first glance, to pull us in different directions. In one place God says things like **“do not learn the way of the nations”** and **“do not worship the Lord your God in their way,”** and under the letter of that covenant Israel was fenced off from the nations with very strict boundaries. Then in the New Testament we meet a Christ **who tears down the dividing wall**, who **fulfills the law**, who **pours out His Spirit**, and who **sends His people into all nations** with a freedom that doesn’t fit neatly inside the old categories. If we don’t understand that God is telling one story that moves **from the letter to the Spirit**, **from shadow to substance**, **from separation to indwelling**, the Bible can feel like it’s arguing with itself—and Christmas becomes one more issue where we’re left torn between verses that sound absolute and a Gospel that sounds utterly free.
+---
 
-So the real question becomes: **How do we read the Bible in a way that honors the story God is telling?** How do we hold passages that seem to command separation—**“do not worship the Lord your God in their way” (Deuteronomy 12:31), “learn not the way of the nations” (Jeremiah 10:2)**—alongside passages that declare that **Christ has destroyed the dividing wall of separation (Ephesians 2:14)**, **abolished the commandments contained in ordinances (Ephesians 2:15)**, and **set us free from the law entirely (Romans 6:14; Galatians 5:18)**? The answer is not to choose one set of verses and fight with the others. The answer is to **interpret Scripture the way Scripture commands us to**: letting the Word interpret the Word, **comparing spiritual things with spiritual** (1 Corinthians 2:13), and reading **line upon line, precept upon precept** (Isaiah 28:10), with the unwavering conviction that **God never contradicts Himself—He fulfills Himself.** Jesus said plainly: **“The Scripture cannot be broken” (John 10:35).** If it appears to break, it is not the Scripture that is fractured—it is our understanding that is incomplete.
+Every year, sincere believers land in very different places on Christmas—and it’s not because they don’t love Jesus. Some feel deep joy and closeness to Him as they celebrate; others feel a check in their conscience and step away from it. And honestly, part of why this is so confusing is that the Bible itself seems, at first glance, to pull us in different directions.
 
-This is why the Bible contains covenants, and why God ordered His revelation through time, deliberately and progressively. There are commandments that were never meant to last forever, but to serve a purpose until they were fulfilled. **Paul says the law was added “till the Seed should come” (Galatians 3:19)**, and once that purpose was finished, he declares: **“we are no longer under that tutor” (Galatians 3:25).** Something real happened at the cross. Something ended. Something better began. Old covenant commands like **“do not worship Me the way the nations worship their gods”** were spoken into a world **without the indwelling Spirit**, where holiness depended on separation, distinction, and physical boundaries. But now we live on the other side of Pentecost—**Christ in us, the hope of glory (Colossians 1:27)**, writing His law on our hearts, **not on tablets of stone (2 Corinthians 3:3).** What was once maintained by distance is now fulfilled by indwelling. What was once external regulation is now internal transformation. The shadow has given way to the body, the letter to the Spirit, distance to union, duty to delight, fear to freedom.
+In one place God says things like **“do not learn the way of the nations”** and **“do not worship the Lord your God in their way,”** and under the letter of that covenant Israel was fenced off from the nations with very strict boundaries. Then in the New Testament we meet a Christ **who tears down the dividing wall**, who **fulfills the law**, who **pours out His Spirit**, and who **sends His people into all nations** with a freedom that doesn’t fit neatly inside the old categories.
 
-So of course it feels confusing if we try to hold both covenants alive at the same time. Of course the Bible seems to disagree with itself if we flatten history and read everything as if nothing changed at the cross. But when we honor the story God is telling, we see there is no contradiction at all. The commands given to Israel under the first covenant were holy and perfect for their purpose—but their purpose was temporary. Once Christ fulfilled them, they do not continue; they give way. They fall like scaffolding once the real building stands. And now, in the New Covenant, our holiness is not in avoiding objects or days or customs, but in the presence of Christ within us, **who makes all things clean to the pure** (Titus 1:15).
+If we don’t understand that God is telling one story that moves **from the letter to the Spirit**, **from shadow to substance**, **from separation to indwelling**, the Bible can feel like it’s arguing with itself—and Christmas becomes one more issue where we’re left torn between verses that sound absolute and a Gospel that sounds utterly free.
 
-So let’s say it plainly: **if we believe that objects, decorations, trees, dates on a calendar, or cultural customs can contaminate a believer who is filled with the Spirit of the living God, then we have abandoned the Gospel of Christ for a religion of fear.** Scripture does not teach that God’s people are fragile or easily defiled. Scripture teaches that **we are the temple of the Holy Spirit (1 Corinthians 6:19)**, and **“greater is He who is in you than he who is in the world” (1 John 4:4).** If something as simple as wood and lights has the power to spiritually poison a redeemed son or daughter of God, then Christ failed — and we are still slaves. But **He did not fail. He triumphed.** **“Thanks be to God, who gives us the victory through our Lord Jesus Christ” (1 Corinthians 15:57).** Freedom is not fragile. Holiness is not fragile. Christ in us is not fragile.
+---
+
+So the real question becomes: **How do we read the Bible in a way that honors the story God is telling?** How do we hold passages that seem to command separation—**“do not worship the Lord your God in their way” (Deuteronomy 12:31), “learn not the way of the nations” (Jeremiah 10:2)**—alongside passages that declare that **Christ has destroyed the dividing wall of separation (Ephesians 2:14)**, **abolished the commandments contained in ordinances (Ephesians 2:15)**, and **set us free from the law entirely (Romans 6:14; Galatians 5:18)**?
+
+The answer is not to choose one set of verses and fight with the others. The answer is to **interpret Scripture the way Scripture commands us to**: letting the Word interpret the Word, **comparing spiritual things with spiritual** (1 Corinthians 2:13), and reading **line upon line, precept upon precept** (Isaiah 28:10), with the unwavering conviction that **God never contradicts Himself—He fulfills Himself.**
+
+Jesus said plainly: **“The Scripture cannot be broken” (John 10:35).** If it appears to break, it is not the Scripture that is fractured—it is our understanding that is incomplete.
+
+---
+
+This is why the Bible contains covenants, and why God ordered His revelation through time, deliberately and progressively. There are commandments that were never meant to last forever, but to serve a purpose until they were fulfilled.
+
+**Paul says the law was added “till the Seed should come” (Galatians 3:19)**, and once that purpose was finished, he declares: **“we are no longer under that tutor” (Galatians 3:25).**
+
+Something real happened at the cross. Something ended. Something better began.
+
+Old covenant commands like **“do not worship Me the way the nations worship their gods”** were spoken into a world **without the indwelling Spirit**, where holiness depended on separation, distinction, and physical boundaries.
+
+But now we live on the other side of Pentecost—**Christ in us, the hope of glory (Colossians 1:27)**, writing His law on our hearts, **not on tablets of stone (2 Corinthians 3:3).**
+
+What was once maintained by distance is now fulfilled by indwelling.  
+What was once external regulation is now internal transformation.  
+The shadow has given way to the body, the letter to the Spirit, distance to union, duty to delight, fear to freedom.
+
+---
+
+So of course it feels confusing if we try to hold both covenants alive at the same time. Of course the Bible seems to disagree with itself if we flatten history and read everything as if nothing changed at the cross.
+
+But when we honor the story God is telling, we see there is no contradiction at all. The commands given to Israel under the first covenant were holy and perfect for their purpose—but their purpose was temporary. Once Christ fulfilled them, they do not continue; they give way. They fall like scaffolding once the real building stands.
+
+And now, in the New Covenant, our holiness is not in avoiding objects or days or customs, but in the presence of Christ within us, **who makes all things clean to the pure** (Titus 1:15).
+
+---
+
+So let’s say it plainly: **if we believe that objects, decorations, trees, dates on a calendar, or cultural customs can contaminate a believer who is filled with the Spirit of the living God, then we have abandoned the Gospel of Christ for a religion of fear.** Scripture does not teach that God’s people are fragile or easily defiled.
+
+Scripture teaches that **we are the temple of the Holy Spirit (1 Corinthians 6:19)**, and **“greater is He who is in you than he who is in the world” (1 John 4:4).** If something as simple as wood and lights has the power to virtually poison a redeemed son or daughter of God, then Christ failed — and we are still slaves.
+
+But **He did not fail. He triumphed.** **“Thanks be to God, who gives us the victory through our Lord Jesus Christ” (1 Corinthians 15:57).** Freedom is not fragile. Holiness is not fragile. Christ in us is not fragile.
+
+---
 
 *And here is the plain biblical logic that Paul uses to dismantle fear-based religion: pagans do not own the objects they attach meaning to. They do not own trees. They do not own food. They do not own days. They do not own creation. **“The earth is the LORD’s, and all its fullness” (Psalm 24:1; repeated by Paul in 1 Corinthians 10:26).** God did not surrender His creation to demons. False gods have no power because they are not real. Paul says, **“We know that an idol is nothing in the world, and that there is no other God but one” (1 Corinthians 8:4).** If an idol is nothing, it cannot contaminate anything. The only power an idol has is the power people imagine and fear it has.*
+
+---
 
 And Paul goes even further, directly attacking the fear that objects or practices can be spiritually dangerous:
 
