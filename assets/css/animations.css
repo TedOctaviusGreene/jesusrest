@@ -44,5 +44,10 @@
 }
 
 .donate-shimmer {
-  animation: donateShimmer 300s infinite; /* total cycle = 5 minutes */
+  animation: none;
 }
+
+.donate-shimmer:hover {
+  animation: donateShimmer 3s ease forwards;
+}
+
