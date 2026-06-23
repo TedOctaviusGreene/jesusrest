@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="light">
-<title>Share Card — The Gospel the World Forgot | Jesus Rest</title>
+<title>Share Cards — Jesus Rest</title>
 <meta name="robots" content="noindex">
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,13 +15,13 @@
     --display:'Fraunces',Georgia,serif;--body:'Mulish',system-ui,sans-serif;}
   *{margin:0;padding:0;box-sizing:border-box;}
   body{background:#15130f;font-family:var(--body);min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1rem;padding:1rem;}
-  .hint{color:#9a948a;font-size:.85rem;text-align:center;max-width:24rem;}
+  .hint{color:#9a948a;font-size:.85rem;text-align:center;max-width:30rem;}
   .hint b{color:#d9cfc0;}
-  /* 9:16 stage */
-  .stage{position:relative;width:min(430px,96vw);aspect-ratio:9/16;max-height:92vh;border-radius:26px;overflow:hidden;
-    box-shadow:0 30px 80px rgba(0,0,0,.55);user-select:none;}
-  .slide{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;gap:1.1rem;
-    padding:2.4rem 2rem 3.2rem;opacity:0;pointer-events:none;transition:opacity .4s ease;}
+  .picker{display:flex;flex-wrap:wrap;gap:.4rem;justify-content:center;max-width:34rem;}
+  .picker button{background:#23201b;color:#cabfb0;border:1px solid #393429;border-radius:999px;padding:.4rem .8rem;font-family:var(--body);font-weight:700;font-size:.78rem;cursor:pointer;}
+  .picker button.on{background:var(--clay);color:#fff;border-color:var(--clay);}
+  .stage{position:relative;width:min(430px,96vw);aspect-ratio:9/16;max-height:84vh;border-radius:26px;overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.55);user-select:none;}
+  .slide{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;gap:1.1rem;padding:2.4rem 2rem 3.2rem;opacity:0;pointer-events:none;transition:opacity .4s ease;}
   .slide.on{opacity:1;}
   .slide .kick{font-family:var(--body);text-transform:uppercase;letter-spacing:.26em;font-size:.72rem;font-weight:800;opacity:0;}
   .slide .big{font-family:var(--display);font-weight:600;line-height:1.08;font-size:clamp(2rem,8vw,2.9rem);opacity:0;}
@@ -32,7 +32,6 @@
   .slide.on .sub{animation:rise .7s .45s forwards;}
   .slide.on .ref{animation:rise .7s .6s forwards;}
   @keyframes rise{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:none;}}
-  /* themes */
   .t-ink{background:radial-gradient(120% 100% at 50% 0,#2c2620,#15120e);color:#F4ECE0;}
   .t-ink .kick{color:var(--clay);}
   .t-clay{background:linear-gradient(160deg,#C0603A,#8f4327);color:#fff;}
@@ -41,10 +40,7 @@
   .t-paper .kick{color:var(--clay-deep);} .t-paper .ref{color:var(--sage-deep);}
   .t-sage{background:linear-gradient(160deg,#6E7B59,#4c563e);color:#f4f6ef;}
   .t-sage .kick{color:#dbe6c8;} .t-sage .ref{color:#e7eedd;}
-  .brandline{position:absolute;left:0;right:0;bottom:1.3rem;text-align:center;font-family:var(--display);
-    font-weight:600;font-size:1rem;letter-spacing:.02em;opacity:.92;}
   .stage .wave{position:absolute;left:50%;transform:translateX(-50%);bottom:2.6rem;width:48px;opacity:.9;}
-  /* story progress bars */
   .bars{position:absolute;top:.9rem;left:.9rem;right:.9rem;display:flex;gap:.35rem;z-index:5;}
   .bar{flex:1;height:3px;border-radius:3px;background:rgba(255,255,255,.32);overflow:hidden;}
   .bar.dark{background:rgba(0,0,0,.18);}
@@ -59,13 +55,13 @@
 </head>
 <body>
 
-<p class="hint"><b>Prototype share-card.</b> It auto-plays like an Instagram/TikTok story. Tap the right side for next, left for back. To post: screen-record this full-screen on your phone.</p>
+<p class="hint"><b>Share-card studio.</b> Pick an article below — it auto-plays like an Instagram/TikTok story (tap right = next, left = back). To post: screen-record it full-screen on your phone, or add <code style="color:#cabfb0">?a=slug</code> to the URL.</p>
+<div class="picker" id="picker"></div>
 
 <div class="stage" id="stage">
   <div class="bars" id="bars"></div>
   <div class="tap l" id="prev" aria-label="Previous"></div>
   <div class="tap r" id="next" aria-label="Next"></div>
-  <!-- slides injected -->
 </div>
 
 <div class="ctrls">
@@ -74,61 +70,108 @@
 </div>
 
 <script>
-var SLIDES=[
-  {theme:"t-ink",  kick:"Jesus Rest", big:"The gospel the world forgot.", sub:"Most of us were handed a counterfeit. Here’s the real one — in 20 seconds."},
-  {theme:"t-clay", kick:"What religion says", big:"“Do more. Try harder. Measure up.”", sub:"Every system of man runs on the same fuel: your performance."},
-  {theme:"t-ink",  kick:"What the cross said", big:"One word: “It is finished.”", ref:"John 19:30"},
-  {theme:"t-paper",kick:"The forgotten truth", big:"You weren’t saved to perform —", sub:"you were saved to receive. Christ already did it all."},
-  {theme:"t-sage", kick:"The whole gospel", big:"Christ in you, the hope of glory.", ref:"Colossians 1:27"},
-  {theme:"t-clay", kick:"Read the full letter", big:"JesusRest.com", sub:"“The Gospel the World Forgot” — free to read.", brand:true}
-];
+var SETS={
+  "the-model":{label:"The Model",slides:[
+    {theme:"t-ink",kick:"Jesus Rest",big:"You rest in two works.",sub:"The model that dissolves every tension in the Christian life."},
+    {theme:"t-clay",kick:"Work one — it saves you",big:"His finished work.",sub:"Salvation is done. You add nothing to it.",ref:"Ephesians 2:8–9"},
+    {theme:"t-paper",kick:"Work two — it bears fruit",big:"His ongoing work, in you.",sub:"When you long to do right, it’s Christ working in you.",ref:"Philippians 2:13"},
+    {theme:"t-sage",kick:"If you don’t yield",big:"Loving discipline —",sub:"never the loss of salvation.",ref:"Hebrews 12:6 · Romans 8:1"},
+    {theme:"t-ink",kick:"If you do",big:"Reward.",sub:"And you’re saved either way. Salvation is never on the table.",ref:"1 Corinthians 3:14"},
+    {theme:"t-clay",kick:"See the whole model",big:"JesusRest.com",sub:"The Bible Method → resting in two works.",brand:true}
+  ]},
+  "gospel":{label:"The Gospel",slides:[
+    {theme:"t-ink",kick:"Jesus Rest",big:"The gospel the world forgot.",sub:"Most of us were handed a counterfeit. Here’s the real one."},
+    {theme:"t-clay",kick:"What religion says",big:"“Do more. Try harder.”",sub:"Every system of man runs on the same fuel: your performance."},
+    {theme:"t-ink",kick:"What the cross said",big:"One word: “It is finished.”",ref:"John 19:30"},
+    {theme:"t-paper",kick:"The forgotten truth",big:"You weren’t saved to perform —",sub:"you were saved to receive. Christ already did it all."},
+    {theme:"t-sage",kick:"The whole gospel",big:"Christ in you, the hope of glory.",ref:"Colossians 1:27"},
+    {theme:"t-clay",kick:"Read the full letter",big:"JesusRest.com",sub:"“The Gospel the World Forgot” — free to read.",brand:true}
+  ]},
+  "satisfied":{label:"Works of Jesus",slides:[
+    {theme:"t-ink",kick:"Jesus Rest",big:"Are you satisfied with the works of Jesus?",sub:"A question that exposes where your hope really rests."},
+    {theme:"t-clay",kick:"“Be ye perfect”",big:"Not a command to perform —",sub:"an invitation into His perfection.",ref:"Matthew 5:48"},
+    {theme:"t-paper",kick:"The real question",big:"Whose works are you trusting?",sub:"Yours… or His?"},
+    {theme:"t-sage",kick:"The gospel",big:"His one offering is enough.",ref:"Hebrews 10:14"},
+    {theme:"t-clay",kick:"Read the full letter",big:"JesusRest.com",brand:true}
+  ]},
+  "sabbath":{label:"The Sabbath",slides:[
+    {theme:"t-ink",kick:"Jesus Rest",big:"Rethinking the Sabbath.",sub:"What if the rest was never mainly about a day?"},
+    {theme:"t-clay",kick:"The shadow",big:"“A shadow of things to come…”",ref:"Colossians 2:16–17"},
+    {theme:"t-paper",kick:"The substance",big:"“…but the body is of Christ.”",sub:"The shadow pointed to a Person."},
+    {theme:"t-sage",kick:"True rest",big:"He is your Sabbath.",ref:"Hebrews 4:9–10"},
+    {theme:"t-clay",kick:"Read the full study",big:"JesusRest.com",brand:true}
+  ]},
+  "qa":{label:"Under the Law?",slides:[
+    {theme:"t-ink",kick:"Jesus Rest",big:"Are Christians still under the law?",sub:"Honest questions. Bible-only answers."},
+    {theme:"t-clay",kick:"The short answer",big:"You died to the law —",sub:"through the body of Christ.",ref:"Romans 7:4"},
+    {theme:"t-paper",kick:"But can I still sin?",big:"Yes — yet no condemnation.",ref:"Romans 8:1"},
+    {theme:"t-sage",kick:"So what remains?",big:"One law: love.",sub:"And Christ keeps it in you.",ref:"John 13:34"},
+    {theme:"t-clay",kick:"Read the answers",big:"JesusRest.com",brand:true}
+  ]}
+};
+var ORDER=["the-model","gospel","satisfied","sabbath","qa"];
 var DUR=4200;
-var stage=document.getElementById('stage'), bars=document.getElementById('bars');
-var idx=0, timer=null, start=0, remain=DUR, paused=false;
 
-// build slides + bars
-SLIDES.forEach(function(s,i){
-  var d=document.createElement('div'); d.className='slide '+s.theme; d.dataset.i=i;
-  var dark = (s.theme==='t-paper');
-  d.innerHTML =
-    (s.kick?'<div class="kick">'+s.kick+'</div>':'')+
-    '<div class="big">'+s.big+'</div>'+
-    (s.sub?'<div class="sub">'+s.sub+'</div>':'')+
-    (s.ref?'<div class="ref">— '+s.ref+'</div>':'')+
-    (s.brand?'<svg class="wave" viewBox="0 0 64 64" fill="none"><path d="M2 40c6 0 10-8 16-8s10 8 16 8 10-8 16-8 10 8 16 8" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>':'');
-  stage.appendChild(d);
-  var b=document.createElement('div'); b.className='bar'+(dark?' dark':''); b.innerHTML='<i></i>'; bars.appendChild(b);
-});
-var slides=[].slice.call(stage.querySelectorAll('.slide'));
-var fills=[].slice.call(bars.querySelectorAll('.bar i'));
+var stage=document.getElementById('stage'), bars=document.getElementById('bars'), picker=document.getElementById('picker');
+var slides=[], fills=[], idx=0, timer=null, start=0, remain=DUR, paused=false, cur="the-model";
 
+function esc(s){return s;}
+function buildSlides(){
+  // clear
+  stage.querySelectorAll('.slide').forEach(function(n){n.remove();});
+  bars.innerHTML='';
+  var SL=SETS[cur].slides;
+  SL.forEach(function(s){
+    var d=document.createElement('div'); d.className='slide '+s.theme;
+    d.innerHTML=(s.kick?'<div class="kick">'+s.kick+'</div>':'')+
+      '<div class="big">'+s.big+'</div>'+
+      (s.sub?'<div class="sub">'+s.sub+'</div>':'')+
+      (s.ref?'<div class="ref">— '+s.ref+'</div>':'')+
+      (s.brand?'<svg class="wave" viewBox="0 0 64 64" fill="none"><path d="M2 40c6 0 10-8 16-8s10 8 16 8 10-8 16-8 10 8 16 8" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>':'');
+    stage.appendChild(d);
+    var b=document.createElement('div'); b.className='bar'+(s.theme==='t-paper'?' dark':''); b.innerHTML='<i></i>'; bars.appendChild(b);
+  });
+  slides=[].slice.call(stage.querySelectorAll('.slide'));
+  fills=[].slice.call(bars.querySelectorAll('.bar i'));
+}
 function show(n){
-  if(n<0)n=0; if(n>=SLIDES.length){ stop(); return; }
+  if(n<0)n=0; if(n>=slides.length){stop();return;}
   idx=n;
-  slides.forEach(function(s,i){ s.classList.toggle('on', i===idx); });
-  fills.forEach(function(f,i){ f.style.transition='none'; f.style.width = i<idx?'100%':(i===idx?'0':'0'); });
-  // restart bar for current
+  slides.forEach(function(s,i){s.classList.toggle('on',i===idx);});
+  fills.forEach(function(f,i){f.style.transition='none';f.style.width=i<idx?'100%':'0';});
   remain=DUR; runBar();
 }
 function runBar(){
-  var f=fills[idx]; if(!f)return;
-  void f.offsetWidth;
+  var f=fills[idx]; if(!f)return; void f.offsetWidth;
   f.style.transition='width '+remain+'ms linear'; f.style.width='100%';
-  start=Date.now();
-  clearTimeout(timer); timer=setTimeout(function(){ show(idx+1); }, remain);
+  start=Date.now(); clearTimeout(timer); timer=setTimeout(function(){show(idx+1);},remain);
 }
-function stop(){ clearTimeout(timer); }
+function stop(){clearTimeout(timer);}
 function pauseToggle(){
-  paused=!paused;
-  document.getElementById('pause').textContent = paused?'▶ Play':'⏸ Pause';
-  if(paused){ clearTimeout(timer); var f=fills[idx]; var w=getComputedStyle(f).width; f.style.transition='none'; f.style.width=w; remain=Math.max(300, remain-(Date.now()-start)); }
-  else { runBar(); }
+  paused=!paused; document.getElementById('pause').textContent=paused?'▶ Play':'⏸ Pause';
+  if(paused){clearTimeout(timer);var f=fills[idx];var w=getComputedStyle(f).width;f.style.transition='none';f.style.width=w;remain=Math.max(300,remain-(Date.now()-start));}
+  else{runBar();}
 }
-document.getElementById('next').addEventListener('click',function(){ paused=false;document.getElementById('pause').textContent='⏸ Pause'; show(idx+1); });
-document.getElementById('prev').addEventListener('click',function(){ paused=false;document.getElementById('pause').textContent='⏸ Pause'; show(idx-1); });
-document.getElementById('replay').addEventListener('click',function(){ paused=false;document.getElementById('pause').textContent='⏸ Pause'; show(0); });
+function resetPause(){paused=false;document.getElementById('pause').textContent='⏸ Pause';}
+function load(slug,push){
+  if(!SETS[slug])slug=ORDER[0];
+  cur=slug; buildSlides(); resetPause(); show(0);
+  picker.querySelectorAll('button').forEach(function(b){b.classList.toggle('on',b.dataset.s===slug);});
+  document.title="Share Card — "+SETS[slug].label+" | Jesus Rest";
+  if(push&&history.replaceState)history.replaceState(null,'','?a='+slug);
+}
+
+// picker
+picker.innerHTML=ORDER.map(function(s){return '<button data-s="'+s+'">'+SETS[s].label+'</button>';}).join('');
+picker.addEventListener('click',function(e){var b=e.target.closest('button');if(b)load(b.dataset.s,true);});
+
+document.getElementById('next').addEventListener('click',function(){resetPause();show(idx+1);});
+document.getElementById('prev').addEventListener('click',function(){resetPause();show(idx-1);});
+document.getElementById('replay').addEventListener('click',function(){resetPause();show(0);});
 document.getElementById('pause').addEventListener('click',pauseToggle);
-show(0);
+
+var a=new URLSearchParams(location.search).get('a');
+load(a&&SETS[a]?a:ORDER[0],false);
 </script>
 </body>
 </html>

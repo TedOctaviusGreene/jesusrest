@@ -198,5 +198,15 @@
     }
   });
 
+  // Deep-link: open search prefilled from ?q= (powers the SearchAction schema)
+  document.addEventListener('DOMContentLoaded', function () {
+    var q = new URLSearchParams(location.search).get('q');
+    if (!q) return;
+    open();
+    var i = document.getElementById('jr-q');
+    if (i) i.value = q;
+    ensureFuse().then(build).then(function () { run(q); });
+  });
+
   window.JRSearch = { open: open, close: close };
 })();
