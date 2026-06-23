@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light">
+<title>Share Card — The Gospel the World Forgot | Jesus Rest</title>
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Mulish:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{--clay:#C0603A;--clay-deep:#9F4C2C;--ink:#211e1a;--paper:#FBF7F1;--sage:#6E7B59;--sage-deep:#586348;
+    --display:'Fraunces',Georgia,serif;--body:'Mulish',system-ui,sans-serif;}
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{background:#15130f;font-family:var(--body);min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1rem;padding:1rem;}
+  .hint{color:#9a948a;font-size:.85rem;text-align:center;max-width:24rem;}
+  .hint b{color:#d9cfc0;}
+  /* 9:16 stage */
+  .stage{position:relative;width:min(430px,96vw);aspect-ratio:9/16;max-height:92vh;border-radius:26px;overflow:hidden;
+    box-shadow:0 30px 80px rgba(0,0,0,.55);user-select:none;}
+  .slide{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;gap:1.1rem;
+    padding:2.4rem 2rem 3.2rem;opacity:0;pointer-events:none;transition:opacity .4s ease;}
+  .slide.on{opacity:1;}
+  .slide .kick{font-family:var(--body);text-transform:uppercase;letter-spacing:.26em;font-size:.72rem;font-weight:800;opacity:0;}
+  .slide .big{font-family:var(--display);font-weight:600;line-height:1.08;font-size:clamp(2rem,8vw,2.9rem);opacity:0;}
+  .slide .sub{font-family:var(--body);font-size:1.05rem;line-height:1.5;opacity:0;}
+  .slide .ref{font-family:var(--display);font-style:italic;font-size:1.05rem;opacity:0;}
+  .slide.on .kick{animation:rise .6s .05s forwards;}
+  .slide.on .big{animation:rise .7s .22s forwards;}
+  .slide.on .sub{animation:rise .7s .45s forwards;}
+  .slide.on .ref{animation:rise .7s .6s forwards;}
+  @keyframes rise{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:none;}}
+  /* themes */
+  .t-ink{background:radial-gradient(120% 100% at 50% 0,#2c2620,#15120e);color:#F4ECE0;}
+  .t-ink .kick{color:var(--clay);}
+  .t-clay{background:linear-gradient(160deg,#C0603A,#8f4327);color:#fff;}
+  .t-clay .kick{color:#ffe6d6;} .t-clay .ref{color:#ffe0cf;}
+  .t-paper{background:linear-gradient(160deg,#FBF7F1,#F0E4D3);color:var(--ink);}
+  .t-paper .kick{color:var(--clay-deep);} .t-paper .ref{color:var(--sage-deep);}
+  .t-sage{background:linear-gradient(160deg,#6E7B59,#4c563e);color:#f4f6ef;}
+  .t-sage .kick{color:#dbe6c8;} .t-sage .ref{color:#e7eedd;}
+  .brandline{position:absolute;left:0;right:0;bottom:1.3rem;text-align:center;font-family:var(--display);
+    font-weight:600;font-size:1rem;letter-spacing:.02em;opacity:.92;}
+  .stage .wave{position:absolute;left:50%;transform:translateX(-50%);bottom:2.6rem;width:48px;opacity:.9;}
+  /* story progress bars */
+  .bars{position:absolute;top:.9rem;left:.9rem;right:.9rem;display:flex;gap:.35rem;z-index:5;}
+  .bar{flex:1;height:3px;border-radius:3px;background:rgba(255,255,255,.32);overflow:hidden;}
+  .bar.dark{background:rgba(0,0,0,.18);}
+  .bar i{display:block;height:100%;width:0;background:#fff;}
+  .bar.dark i{background:var(--clay);}
+  .tap{position:absolute;top:0;bottom:0;width:38%;z-index:4;cursor:pointer;}
+  .tap.l{left:0;} .tap.r{right:0;width:62%;}
+  .ctrls{display:flex;gap:.6rem;}
+  .ctrls button{background:#23201b;color:#d9cfc0;border:1px solid #393429;border-radius:999px;padding:.5rem 1rem;font-family:var(--body);font-weight:700;font-size:.85rem;cursor:pointer;}
+  .ctrls button:hover{border-color:var(--clay);color:#fff;}
+</style>
+</head>
+<body>
+
+<p class="hint"><b>Prototype share-card.</b> It auto-plays like an Instagram/TikTok story. Tap the right side for next, left for back. To post: screen-record this full-screen on your phone.</p>
+
+<div class="stage" id="stage">
+  <div class="bars" id="bars"></div>
+  <div class="tap l" id="prev" aria-label="Previous"></div>
+  <div class="tap r" id="next" aria-label="Next"></div>
+  <!-- slides injected -->
+</div>
+
+<div class="ctrls">
+  <button id="replay">↺ Replay</button>
+  <button id="pause">⏸ Pause</button>
+</div>
+
+<script>
+var SLIDES=[
+  {theme:"t-ink",  kick:"Jesus Rest", big:"The gospel the world forgot.", sub:"Most of us were handed a counterfeit. Here’s the real one — in 20 seconds."},
+  {theme:"t-clay", kick:"What religion says", big:"“Do more. Try harder. Measure up.”", sub:"Every system of man runs on the same fuel: your performance."},
+  {theme:"t-ink",  kick:"What the cross said", big:"One word: “It is finished.”", ref:"John 19:30"},
+  {theme:"t-paper",kick:"The forgotten truth", big:"You weren’t saved to perform —", sub:"you were saved to receive. Christ already did it all."},
+  {theme:"t-sage", kick:"The whole gospel", big:"Christ in you, the hope of glory.", ref:"Colossians 1:27"},
+  {theme:"t-clay", kick:"Read the full letter", big:"JesusRest.com", sub:"“The Gospel the World Forgot” — free to read.", brand:true}
+];
+var DUR=4200;
+var stage=document.getElementById('stage'), bars=document.getElementById('bars');
+var idx=0, timer=null, start=0, remain=DUR, paused=false;
+
+// build slides + bars
+SLIDES.forEach(function(s,i){
+  var d=document.createElement('div'); d.className='slide '+s.theme; d.dataset.i=i;
+  var dark = (s.theme==='t-paper');
+  d.innerHTML =
+    (s.kick?'<div class="kick">'+s.kick+'</div>':'')+
+    '<div class="big">'+s.big+'</div>'+
+    (s.sub?'<div class="sub">'+s.sub+'</div>':'')+
+    (s.ref?'<div class="ref">— '+s.ref+'</div>':'')+
+    (s.brand?'<svg class="wave" viewBox="0 0 64 64" fill="none"><path d="M2 40c6 0 10-8 16-8s10 8 16 8 10-8 16-8 10 8 16 8" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>':'');
+  stage.appendChild(d);
+  var b=document.createElement('div'); b.className='bar'+(dark?' dark':''); b.innerHTML='<i></i>'; bars.appendChild(b);
+});
+var slides=[].slice.call(stage.querySelectorAll('.slide'));
+var fills=[].slice.call(bars.querySelectorAll('.bar i'));
+
+function show(n){
+  if(n<0)n=0; if(n>=SLIDES.length){ stop(); return; }
+  idx=n;
+  slides.forEach(function(s,i){ s.classList.toggle('on', i===idx); });
+  fills.forEach(function(f,i){ f.style.transition='none'; f.style.width = i<idx?'100%':(i===idx?'0':'0'); });
+  // restart bar for current
+  remain=DUR; runBar();
+}
+function runBar(){
+  var f=fills[idx]; if(!f)return;
+  void f.offsetWidth;
+  f.style.transition='width '+remain+'ms linear'; f.style.width='100%';
+  start=Date.now();
+  clearTimeout(timer); timer=setTimeout(function(){ show(idx+1); }, remain);
+}
+function stop(){ clearTimeout(timer); }
+function pauseToggle(){
+  paused=!paused;
+  document.getElementById('pause').textContent = paused?'▶ Play':'⏸ Pause';
+  if(paused){ clearTimeout(timer); var f=fills[idx]; var w=getComputedStyle(f).width; f.style.transition='none'; f.style.width=w; remain=Math.max(300, remain-(Date.now()-start)); }
+  else { runBar(); }
+}
+document.getElementById('next').addEventListener('click',function(){ paused=false;document.getElementById('pause').textContent='⏸ Pause'; show(idx+1); });
+document.getElementById('prev').addEventListener('click',function(){ paused=false;document.getElementById('pause').textContent='⏸ Pause'; show(idx-1); });
+document.getElementById('replay').addEventListener('click',function(){ paused=false;document.getElementById('pause').textContent='⏸ Pause'; show(0); });
+document.getElementById('pause').addEventListener('click',pauseToggle);
+show(0);
+</script>
+</body>
+</html>

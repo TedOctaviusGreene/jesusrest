@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light">
+<title>Two Ways to Live — Performance Religion vs. Christ in You | Jesus Rest</title>
+<link rel="canonical" href="https://jesusrest.com/compare.html">
+<meta name="description" content="An interactive, Bible-only comparison of two systems of Christianity — performance-based religion versus the indwelling life of Christ — tested by the Bible's own rule: letting Scripture interpret Scripture.">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<meta property="og:title" content="Two Ways to Live — Performance Religion vs. Christ in You">
+<meta property="og:description" content="Toggle between two systems of the Christian life and watch Scripture interpret itself. An interactive study from Jesus Rest.">
+<meta property="og:image" content="https://jesusrest.com/assets/preview.jpg">
+<meta property="og:type" content="article">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=Mulish:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#FBF7F1; --paper2:#F3EADD; --ink:#2B2722; --ink-soft:#5E574E; --line:#E7DBCB;
+  --clay:#C0603A; --clay-deep:#9F4C2C; --sage:#6E7B59; --sage-deep:#586348;
+  --slate:#42505B; --slate-deep:#2F3A43;
+  --display:'Fraunces',Georgia,serif; --body:'Mulish',system-ui,sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:1.1rem;line-height:1.7;-webkit-font-smoothing:antialiased;}
+h1,h2,h3{font-family:var(--display);font-weight:600;line-height:1.13;letter-spacing:-.01em;}
+.container{max-width:1000px;margin:0 auto;padding:0 1.5rem;}
+.eyebrow{font-family:var(--body);text-transform:uppercase;letter-spacing:.28em;font-size:.74rem;font-weight:700;color:var(--clay);}
+
+/* header */
+.site-header{position:sticky;top:0;z-index:50;background:rgba(251,247,241,.9);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);}
+.nav{max-width:1000px;margin:0 auto;padding:.85rem 1.5rem;display:flex;align-items:center;justify-content:space-between;}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;}
+.brand svg{width:32px;height:32px;color:var(--clay);}
+.brand b{font-family:var(--display);font-weight:600;font-size:1.4rem;color:var(--ink);}
+.brand b span{color:var(--clay);}
+.nav-links a{font-weight:600;font-size:.95rem;color:var(--ink-soft);text-decoration:none;margin-left:1.4rem;}
+.nav-links a:hover{color:var(--clay);}
+
+/* hero */
+.hero{text-align:center;padding:5rem 1.5rem 2.5rem;}
+.hero h1{font-size:clamp(2.5rem,6vw,4rem);margin:.9rem auto 1rem;max-width:16ch;}
+.hero p{font-size:1.25rem;color:var(--ink-soft);max-width:38rem;margin:0 auto;}
+
+/* ===== Interactive explorer ===== */
+.explorer{padding:2rem 0 1rem;}
+.switch{display:flex;justify-content:center;gap:.4rem;background:#fff;border:1px solid var(--line);border-radius:999px;padding:.4rem;max-width:520px;margin:0 auto 2rem;}
+.switch button{flex:1;border:0;cursor:pointer;border-radius:999px;padding:.85rem 1rem;font-family:var(--body);font-weight:800;font-size:1rem;color:var(--ink-soft);background:transparent;transition:.25s;}
+.switch button.active{color:#fff;}
+.switch button[data-sys="law"].active{background:var(--slate);}
+.switch button[data-sys="christ"].active{background:var(--clay);}
+
+.stage{position:relative;border-radius:22px;overflow:hidden;border:1px solid var(--line);box-shadow:0 20px 50px rgba(43,39,34,.10);transition:background .5s ease;}
+.stage.law{background:linear-gradient(160deg,#4a5863,#2f3a43);}
+.stage.christ{background:linear-gradient(160deg,#fff7ef,#f5e7d7);}
+.stage-inner{padding:2.6rem 2rem;transition:opacity .3s ease;}
+.stage.law .stage-inner{color:#EAF0F4;}
+.stage.christ .stage-inner{color:var(--ink);}
+.stage .tag{font-family:var(--body);text-transform:uppercase;letter-spacing:.2em;font-size:.72rem;font-weight:800;opacity:.85;}
+.stage.law .tag{color:#BFD2DE;}
+.stage.christ .tag{color:var(--clay);}
+.stage h2{font-size:clamp(2rem,4.5vw,2.9rem);margin:.5rem 0 1.4rem;}
+.rows{display:grid;gap:.1rem;}
+.row{display:grid;grid-template-columns:minmax(150px,210px) 1fr;gap:1rem;padding:.95rem 0;border-top:1px solid rgba(255,255,255,.16);}
+.stage.christ .row{border-top:1px solid rgba(43,39,34,.10);}
+.row .k{font-family:var(--body);font-weight:800;font-size:.82rem;text-transform:uppercase;letter-spacing:.08em;opacity:.7;align-self:center;}
+.row .v{font-family:var(--display);font-size:1.28rem;line-height:1.3;}
+.rowsfade{opacity:0;transform:translateY(8px);}
+.verse-foot{margin-top:1.6rem;font-family:var(--display);font-style:italic;font-size:1.2rem;}
+.stage.law .verse-foot{color:#CFDDE6;}
+.stage.christ .verse-foot{color:var(--sage-deep);}
+
+/* ===== side-by-side ===== */
+.section{padding:4.5rem 0;}
+.section.alt{background:var(--paper2);}
+.sec-head{text-align:center;margin-bottom:2.6rem;}
+.sec-head h2{font-size:clamp(1.9rem,4vw,2.6rem);}
+.sec-head p{color:var(--ink-soft);max-width:34rem;margin:.7rem auto 0;}
+.vs{display:grid;grid-template-columns:1fr 1fr;gap:1.1rem;align-items:stretch;}
+.col{border-radius:18px;padding:1.6rem 1.5rem;border:1px solid var(--line);}
+.col.law{background:#eef2f5;}
+.col.christ{background:#fff;}
+.col h3{font-size:1.45rem;margin-bottom:.2rem;}
+.col.law h3{color:var(--slate-deep);}
+.col.christ h3{color:var(--clay-deep);}
+.col .sub{font-size:.8rem;text-transform:uppercase;letter-spacing:.12em;font-weight:800;color:var(--ink-soft);margin-bottom:1.1rem;}
+.col ul{list-style:none;}
+.col li{padding:.7rem 0;border-top:1px dashed var(--line);font-size:1.02rem;display:flex;gap:.6rem;}
+.col li:first-child{border-top:0;}
+.col li .ic{flex:0 0 auto;width:20px;height:20px;margin-top:.18rem;}
+.col.law .ic{color:#8aa0ae;} .col.christ .ic{color:var(--sage);}
+
+/* ===== Bible method ===== */
+.method-intro{max-width:42rem;margin:0 auto 2.4rem;text-align:center;color:var(--ink-soft);font-size:1.15rem;}
+.principle{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;margin-bottom:2.6rem;}
+.principle div{background:#fff;border:1px solid var(--line);border-radius:14px;padding:1rem 1.3rem;max-width:300px;}
+.principle b{font-family:var(--display);font-style:italic;font-size:1.12rem;color:var(--ink);display:block;margin-bottom:.3rem;}
+.principle span{font-size:.78rem;text-transform:uppercase;letter-spacing:.12em;font-weight:800;color:var(--clay);}
+
+.qa{max-width:760px;margin:0 auto;}
+.q{background:#fff;border:1px solid var(--line);border-radius:16px;margin-bottom:1rem;overflow:hidden;}
+.q-head{width:100%;text-align:left;border:0;background:transparent;cursor:pointer;padding:1.3rem 1.4rem;display:flex;justify-content:space-between;align-items:center;gap:1rem;font-family:var(--display);font-weight:600;font-size:1.25rem;color:var(--ink);}
+.q-head .plus{flex:0 0 auto;width:26px;height:26px;border-radius:50%;background:var(--paper2);color:var(--clay);display:grid;place-items:center;font-family:var(--body);font-weight:800;transition:.25s;}
+.q.open .plus{background:var(--clay);color:#fff;transform:rotate(45deg);}
+.q-body{max-height:0;overflow:hidden;transition:max-height .45s ease;}
+.q-body-in{padding:0 1.4rem 1.4rem;}
+.verse{border-left:3px solid var(--sage);background:var(--paper);border-radius:0 10px 10px 0;padding:.7rem .9rem;margin:.6rem 0;opacity:0;transform:translateX(-8px);transition:.4s;}
+.verse.show{opacity:1;transform:none;}
+.verse .t{font-family:var(--display);font-style:italic;font-size:1.1rem;color:var(--ink);}
+.verse .r{font-size:.72rem;text-transform:uppercase;letter-spacing:.14em;font-weight:800;color:var(--sage-deep);margin-top:.3rem;}
+.concl{margin-top:1rem;padding:1rem 1.1rem;background:linear-gradient(135deg,#fff4ea,#f6e7d6);border-radius:12px;font-family:var(--display);font-size:1.18rem;color:var(--ink);opacity:0;transition:.5s .3s;}
+.concl.show{opacity:1;}
+.concl b{color:var(--clay-deep);}
+
+/* cta + footer */
+.cta-band{text-align:center;padding:4.5rem 1.5rem;background:radial-gradient(800px 360px at 50% 120%,#FFF4E9,var(--paper2));}
+.cta-band h2{font-size:clamp(1.9rem,4vw,2.6rem);margin-bottom:1rem;}
+.cta-band p{color:var(--ink-soft);max-width:34rem;margin:0 auto 1.8rem;}
+.btn{display:inline-block;font-weight:700;text-decoration:none;padding:.85rem 1.7rem;border-radius:999px;background:var(--clay);color:#fff;box-shadow:0 8px 22px rgba(192,96,58,.25);transition:.2s;}
+.btn:hover{background:var(--clay-deep);transform:translateY(-2px);}
+.foot{background:var(--ink);color:#CFC6B8;text-align:center;padding:2.6rem 1.5rem;font-size:.92rem;}
+.foot a{color:#E9E2D7;text-decoration:none;margin:0 .7rem;}
+
+.reveal{opacity:0;transform:translateY(20px);transition:.7s ease;}
+.reveal.in{opacity:1;transform:none;}
+@media(max-width:720px){
+  .vs{grid-template-columns:1fr;} .row{grid-template-columns:1fr;gap:.2rem;}
+  .nav-links{display:none;}
+}
+@media(prefers-reduced-motion:reduce){.reveal,.verse,.concl,.rowsfade{opacity:1!important;transform:none!important;transition:none;}}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav">
+    <a class="brand" href="index.html">
+      <svg viewBox="0 0 64 64" fill="none"><path d="M2 40c6 0 10-8 16-8s10 8 16 8 10-8 16-8 10 8 16 8" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <b>Jesus <span>Rest</span></b>
+    </a>
+    <div class="nav-links">
+      <a href="articles.html">Articles</a>
+      <a href="compare.html">Two Ways</a>
+      <a href="donate.html">Give</a>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <p class="eyebrow">An Interactive Study</p>
+  <h1>Two ways to live the Christian life.</h1>
+  <p>Almost every believer is living by one of two systems — often without knowing which. Toggle between them, see them side by side, then let Scripture itself decide.</p>
+</section>
+
+<!-- EXPLORER -->
+<section class="explorer">
+  <div class="container">
+    <div class="switch" role="tablist" aria-label="Choose a system">
+      <button data-sys="law" role="tab">The Performance System</button>
+      <button data-sys="christ" class="active" role="tab">Christ in You</button>
+    </div>
+    <div class="stage christ" id="stage">
+      <div class="stage-inner" id="stageInner"></div>
+    </div>
+    <p style="text-align:center;color:var(--ink-soft);font-size:.95rem;margin-top:1rem;">↑ Tap each system to feel the difference.</p>
+  </div>
+</section>
+
+<!-- SIDE BY SIDE -->
+<section class="section alt">
+  <div class="container">
+    <div class="sec-head reveal">
+      <p class="eyebrow">At a Glance</p>
+      <h2>The whole contrast, side by side</h2>
+      <p>The same questions. Two completely different answers — and only one gives rest.</p>
+    </div>
+    <div class="vs">
+      <div class="col law reveal">
+        <h3>Performance Religion</h3>
+        <div class="sub">Law · Effort · Fear</div>
+        <ul id="lawList"></ul>
+      </div>
+      <div class="col christ reveal">
+        <h3>Christ in You</h3>
+        <div class="sub">Grace · Union · Rest</div>
+        <ul id="christList"></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BIBLE METHOD -->
+<section class="section">
+  <div class="container">
+    <div class="sec-head reveal">
+      <p class="eyebrow">How We Decide</p>
+      <h2>Let the Bible interpret the Bible</h2>
+    </div>
+    <p class="method-intro reveal">We don’t settle this with a denomination’s tradition or one teacher’s opinion. Scripture sets its own rule of interpretation: it is not <em>private</em>, and it is understood by comparing Scripture with Scripture. So tap a question — and watch the answer built only from the Bible.</p>
+    <div class="principle reveal">
+      <div><b>“No prophecy of the scripture is of any private interpretation.”</b><span>2 Peter 1:20</span></div>
+      <div><b>“Comparing spiritual things with spiritual.”</b><span>1 Corinthians 2:13</span></div>
+    </div>
+    <div class="qa" id="qa"></div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <h2>Ready to live the second way?</h2>
+  <p>Every article on this site is here to help you stop performing and start abiding — Christ in you, the hope of glory.</p>
+  <a class="btn" href="articles.html">Explore the Articles →</a>
+</section>
+
+<footer class="foot">
+  <p>“Come unto Me, all ye that labour and are heavy laden, and I will give you rest.”</p>
+  <p style="margin-top:1rem;"><a href="index.html">Home</a><a href="articles.html">Articles</a><a href="donate.html">Give</a></p>
+  <p style="margin-top:1rem;opacity:.6;">© 2025 Jesus Rest · Christ in you, the hope of glory.</p>
+</footer>
+
+<script>
+var SYS = {
+  law: {
+    tag:"Law · Effort · Fear",
+    title:"The Performance System",
+    foot:"“…the letter killeth.” — 2 Corinthians 3:6",
+    rows:[
+      ["Who does the work?","You do. The whole weight rests on your shoulders."],
+      ["Your standing with God","Rises and falls with how well you perform."],
+      ["When you fail","Guilt, distance, and the fear you’ve lost His favor."],
+      ["What drives you","Pressure — earn acceptance, avoid punishment."],
+      ["Where it ends","Pride when you succeed, despair when you don’t. Never rest."]
+    ]
+  },
+  christ: {
+    tag:"Grace · Union · Rest",
+    title:"Christ in You",
+    foot:"“…but the spirit giveth life.” — 2 Corinthians 3:6",
+    rows:[
+      ["Who does the work?","Christ does — living His own life in and through you."],
+      ["Your standing with God","Fixed in Christ. Accepted before you do a thing."],
+      ["When you fail","No condemnation — a Father’s loving correction, never rejection."],
+      ["What drives you","Love. You obey because you already belong to Him."],
+      ["Where it ends","Freedom, power, and rest — and all the glory goes to Him."]
+    ]
+  }
+};
+
+function esc(s){return (s||"").replace(/[&<>]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;"}[c];});}
+
+function renderStage(key){
+  var s=SYS[key], stage=document.getElementById('stage'), inner=document.getElementById('stageInner');
+  inner.style.opacity=0;
+  setTimeout(function(){
+    stage.className='stage '+key;
+    inner.innerHTML='<div class="tag">'+esc(s.tag)+'</div><h2>'+esc(s.title)+'</h2><div class="rows">'+
+      s.rows.map(function(r){return '<div class="row rowsfade"><div class="k">'+esc(r[0])+'</div><div class="v">'+esc(r[1])+'</div></div>';}).join('')+
+      '</div><div class="verse-foot">'+esc(s.foot)+'</div>';
+    inner.style.opacity=1;
+    var rows=inner.querySelectorAll('.row');
+    rows.forEach(function(row,i){ setTimeout(function(){ row.classList.remove('rowsfade'); }, 80+i*70); });
+  },180);
+}
+document.querySelectorAll('.switch button').forEach(function(b){
+  b.addEventListener('click',function(){
+    document.querySelectorAll('.switch button').forEach(function(x){x.classList.remove('active');});
+    b.classList.add('active'); renderStage(b.dataset.sys);
+  });
+});
+renderStage('christ');
+
+// side-by-side lists
+(function(){
+  var x='<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>';
+  var c='<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg>';
+  document.getElementById('lawList').innerHTML = SYS.law.rows.map(function(r){return '<li>'+x+'<span><b>'+esc(r[0])+'</b><br>'+esc(r[1])+'</span></li>';}).join('');
+  document.getElementById('christList').innerHTML = SYS.christ.rows.map(function(r){return '<li>'+c+'<span><b>'+esc(r[0])+'</b><br>'+esc(r[1])+'</span></li>';}).join('');
+})();
+
+// Bible-method Q&A
+var QA=[
+  { q:"Who actually lives the Christian life — you, or Christ?",
+    verses:[
+      ["“I am crucified with Christ: nevertheless I live; yet not I, but Christ liveth in me.”","Galatians 2:20"],
+      ["“I am the vine, ye are the branches… without Me ye can do nothing.”","John 15:5"],
+      ["“For it is God which worketh in you both to will and to do of His good pleasure.”","Philippians 2:13"]
+    ],
+    c:"Scripture answers itself: <b>Christ lives it through you.</b> Your part is to abide and trust, not to manufacture the life by effort." },
+  { q:"Does my standing with God depend on my performance?",
+    verses:[
+      ["“There is therefore now no condemnation to them which are in Christ Jesus.”","Romans 8:1"],
+      ["“He hath made us accepted in the Beloved.”","Ephesians 1:6"],
+      ["“By one offering He hath perfected for ever them that are sanctified.”","Hebrews 10:14"]
+    ],
+    c:"Compared together, the verses are plain: your acceptance is <b>already perfected in Christ</b> — not earned daily by your record." },
+  { q:"Am I still under the law to be made righteous?",
+    verses:[
+      ["“For sin shall not have dominion over you: for ye are not under the law, but under grace.”","Romans 6:14"],
+      ["“For Christ is the end of the law for righteousness to every one that believeth.”","Romans 10:4"],
+      ["“If righteousness come by the law, then Christ is dead in vain.”","Galatians 2:21"]
+    ],
+    c:"Scripture interprets Scripture: <b>Christ is the end of the law for righteousness.</b> Returning to it for standing empties the cross of its meaning." },
+  { q:"Then is there any law left for the believer at all?",
+    verses:[
+      ["“A new commandment I give unto you, That ye love one another; as I have loved you, that ye also love one another.”","John 13:34"],
+      ["“Bear ye one another’s burdens, and so fulfil the law of Christ.”","Galatians 6:2"],
+      ["“Love worketh no ill to his neighbour: therefore love is the fulfilling of the law.”","Romans 13:10"]
+    ],
+    c:"Yes — <b>one law remains: the law of Christ, which is love.</b> But notice who keeps it: Christ Himself, loving through you. It is His commandment, fulfilled by His life in you — because on our own, we never could." }
+];
+(function(){
+  var wrap=document.getElementById('qa');
+  wrap.innerHTML=QA.map(function(item,i){
+    var verses=item.verses.map(function(v){return '<div class="verse"><div class="t">'+esc(v[0])+'</div><div class="r">'+esc(v[1])+'</div></div>';}).join('');
+    return '<div class="q" data-i="'+i+'"><button class="q-head"><span>'+esc(item.q)+'</span><span class="plus">+</span></button>'+
+      '<div class="q-body"><div class="q-body-in">'+verses+'<div class="concl">'+item.c+'</div></div></div></div>';
+  }).join('');
+  wrap.querySelectorAll('.q-head').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var q=btn.parentElement, body=q.querySelector('.q-body');
+      var isOpen=q.classList.contains('open');
+      if(isOpen){ q.classList.remove('open'); body.style.maxHeight=0;
+        q.querySelectorAll('.verse,.concl').forEach(function(e){e.classList.remove('show');}); return; }
+      q.classList.add('open');
+      body.style.maxHeight=body.firstElementChild.scrollHeight+40+'px';
+      var items=q.querySelectorAll('.verse');
+      items.forEach(function(v,n){ setTimeout(function(){ v.classList.add('show'); }, 120+n*220); });
+      setTimeout(function(){ var c=q.querySelector('.concl'); if(c)c.classList.add('show');
+        body.style.maxHeight=body.firstElementChild.scrollHeight+60+'px'; }, 120+items.length*220);
+    });
+  });
+})();
+
+// reveal on scroll
+(function(){
+  var els=document.querySelectorAll('.reveal');
+  if(!('IntersectionObserver'in window)){els.forEach(function(e){e.classList.add('in');});return;}
+  var io=new IntersectionObserver(function(en){en.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.12});
+  els.forEach(function(e){io.observe(e);});
+})();
+</script>
+</body>
+</html>
