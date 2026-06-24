@@ -128,6 +128,13 @@ window.JR_ARTICLES = [
     "featured": false
   },
   {
+    "file": "you-are-new-and-you-still-suffer.md",
+    "title": "You Are New, and You Still Suffer",
+    "category": "Christ in You",
+    "blurb": "Why the sickness, the struggle, and even the grave were never evidence against the new life in you — but exactly what it predicted.",
+    "featured": false
+  },
+  {
     "file": "youve-been-reading-the-wrong-evidence.md",
     "title": "You've Been Reading the Wrong Evidence",
     "category": "Grace & the Gospel",
