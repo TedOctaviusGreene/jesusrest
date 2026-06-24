@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light">
+
+  <title>Living Proof — Testimonies | Jesus Rest</title>
+  <link rel="canonical" href="https://jesusrest.com/testimonies.html">
+  <meta name="description" content="Living Proof — real testimonies of what Christ has done in ordinary lives. Read them, and share your own. Christ in you, the hope of glory.">
+  <meta name="author" content="Jesus Rest">
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <meta property="og:title" content="Living Proof — Testimonies | Jesus Rest">
+  <meta property="og:description" content="Real testimonies of what Christ has done. Read them, and share your own.">
+  <meta property="og:image" content="https://jesusrest.com/assets/preview.jpg">
+  <meta property="og:url" content="https://jesusrest.com/testimonies.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Living Proof — Testimonies | Jesus Rest">
+  <meta name="twitter:description" content="Real testimonies of what Christ has done. Read them, and share your own.">
+  <meta name="twitter:image" content="https://jesusrest.com/assets/preview.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Mulish:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a class="brand" href="index.html" aria-label="Jesus Rest home">
+      <svg class="wave" viewBox="0 0 64 64" fill="none" aria-hidden="true"><path d="M2 40c6 0 10-8 16-8s10 8 16 8 10-8 16-8 10 8 16 8" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span class="wordmark">Jesus <span>Rest</span></span>
+    </a>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+    <div class="nav-links">
+      <a href="articles.html">Articles</a>
+      <a href="compare.html">Two Ways</a>
+      <a href="bible-method.html">The Method</a>
+      <a href="testimonies.html">Testimonies</a>
+      <a href="podcast.html">Podcast</a>
+      <a href="donate.html" class="nav-donate">Give</a>
+    </div>
+  </nav>
+</header>
+
+<section class="hero" style="padding:4.5rem 1.5rem 2.5rem;">
+  <p class="eyebrow reveal">Living Proof</p>
+  <h1 class="reveal" style="font-size:clamp(2.3rem,5vw,3.6rem);">What Christ has done.</h1>
+  <p class="lead reveal">Not arguments — <em>lives</em>. Ordinary people, and the difference the indwelling Christ has made in them. Read them. And if He has done something in you, add your voice.</p>
+  <p class="verse reveal" style="margin-top:1.4rem;font-family:var(--display);font-style:italic;color:var(--sage-deep);">“They overcame him by the blood of the Lamb, and by the word of their testimony.” — Revelation 12:11</p>
+</section>
+
+<main class="container" style="padding-bottom:5rem;">
+  <section class="jr-c-section">
+    <div class="jr-c-section-head">
+      <p class="eyebrow">Share Yours</p>
+      <h2>Add your testimony</h2>
+      <p class="jr-c-soft" style="max-width:34rem;margin:.4rem auto 0;">Sign in, and tell us in a few honest sentences what Christ has done. Every testimony is gently checked for kindness before it appears.</p>
+    </div>
+    <div id="jr-comments" data-type="testimony"></div>
+  </section>
+</main>
+
+<!-- Hidden Netlify form so each testimony also emails your inbox.
+     Set the notification address (jesusrest101@gmail.com) in:
+     Netlify -> Forms -> testimony -> Settings & notifications. -->
+<form name="testimony" data-netlify="true" netlify-honeypot="bot-field" hidden>
+  <input type="text" name="name">
+  <input type="email" name="email">
+  <textarea name="testimony"></textarea>
+  <input type="text" name="bot-field">
+</form>
+
+<footer class="site-footer">
+  <svg class="wave" viewBox="0 0 64 64" fill="none" aria-hidden="true"><path d="M2 40c6 0 10-8 16-8s10 8 16 8 10-8 16-8 10 8 16 8" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  <p class="verse">“Christ in you, the hope of glory.”</p>
+  <nav><a href="index.html">Home</a><a href="articles.html">Articles</a><a href="testimonies.html">Testimonies</a><a href="donate.html">Give</a></nav>
+  <p class="copy">© 2025 Jesus Rest · Christ in you, the hope of glory.</p>
+</footer>
+
+<script>
+(function(){var b=document.querySelector('.nav-toggle'),l=document.querySelector('.nav-links');if(b&&l)b.addEventListener('click',function(){var o=l.classList.toggle('open');b.setAttribute('aria-expanded',o);});})();
+(function(){var els=document.querySelectorAll('.reveal');if(!('IntersectionObserver'in window)){els.forEach(function(e){e.classList.add('in');});return;}var io=new IntersectionObserver(function(en){en.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.1});els.forEach(function(e){io.observe(e);});})();
+</script>
+
+<!-- Comments & testimonies -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="assets/js/jr-config.js"></script>
+<script src="assets/js/comments.js"></script>
+</body>
+</html>
