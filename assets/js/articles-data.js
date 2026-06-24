@@ -16,101 +16,59 @@ window.JR_CATEGORY_BLURBS = {
 
 window.JR_ARTICLES = [
   {
-    "file": "Are-You-Satisfied-with-the-Works-of-Jesus.md",
+    "file": "are-you-satisfied-with-the-works-of-jesus.md",
     "title": "Are You Satisfied with the Works of Jesus?",
     "category": "Christ in You",
     "blurb": "When Jesus said, “Be ye therefore perfect, even as your Father which is in heaven is perfect” (Matt 5:48), and when Peter echoed, “Be holy, for I am holy” (1 Pet 1:16), they…",
     "featured": false
   },
   {
-    "file": "Colossians-2-Explained.md",
+    "file": "colossians-2-explained.md",
     "title": "Colossians 2 Explained",
     "category": "Coming Out of Legalism",
     "blurb": "Paul’s words in Colossians 2:16–17 are often used to defend keeping the Sabbath and Holy Days. But what did he really mean? This study shows how the Weekly and Annual Sabbath…",
     "featured": false
   },
   {
-    "file": "From-Eden's-Tree-to-Calvary's-Tree.md",
+    "file": "from-edens-tree-to-calvarys-tree.md",
     "title": "From Eden's Tree to Calvary's Tree",
     "category": "Grace & the Gospel",
     "blurb": "From Eden’s tree to Calvary’s cross, see how every covenant was only a shadow—Christ Himself is the reality that brings life, freedom, and rest.",
     "featured": false
   },
   {
-    "file": "From-Pharaoh’s-Yoke-to-Sinai’s Yoke:-God’s-Temporary-Covenant.md",
+    "file": "from-pharaohs-yoke-to-sinais-yoke-gods-temporary-covenant.md",
     "title": "From Pharaoh's Yoke to Sinai's Yoke",
     "category": "Coming Out of Legalism",
     "blurb": "Israel’s story begins with freedom. God broke the yoke of Pharaoh, parted the Red Sea, and brought His people out of Egypt with a mighty hand and an outstretched arm. “I am t…",
     "featured": false
   },
   {
-    "file": "Galatians-4:-Days-Months-and-Seasons.md",
+    "file": "galatians-4-days-months-and-seasons.md",
     "title": "Galatians 4: Days, Months & Seasons",
     "category": "Coming Out of Legalism",
     "blurb": "“But now after you have known God, or rather are known by God, how is it that you turn again to the weak and beggarly elements, to which you desire again to be in bondage? Yo…",
     "featured": false
   },
   {
-    "file": "Isaiah-58:-What's-Doing-Your-Own-Ways-Mean.md",
+    "file": "he-didnt-seem-to-show-up.md",
+    "title": "He Didn't Seem to Show Up",
+    "category": "Christ in You",
+    "blurb": "What’s really happening when you yield to Christ and feel left alone with yourself",
+    "featured": false
+  },
+  {
+    "file": "isaiah-58-whats-doing-your-own-ways-mean.md",
     "title": "Isaiah 58: Doing Your Own Ways",
     "category": "Coming Out of Legalism",
     "blurb": "The legalists love to quote Isaiah 58:13–14 as their strongest proof that the Sabbath must be guarded by strict rules. They insist this passage forbids working, talking about…",
     "featured": false
   },
   {
-    "file": "Questions-and-Answers.md",
-    "title": "Questions & Answers",
+    "file": "nobody-gets-away-nobody-stays-broken.md",
+    "title": "Nobody Gets Away. Nobody Stays Broken.",
     "category": "Honest Answers",
-    "blurb": "Many believers quietly wrestle with the same questions: Are Christians still under the Ten Commandments? If we’re dead to the law, can we still sin? What is the “law of Chris…",
-    "featured": true
-  },
-  {
-    "file": "Rethinking-the-Sabbath.md",
-    "title": "Rethinking the Sabbath",
-    "category": "Coming Out of Legalism",
-    "blurb": "Many wonder what the Sabbath and holy days mean under the New Covenant. Explore a surprising freedom hidden in Scripture.",
-    "featured": false
-  },
-  {
-    "file": "The-Danger-of-Putting-Faith-in-Your-Own-Obedience.md",
-    "title": "The Danger of Putting Faith in Your Own Obedience",
-    "category": "Grace & the Gospel",
-    "blurb": "Every human heart has the same tendency: we want to do something to prove ourselves. We want control. We want to clean ourselves up first, to make ourselves “good enough” bef…",
-    "featured": false
-  },
-  {
-    "file": "The-Gospel-the-World-Forgot.md",
-    "title": "The Gospel the World Forgot",
-    "category": "Grace & the Gospel",
-    "blurb": "For almost two thousand years the church has spoken of grace, yet few have ever understood what Paul meant when he said, “You are not under law but under grace” (Romans 6:14,…",
-    "featured": false
-  },
-  {
-    "file": "The-Law-of-Christ.md",
-    "title": "The Law of Christ",
-    "category": "Christ in You",
-    "blurb": "John wrote, “For this is the love of God, that we keep His commandments. And His commandments are not burdensome.” (1 John 5:3)",
-    "featured": false
-  },
-  {
-    "file": "The-Wisdom-of-God's-Pause.md",
-    "title": "The Wisdom of God's Pause",
-    "category": "Coming Out of Legalism",
-    "blurb": "The feasts of the Lord raise some of the most important questions in Scripture. Were they temporary rituals, or eternal commands? If the Sinai covenant has ended, why do we s…",
-    "featured": false
-  },
-  {
-    "file": "When-the-Shadows-Vanished:-The-Sabbath,-the-Law,-and-the-Fulfillment-in-Christ.md",
-    "title": "When the Shadows Vanished",
-    "category": "Coming Out of Legalism",
-    "blurb": "A teaching letter to those wrestling with the Old Covenant and the New",
-    "featured": false
-  },
-  {
-    "file": "Why-the-Law Ends-Where-Christ-Begins.md",
-    "title": "Why the Law Ends Where Christ Begins",
-    "category": "Coming Out of Legalism",
-    "blurb": "The Scriptures declare that Jesus Christ is the Author and the Finisher of our faith (Hebrews 12:2). And yet many, having begun by the Spirit, are bewitched into trying to be…",
+    "blurb": "The hardest question anyone can ask about God is not why good people have nice things. It is what happens to the person who destroyed a child — and how that child is ever mad…",
     "featured": false
   },
   {
@@ -121,6 +79,20 @@ window.JR_ARTICLES = [
     "featured": false
   },
   {
+    "file": "questions-and-answers.md",
+    "title": "Questions & Answers",
+    "category": "Honest Answers",
+    "blurb": "Many believers quietly wrestle with the same questions: Are Christians still under the Ten Commandments? If we’re dead to the law, can we still sin? What is the “law of Chris…",
+    "featured": false
+  },
+  {
+    "file": "rethinking-the-sabbath.md",
+    "title": "Rethinking the Sabbath",
+    "category": "Coming Out of Legalism",
+    "blurb": "Many wonder what the Sabbath and holy days mean under the New Covenant. Explore a surprising freedom hidden in Scripture.",
+    "featured": false
+  },
+  {
     "file": "should-christians-celebrate-christmas.md",
     "title": "Should Christians Celebrate Christmas?",
     "category": "Honest Answers",
@@ -128,10 +100,87 @@ window.JR_ARTICLES = [
     "featured": false
   },
   {
+    "file": "the-danger-of-putting-faith-in-your-own-obedience.md",
+    "title": "The Danger of Putting Faith in Your Own Obedience",
+    "category": "Grace & the Gospel",
+    "blurb": "Every human heart has the same tendency: we want to do something to prove ourselves. We want control. We want to clean ourselves up first, to make ourselves “good enough” bef…",
+    "featured": false
+  },
+  {
+    "file": "the-door-no-one-was-allowed-to-close.md",
+    "title": "The Door No One Was Allowed to Close",
+    "category": "Honest Answers",
+    "blurb": "Most of the world has been taught that when you die you go straight to heaven or to hell, forever, settled in a moment. That single idea has shut more people out of God than…",
+    "featured": false
+  },
+  {
+    "file": "the-gospel-the-world-forgot.md",
+    "title": "The Gospel the World Forgot",
+    "category": "Grace & the Gospel",
+    "blurb": "For almost two thousand years the church has spoken of grace, yet few have ever understood what Paul meant when he said, “You are not under law but under grace” (Romans 6:14,…",
+    "featured": false
+  },
+  {
+    "file": "the-law-of-christ.md",
+    "title": "The Law of Christ",
+    "category": "Christ in You",
+    "blurb": "John wrote, “For this is the love of God, that we keep His commandments. And His commandments are not burdensome.” (1 John 5:3)",
+    "featured": false
+  },
+  {
+    "file": "the-scoreboard-god-doesnt-exist.md",
+    "title": "The Scoreboard God Doesn't Exist",
+    "category": "Honest Answers",
+    "blurb": "She was right to ask. Why would heaven bless one person's bank account and ignore a child's cry? The honest answer is not the one religion usually gives — and it begins by ad…",
+    "featured": false
+  },
+  {
+    "file": "the-wisdom-of-gods-pause.md",
+    "title": "The Wisdom of God's Pause",
+    "category": "Coming Out of Legalism",
+    "blurb": "The feasts of the Lord raise some of the most important questions in Scripture. Were they temporary rituals, or eternal commands? If the Sinai covenant has ended, why do we s…",
+    "featured": false
+  },
+  {
+    "file": "two-advocates-one-christ.md",
+    "title": "Two Advocates, One Christ",
+    "category": "Christ in You",
+    "blurb": "He came to us. Then He came into us. Both are rest.",
+    "featured": false
+  },
+  {
+    "file": "what-really-happens-when-you-die.md",
+    "title": "What Really Happens When You Die",
+    "category": "Honest Answers",
+    "blurb": "The short version — the whole map of God's judgment, salvation, and fairness, told plainly and quickly.",
+    "featured": false
+  },
+  {
+    "file": "when-the-shadows-vanished-the-sabbath-the-law-and-the-fulfillment-in-christ.md",
+    "title": "When the Shadows Vanished",
+    "category": "Coming Out of Legalism",
+    "blurb": "A teaching letter to those wrestling with the Old Covenant and the New",
+    "featured": false
+  },
+  {
+    "file": "why-the-law-ends-where-christ-begins.md",
+    "title": "Why the Law Ends Where Christ Begins",
+    "category": "Coming Out of Legalism",
+    "blurb": "The Scriptures declare that Jesus Christ is the Author and the Finisher of our faith (Hebrews 12:2). And yet many, having begun by the Spirit, are bewitched into trying to be…",
+    "featured": false
+  },
+  {
     "file": "you-are-new-and-you-still-suffer.md",
     "title": "You Are New, and You Still Suffer",
     "category": "Christ in You",
     "blurb": "Why the sickness, the struggle, and even the grave were never evidence against the new life in you — but exactly what it predicted.",
+    "featured": false
+  },
+  {
+    "file": "you-were-right-to-take-it-seriously.md",
+    "title": "You Were Right to Take It Seriously",
+    "category": "Coming Out of Legalism",
+    "blurb": "An honest letter to everyone who keeps the commandments — about the one passage the whole thing rests on, and the door it may be quietly holding shut.",
     "featured": false
   },
   {

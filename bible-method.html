@@ -4,26 +4,41 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="light">
-<title>The Bible Method — Letting Scripture Interpret Scripture | Jesus Rest</title>
+<title>The Bible Method — How Scripture Reads Itself | Jesus Rest</title>
 <link rel="canonical" href="https://jesusrest.com/bible-method.html">
-<meta name="description" content="The Bible Method: how to let Scripture interpret Scripture. The Bible's own rules of interpretation — no private interpretation, comparing spiritual with spiritual, clear passages over unclear — so you read the Bible by the Bible alone.">
-<meta name="keywords" content="Scripture interprets Scripture, Bible method, how to interpret the Bible, no private interpretation, 2 Peter 1:20, comparing spiritual with spiritual, rightly dividing the word, Bible study method, let the Bible interpret itself">
+<meta name="description" content="The Bible Method: the 22 rules of interpretation drawn from Scripture itself — how to let the Bible interpret the Bible. No private interpretation, no tradition, no opinion. The Bible, read by the Bible's own rules.">
+<meta name="keywords" content="Bible method, how to interpret the Bible, Scripture interprets Scripture, rules of biblical interpretation, no private interpretation, 2 Peter 1:20, John 10:35, rightly dividing the word, line upon line, let the Bible interpret itself">
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
-<meta property="og:title" content="The Bible Method — Letting Scripture Interpret Scripture">
-<meta property="og:description" content="The Bible's own rules of interpretation, so you read the Bible by the Bible alone — no tradition, no private opinion.">
+<meta property="og:title" content="The Bible Method — How Scripture Reads Itself">
+<meta property="og:description" content="The 22 rules of interpretation drawn from Scripture itself. Behind every teaching stands the full weight of Scripture — the Bible, interpreting itself.">
 <meta property="og:image" content="https://jesusrest.com/assets/preview.jpg">
 <meta property="og:type" content="article">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Mulish:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=Mulish:wght@400;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/site.css">
 <style>
-  .rules{display:grid;gap:1.2rem;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));}
-  .rule-card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:1.6rem 1.5rem;}
-  .rule-card .num{display:inline-grid;place-items:center;width:38px;height:38px;border-radius:50%;background:var(--paper-2);color:var(--clay-deep);font-family:var(--display);font-weight:700;font-size:1.2rem;margin-bottom:.9rem;}
-  .rule-card h3{font-size:1.3rem;margin-bottom:.4rem;}
-  .rule-card p{color:var(--ink-soft);font-size:1rem;margin-bottom:.6rem;}
-  .rule-card .ref{font-size:.74rem;text-transform:uppercase;letter-spacing:.13em;font-weight:800;color:var(--clay);}
+  .statement{max-width:760px;margin:0 auto;text-align:center;}
+  .statement .big{font-family:var(--display);font-weight:600;font-size:clamp(1.5rem,3.4vw,2.1rem);line-height:1.32;color:var(--ink);}
+  .statement .big b{color:var(--clay-deep);}
+  .statement .tag{display:inline-block;margin-top:1.4rem;font-weight:800;font-size:.95rem;color:var(--clay);}
+  .groups{max-width:920px;margin:0 auto;}
+  .grp{margin-top:3.2rem;}
+  .grp-head{border-bottom:1px solid var(--line);padding-bottom:.7rem;margin-bottom:1.6rem;}
+  .grp-head .gid{font:800 .72rem/1 var(--body);letter-spacing:.18em;text-transform:uppercase;color:var(--clay);}
+  .grp-head h3{font-size:1.55rem;margin:.35rem 0 .2rem;}
+  .grp-head p{color:var(--ink-soft);font-size:1rem;margin:0;font-style:italic;}
+  .rules{display:grid;gap:1.1rem;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));}
+  .rule-card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:1.5rem 1.5rem;}
+  .rule-card .num{display:inline-grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--paper-2);color:var(--clay-deep);font-family:var(--display);font-weight:700;font-size:1.05rem;margin-bottom:.8rem;}
+  .rule-card h4{font-family:var(--display);font-weight:600;font-size:1.28rem;line-height:1.18;margin-bottom:.5rem;color:var(--ink);}
+  .rule-card .warrant{font-family:var(--display);font-style:italic;color:var(--sage-deep);font-size:1.02rem;margin-bottom:.5rem;}
+  .rule-card p{color:var(--ink-soft);font-size:1rem;margin:0;}
+  .rule-card .refs{display:block;margin-top:.7rem;font:800 .68rem/1.3 var(--body);letter-spacing:.1em;text-transform:uppercase;color:var(--clay);}
+  .scale{max-width:760px;margin:0 auto;display:grid;gap:.8rem;}
+  .scale .tier{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--clay);border-radius:12px;padding:1rem 1.3rem;}
+  .scale .tier b{font-family:var(--display);font-weight:600;font-size:1.2rem;color:var(--clay-deep);display:block;margin-bottom:.2rem;}
+  .scale .tier span{color:var(--ink-soft);font-size:.98rem;}
   .ex{max-width:760px;margin:0 auto;}
   .ex .q{background:#fff;border:1px solid var(--line);border-radius:16px;margin-bottom:1rem;overflow:hidden;}
   .ex .q-head{width:100%;text-align:left;border:0;background:transparent;cursor:pointer;padding:1.25rem 1.4rem;display:flex;justify-content:space-between;gap:1rem;align-items:center;font-family:var(--display);font-weight:600;font-size:1.2rem;color:var(--ink);}
@@ -40,9 +55,9 @@
 <script type="application/ld+json">
 {
   "@context":"https://schema.org","@type":"FAQPage","mainEntity":[
-    {"@type":"Question","name":"What does it mean to let Scripture interpret Scripture?","acceptedAnswer":{"@type":"Answer","text":"It means the Bible is its own interpreter. Instead of reading a verse through tradition, culture, or personal opinion, we explain each passage by comparing it with everything else the Bible says, letting clearer passages settle the meaning of less clear ones."}},
-    {"@type":"Question","name":"Where does the Bible teach that it has no private interpretation?","acceptedAnswer":{"@type":"Answer","text":"2 Peter 1:20 says, 'no prophecy of the scripture is of any private interpretation.' Paul adds in 1 Corinthians 2:13 that spiritual things are understood by 'comparing spiritual with spiritual' — Scripture with Scripture."}},
-    {"@type":"Question","name":"Why is the Bible Method important?","acceptedAnswer":{"@type":"Answer","text":"Nearly every error comes from interpreting an isolated verse by outside authority — a denomination, a teacher, or a feeling. Letting the Bible interpret itself guards against that and keeps us standing only where Scripture itself stands."}}
+    {"@type":"Question","name":"What is the Bible Method?","acceptedAnswer":{"@type":"Answer","text":"The Bible Method is the set of rules for interpretation drawn from Scripture itself — the way the Bible tells us to read the Bible. Rather than laying a human system over the text, we gather the rules out of the sixty-six books and run every doctrine through them, letting Scripture interpret Scripture."}},
+    {"@type":"Question","name":"Where does the Bible teach that it has no private interpretation?","acceptedAnswer":{"@type":"Answer","text":"2 Peter 1:20 says, 'no prophecy of the scripture is of any private interpretation.' 1 Corinthians 2:13 adds that spiritual things are understood by 'comparing spiritual with spiritual,' and John 10:35 says 'the scripture cannot be broken' — so no reading may set one passage against another."}},
+    {"@type":"Question","name":"What does 'Scripture cannot be broken' mean for studying the Bible?","acceptedAnswer":{"@type":"Answer","text":"It means the Bible never contradicts itself. When two passages seem to clash, both are true, and our task is to find the harmony rather than silence one to save the other. A tension on the page is an invitation to dig until it resolves."}}
   ]
 }
 </script>
@@ -66,47 +81,43 @@
 </header>
 
 <section class="hero">
-  <p class="eyebrow reveal">Our Method</p>
-  <h1 class="reveal" style="max-width:18ch;">Let the Bible interpret the Bible.</h1>
-  <p class="lead reveal">We don’t build doctrine on tradition, a teacher’s opinion, or a feeling. We let Scripture explain Scripture — by the Bible’s own rules. Here they are, plainly.</p>
+  <p class="eyebrow reveal">Our Method &middot; Foundational Standard</p>
+  <h1 class="reveal" style="max-width:18ch;">The Bible, interpreting itself.</h1>
+  <p class="lead reveal">We don’t build doctrine on tradition, a teacher’s opinion, or a feeling. We let Scripture explain Scripture — by the Bible’s own rules. Here are all twenty-two, drawn straight from the text.</p>
   <svg class="wave-rule" viewBox="0 0 120 22" fill="none" aria-hidden="true"><path d="M2 12c10 0 16-9 28-9s18 9 28 9 16-9 28-9 18 9 28 9" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
 </section>
 
+<!-- THE STATEMENT -->
 <section class="section invite" style="background:var(--paper-2);">
-  <div class="container measure center">
-    <h2 class="reveal">Why this matters</h2>
-    <p class="reveal">Nearly every division and error in the church traces back to the same root: a single verse lifted out, then explained by something <em>outside</em> the Bible — a denomination’s history, a charismatic teacher, or a personal impression. Scripture forbids exactly that.</p>
-    <p class="verse reveal">“…no prophecy of the scripture is of any private interpretation.” — 2 Peter 1:20</p>
-    <p class="reveal">So we read the Bible by the Bible. And because <strong>“the scripture cannot be broken” (John 10:35)</strong>, when two passages seem to clash we never pick a side or throw one out — we search until we find the harmony. Below are the rules it gives for understanding itself.</p>
+  <div class="container statement">
+    <p class="eyebrow reveal" style="display:inline-block;margin-bottom:1rem;">Why This Matters</p>
+    <p class="big reveal">This is the brunt of it — the actual way the Bible tells us to mine its own truth. Not a tradition handed down, not one teacher’s framework laid over the page, but the rules of interpretation drawn out of the sixty-six books themselves and turned back on every doctrine we hold. Behind every conclusion on this site stands the <b>full weight of Scripture</b> — far more passages than any page could ever cite, every one of them gathered cold, weighed line upon line, and allowed to correct the rest until the truth converged and nothing was left contradicting. That is why what you read here is not the warmed-over guesswork of men or the safe repetition of consensus, but <b>Scripture read strictly by Scripture’s own rules</b> — the freshest, most rigorously-tested biblical teaching you will find anywhere.</p>
+    <span class="tag reveal">The Bible, interpreting itself. Nothing of man added.</span>
+    <p class="verse reveal" style="margin-top:1.6rem;">“…no prophecy of the scripture is of any private interpretation.” — 2 Peter 1:20</p>
   </div>
 </section>
 
+<!-- THE 22 RULES -->
 <section class="section">
   <div class="container">
     <div class="section-head reveal">
-      <p class="eyebrow">The Rules</p>
-      <h2>Seven rules the Bible gives for reading the Bible</h2>
+      <p class="eyebrow">The Standard</p>
+      <h2>Twenty-two rules the Bible gives for reading the Bible</h2>
+      <p>Every rule is held up by a teaching passage — because the Book that interprets itself also tells us how.</p>
     </div>
-    <div class="rules">
-      <div class="rule-card reveal"><div class="num">1</div><h3>No private interpretation</h3><p>No verse is yours to bend. Its meaning is fixed by the Author, not the reader.</p><span class="ref">2 Peter 1:20</span></div>
-      <div class="rule-card reveal"><div class="num">2</div><h3>Compare Scripture with Scripture</h3><p>Spiritual truth is understood by comparing spiritual with spiritual — line upon line, verse with verse.</p><span class="ref">1 Cor 2:13 · Isaiah 28:10</span></div>
-      <div class="rule-card reveal"><div class="num">3</div><h3>Let the clear explain the unclear</h3><p>Build on the plain passages, and let them settle the hard or symbolic ones — never the reverse.</p><span class="ref">Deut 29:29</span></div>
-      <div class="rule-card reveal"><div class="num">4</div><h3>Honor the context</h3><p>Read each verse in its sentence, chapter, and the whole counsel of God — not as an isolated fragment.</p><span class="ref">Acts 20:27</span></div>
-      <div class="rule-card reveal"><div class="num">5</div><h3>Let the New interpret the Old</h3><p>The apostles show us how to read the Old Testament — as shadow fulfilled in Christ.</p><span class="ref">Luke 24:27 · Col 2:17</span></div>
-      <div class="rule-card reveal"><div class="num">6</div><h3>Define words the Bible’s way</h3><p>Let Scripture define its own terms — “law,” “rest,” “works,” “sin” — by how it uses them, not by culture.</p><span class="ref">1 Cor 2:13</span></div>
-      <div class="rule-card reveal" style="border-color:var(--clay);box-shadow:0 10px 30px rgba(192,96,58,.10);"><div class="num">7</div><h3>Scripture cannot be broken</h3><p>When two passages seem to clash, both are still true. We never pit verse against verse or toss one out — we search until the harmony appears. The Bible never contradicts itself.</p><span class="ref">John 10:35</span></div>
-    </div>
+    <div class="groups" id="groups"></div>
   </div>
 </section>
 
+<!-- STRENGTH SCALE -->
 <section class="section alt" style="background:var(--paper-2);">
   <div class="container">
     <div class="section-head reveal">
-      <p class="eyebrow">See It Work</p>
-      <h2>The method in action</h2>
-      <p>Tap a question. Watch the answer assembled only from Scripture.</p>
+      <p class="eyebrow">How We Weigh It</p>
+      <h2>Every finding gets a strength tag</h2>
+      <p>We never dress up a guess as a certainty. Each conclusion is labeled for exactly how firmly Scripture holds it.</p>
     </div>
-    <div class="ex" id="ex"></div>
+    <div class="scale" id="scale"></div>
   </div>
 </section>
 
@@ -118,33 +129,53 @@
       <h2>How every tension resolves: we rest in two works</h2>
       <p>Most confusion in the Christian life comes from collapsing two different works into one. Keep them distinct, and the tensions dissolve before they start.</p>
     </div>
-
     <div class="rules" style="grid-template-columns:repeat(auto-fit,minmax(300px,1fr));max-width:880px;margin:0 auto;">
-      <div class="rule-card reveal"><div class="num">1</div><h3>The work that saves us</h3><p>We rest completely in Christ’s <strong>finished work</strong> for salvation. It is done. Nothing can be added to it, and nothing we do keeps it.</p><span class="ref">Eph 2:8–9 · Hebrews 10:14</span></div>
-      <div class="rule-card reveal"><div class="num">2</div><h3>The work that bears fruit</h3><p>And right now, when we long to “work the works of righteousness,” it is <strong>Christ working in us</strong>. We rest in His ongoing work too — the fruit is His, not ours.</p><span class="ref">Phil 2:13 · John 15:5 · John 6:29</span></div>
+      <div class="rule-card reveal"><div class="num">1</div><h4>The work that saves us</h4><p>We rest completely in Christ’s <strong>finished work</strong> for salvation. It is done. Nothing can be added, and nothing we do keeps it.</p><span class="refs">Eph 2:8–9 · Hebrews 10:14</span></div>
+      <div class="rule-card reveal"><div class="num">2</div><h4>The work that bears fruit</h4><p>And right now, when we long to “work the works of righteousness,” it is <strong>Christ working in us</strong>. We rest in His ongoing work too — the fruit is His, not ours.</p><span class="refs">Phil 2:13 · John 15:5 · John 6:29</span></div>
     </div>
-
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.1rem;max-width:880px;margin:1.4rem auto 0;">
       <div class="reveal" style="background:#fff;border:1px solid var(--line);border-radius:16px;padding:1.6rem 1.5rem;">
-        <h3 style="font-family:var(--display);font-weight:600;font-size:1.3rem;color:var(--sage-deep);">If we yield →</h3>
+        <h4 style="font-family:var(--display);font-weight:600;font-size:1.3rem;color:var(--sage-deep);">If we yield →</h4>
         <p style="color:var(--ink-soft);margin:.4rem 0 .7rem;">His fruit flows, and there is <strong>reward</strong> laid up for the life to come.</p>
         <span style="font-size:.74rem;text-transform:uppercase;letter-spacing:.13em;font-weight:800;color:var(--clay);">1 Corinthians 3:14 · 2 Corinthians 5:10</span>
       </div>
       <div class="reveal" style="background:#eef2f5;border:1px solid var(--line);border-radius:16px;padding:1.6rem 1.5rem;">
-        <h3 style="font-family:var(--display);font-weight:600;font-size:1.3rem;color:#2F3A43;">If we don’t →</h3>
+        <h4 style="font-family:var(--display);font-weight:600;font-size:1.3rem;color:#2F3A43;">If we don’t →</h4>
         <p style="color:var(--ink-soft);margin:.4rem 0 .7rem;">A Father’s <strong>loving discipline</strong> — never the loss of salvation.</p>
         <span style="font-size:.74rem;text-transform:uppercase;letter-spacing:.13em;font-weight:800;color:var(--clay);">Hebrews 12:6 · Romans 8:1 · John 10:28</span>
       </div>
     </div>
-
     <p class="reveal" style="text-align:center;max-width:42rem;margin:2.2rem auto 0;font-family:var(--display);font-style:italic;font-size:1.3rem;color:var(--ink);">
       Salvation is never on the table. That is why the great tensions — faith and works, grace and reward, security and discipline — simply dissolve.
     </p>
   </div>
 </section>
 
+<!-- SEE IT WORK -->
+<section class="section alt" style="background:var(--paper-2);">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">See It Work</p>
+      <h2>The method in action</h2>
+      <p>Tap a question. Watch the answer assembled only from Scripture.</p>
+    </div>
+    <div class="ex" id="ex"></div>
+  </div>
+</section>
+
+<!-- OUTSIDE WORK -->
+<section class="section">
+  <div class="container measure">
+    <div class="section-head reveal">
+      <p class="eyebrow">One More Standard</p>
+      <h2>On the use of outside work</h2>
+    </div>
+    <p class="reveal" style="color:var(--ink-soft);font-size:1.12rem;">We are closed off from no one. Any scholar, tradition, or movement may have done careful work we can use — grammarians, textual scholars, historians of the manuscripts, the concrete research of the commandment-keeping traditions. But we keep a clean blade between two things: outside helps may establish <strong>facts</strong> — historical, grammatical, textual — and they may <strong>never</strong> establish doctrine or fix the meaning of a passage. That belongs to Scripture alone. Consensus has been wrong. History has been wrong. The majority has believed things the text plainly denies. So we take any man’s work up to the point Scripture holds it up, and not one inch past — re-testing every conclusion against the Book before it is ever believed. The text alone is final.</p>
+  </div>
+</section>
+
 <section class="cta-band" style="text-align:center;padding:4.5rem 1.5rem;background:radial-gradient(800px 360px at 50% 120%,#FFF4E9,var(--paper-2));">
-  <h2 style="font-family:var(--display);font-size:clamp(1.9rem,4vw,2.6rem);margin-bottom:1rem;">Now see two systems tested by it.</h2>
+  <h2 style="font-family:var(--display);font-size:clamp(1.9rem,4vw,2.6rem);margin-bottom:1rem;">See the method put two systems to the test.</h2>
   <p style="color:var(--ink-soft);max-width:34rem;margin:0 auto 1.8rem;">Watch performance-religion and the indwelling life of Christ weighed side by side — by the Bible alone.</p>
   <a class="btn btn-primary" href="compare.html">Open “Two Ways to Live” →</a>
 </section>
@@ -157,42 +188,94 @@
 </footer>
 
 <script>
+var GROUPS=[
+  {id:"A",title:"Before You Open the Book",note:"The first rule is not technique. It is about who is able to see."},
+  {id:"B",title:"Where Doctrine Comes From",note:"Some passages teach; some illustrate. We build on the ones that teach."},
+  {id:"C",title:"How Doctrine Is Gathered",note:"No single verse is the whole picture. Truth is assembled from the whole counsel."},
+  {id:"D",title:"How Each Passage Is Read in Place",note:"God built His book with precision. Careless handling breaks more doctrines than open error."},
+  {id:"E",title:"How Apparent Conflict Is Governed",note:"Scripture never contradicts itself. When two passages seem to pull apart, the rule is not to pick a winner."},
+  {id:"F",title:"The Discipline That Keeps Us Honest",note:"The hardest rules are the ones that govern us, not the text."},
+  {id:"G",title:"How the Truth Is Gathered and Told",note:"Not only how we read — how we work, and how we hand it to you."}
+];
+var RULES=[
+ ["A",1,"Come in the Spirit — ask, and come ready to be corrected.","“the natural man receiveth not the things of the Spirit of God… they are spiritually discerned”","1 Cor 2:14 · James 1:5 · Ps 119:18","The Spirit who authored the Word is the One who opens it. We come not to win an argument but to be taught and changed — and a heart that comes to be confirmed sees what a heart that comes to submit never will."],
+ ["B",2,"Doctrine rests on clear teaching passages.","“All scripture is given by inspiration of God, and is profitable for doctrine”","2 Tim 3:16","The plain didactic passages are the bedrock. A doctrine that cannot stand on a clear teaching passage is not yet a doctrine — only a candidate."],
+ ["B",3,"Parables illustrate and confirm; they do not establish — unless Scripture explains them.","“Hear ye therefore the parable of the sower”","Matt 13:18, 36–43","Stories conceal as much as they reveal, so they cannot carry doctrine alone. Where the Lord explains a parable, the explanation is teaching. The story confirms; the teaching establishes."],
+ ["C",4,"Line upon line — the whole counsel, not a fragment.","“precept upon precept; line upon line; here a little, and there a little”","Isa 28:9–13 · Acts 20:27","Gather every passage that touches a subject before concluding — even the verse buried in a story about something else. The four Gospel accounts of the cross are the model: each adds a piece; only together do we read the whole."],
+ ["C",5,"Established by two or three witnesses — convergence.","“In the mouth of two or three witnesses shall every word be established”","2 Cor 13:1 · Deut 19:15","One verse can be misread; three that agree, from different books and contexts, establish the word. The more witnesses, and the more varied, the more solid the ground."],
+ ["C",6,"Compare spiritual with spiritual — let the Bible define its own terms.","“comparing spiritual things with spiritual”","1 Cor 2:13","Scripture defines its own words and symbols. Revelation even names its own symbols on the page. The Bible is its own dictionary — we trace a word across the canon before reaching for an outside meaning."],
+ ["D",7,"Context governs — read the con-text, and find out who is speaking.","“no prophecy of the scripture is of any private interpretation”","2 Pet 1:20 · Gen 2:17 vs 3:4","A verse torn from its surroundings can be made to say nearly anything. “Ye shall not surely die” is a true quotation — of Satan — corrected only by God’s own “thou shalt surely die.” Always ask: who is speaking?"],
+ ["D",8,"Rightly divide — keep audience, covenant, and law in view.","“rightly dividing the word of truth”","2 Tim 2:15","Of every passage ask: spoken to whom, under which covenant, concerning which law? Misplacing a verse across one of those lines is how whole systems go wrong."],
+ ["D",9,"Honor the original languages and the preserved text.","“unto them were committed the oracles of God”","Rom 3:2","Grammar carries doctrine — a tense, a word, the space between two clauses. We go to the Hebrew and Greek when a question turns on a word, and read by a word’s original sense (in the KJV, italic words were supplied by the translators)."],
+ ["D",10,"Read progressively — first mention forward.","“the path of the just… shineth more and more unto the perfect day”","Prov 4:18 · Heb 1:1–2","Revelation unfolds across the canon. We let the later, fuller revelation complete the earlier — never contradicting it. What is seed in Genesis is full flower in the epistles; both are true."],
+ ["E",11,"Scripture cannot be broken.","“the scripture cannot be broken”","John 10:35","No interpretation may set one passage against another. If our reading forces a contradiction, our reading is wrong — not the text. This is the master rule the next two serve."],
+ ["E",12,"The clear governs the obscure — begin with the plainest.","some things are “hard to be understood”","2 Pet 3:15–16","We build on the plain passages and let them rule the hard ones — never the reverse. A single obscure verse may not overturn a doctrine many clear verses establish."],
+ ["E",13,"Christ is the center and the key.","“beginning at Moses… He expounded the things concerning Himself”","Luke 24:27 · John 5:39","The whole of Scripture testifies of Christ, and He is the lens that opens the understanding. A reading that does not finally lead to Him — His person, His finished work, His indwelling life — is probably off the rails, however clever."],
+ ["F",14,"Do not go beyond what is written.","“not to think of men above that which is written”","1 Cor 4:6","We do not build doctrine on speculation, however attractive. Where the text stops, we stop. What the Bible permits but does not teach is held loosely as possibility — never proclaimed as truth."],
+ ["F",15,"A stated tension must resolve.","“the scripture cannot be broken”","John 10:35 · Prov 25:2","When Scripture lays two things side by side that seem to pull against each other, that is not a contradiction to shrug at — it is an invitation. It is the glory of God to conceal a matter so we will search it out. We dig until it resolves."],
+ ["F",16,"True silence is left silent.","“The secret things belong unto the LORD our God”","Deut 29:29","The careful twin of Rule 15. A tension must resolve; a true silence we leave alone, naming it as secret rather than inventing a bridge. The skill is telling them apart: if there is friction on the page, dig; if no revelation at all, do not manufacture one."],
+ ["F",17,"Search and test everything — and be willing to change.","“they… searched the scriptures daily, whether those things were so”","Acts 17:11 · 1 Thess 5:21","The Bereans checked even an apostle against the Scriptures. Nothing is held because a man said it — only because the text holds it, and it is dropped the moment the text will not. We grow, which means we must be willing to be corrected."],
+ ["G",18,"Gather cold, and gather all.","“precept upon precept; line upon line; here a little, and there a little”","Isa 28:10 · Acts 20:27","Lay the whole Bible out and let every verse that touches the topic rise up — not the famous six, but all of them. Read each cold, on its own terms, and let the passages correct one another into convergence. A finding is not finished until every implicated passage has been weighed."],
+ ["G",19,"Deploy the Scripture; do not merely grade it.","“Is not my word like as a fire? saith the LORD; and like a hammer”","Jer 23:29","Where the Bible gives ten witnesses, we do not quote one and summarize. We lay the witnesses down in stacks, heavy and plain, and let their sheer weight make the case — because the force of a doctrine is in the accumulation, not in our paraphrase."],
+ ["G",20,"Show the contradiction — “if it were otherwise.”","“The scripture cannot be broken”","John 10:35","The surest way to prove a reading is to show what breaks without it. For each conclusion, name the verses that would have to become lies if the popular alternative were true — so a plain reader can see the truth with his own eyes."],
+ ["G",21,"Write so the wayfaring man cannot miss it.","“the wayfaring men, though fools, shall not err therein”","Isa 35:8","The Bible was written for the plain person, not the scholar. Plain-language bridges, short breaths, every term defined, repetition on purpose. Clarity is not a lowering of the work; it is the goal of it."],
+ ["G",22,"Hold the truth out in love, never as a new wall.","“speaking the truth in love”","Eph 4:15 · Matt 23:13","The point is never to win a tribe or to have it right over others; it is to get it right so we can love people with it. A doctrine wielded to judge or gatekeep becomes the very sin Christ condemned. Truth is a gift, never a weapon."]
+];
+var SCALE=[
+ ["Crystal-Clear","Stated plainly in clear teaching passages, with multiple witnesses converging. Proclaimed without hedging."],
+ ["Firm Convergence","Not in one verse, but established by several passages that plainly converge. Held and taught with confidence."],
+ ["Sound Inference","A conclusion the converging texts strongly require, even if no single verse states it. Taught with the reasoning shown."],
+ ["Light Inference","Reasonable and consistent with Scripture, but resting on fewer or weaker witnesses. Offered as a likely reading, plainly labeled."],
+ ["Silent","Scripture gives no revelation and no tension. Named as secret and left there. Not built upon."]
+];
 var EX=[
   { q:"Does “rest” in Hebrews mean a weekly day, or a Person?",
-    verses:[
-      ["“There remaineth therefore a rest to the people of God.”","Hebrews 4:9"],
-      ["“For he that is entered into his rest, he also hath ceased from his own works.”","Hebrews 4:10"],
-      ["“Come unto me… and I will give you rest.”","Matthew 11:28"]
-    ],
+    verses:[["“There remaineth therefore a rest to the people of God.”","Hebrews 4:9"],
+            ["“For he that is entered into his rest, he also hath ceased from his own works.”","Hebrews 4:10"],
+            ["“Come unto me… and I will give you rest.”","Matthew 11:28"]],
     c:"Comparing the verses, Scripture defines its own term: the promised <b>rest is ceasing from your own works and coming to Christ Himself</b> — not merely a day on the calendar." },
   { q:"Is a person justified by faith, or by works?",
-    verses:[
-      ["“A man is justified by faith without the deeds of the law.”","Romans 3:28"],
-      ["“By grace are ye saved through faith… not of works.”","Ephesians 2:8–9"],
-      ["“To him that worketh not, but believeth… his faith is counted for righteousness.”","Romans 4:5"]
-    ],
+    verses:[["“A man is justified by faith without the deeds of the law.”","Romans 3:28"],
+            ["“By grace are ye saved through faith… not of works.”","Ephesians 2:8–9"],
+            ["“To him that worketh not, but believeth… his faith is counted for righteousness.”","Romans 4:5"]],
     c:"Three plain passages agree, so the meaning is settled: <b>justification is by faith, apart from works</b> — and any unclear verse must bow to this clear testimony." }
 ];
+function esc(s){return (s||'').replace(/[&<>]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;'}[c];});}
 (function(){
-  var wrap=document.getElementById('ex');
-  function esc(s){return (s||'').replace(/[&<>]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;'}[c];});}
-  wrap.innerHTML=EX.map(function(it){
+  var wrap=document.getElementById('groups');
+  wrap.innerHTML=GROUPS.map(function(g){
+    var cards=RULES.filter(function(r){return r[0]===g.id;}).map(function(r){
+      return '<div class="rule-card reveal"><div class="num">'+r[1]+'</div>'+
+        '<h4>'+esc(r[2])+'</h4>'+
+        '<div class="warrant">'+esc(r[3])+'</div>'+
+        '<p>'+esc(r[5])+'</p>'+
+        '<span class="refs">'+esc(r[4])+'</span></div>';
+    }).join('');
+    return '<div class="grp"><div class="grp-head reveal"><span class="gid">Group '+g.id+'</span>'+
+      '<h3>'+esc(g.title)+'</h3><p>'+esc(g.note)+'</p></div>'+
+      '<div class="rules">'+cards+'</div></div>';
+  }).join('');
+
+  document.getElementById('scale').innerHTML=SCALE.map(function(s){
+    return '<div class="tier reveal"><b>'+esc(s[0])+'</b><span>'+esc(s[1])+'</span></div>';
+  }).join('');
+
+  var ex=document.getElementById('ex');
+  ex.innerHTML=EX.map(function(it){
     var v=it.verses.map(function(x){return '<div class="verse"><div class="t">'+esc(x[0])+'</div><div class="r">'+esc(x[1])+'</div></div>';}).join('');
     return '<div class="q"><button class="q-head"><span>'+esc(it.q)+'</span><span class="plus">+</span></button><div class="body"><div class="body-in">'+v+'<div class="concl">'+it.c+'</div></div></div></div>';
   }).join('');
-  wrap.querySelectorAll('.q-head').forEach(function(btn){
+  ex.querySelectorAll('.q-head').forEach(function(btn){
     btn.addEventListener('click',function(){
       var q=btn.parentElement, body=q.querySelector('.body');
       if(q.classList.contains('open')){q.classList.remove('open');body.style.maxHeight=0;return;}
       q.classList.add('open');body.style.maxHeight=body.firstElementChild.scrollHeight+40+'px';
     });
   });
-})();
-(function(){
+
   var els=document.querySelectorAll('.reveal');
-  if(!('IntersectionObserver'in window)){els.forEach(function(e){e.classList.add('in');});return;}
-  var io=new IntersectionObserver(function(en){en.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.1});
-  els.forEach(function(e){io.observe(e);});
+  if(!('IntersectionObserver'in window)){els.forEach(function(e){e.classList.add('in');});}
+  else{var io=new IntersectionObserver(function(en){en.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.08});els.forEach(function(e){io.observe(e);});}
 })();
 (function(){var b=document.querySelector('.nav-toggle'),l=document.querySelector('.nav-links');if(b&&l)b.addEventListener('click',function(){var o=l.classList.toggle('open');b.setAttribute('aria-expanded',o);});})();
 </script>
