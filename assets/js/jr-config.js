@@ -4,6 +4,6 @@
    The SECRET keys (service role, Anthropic) are NOT here — they live in
    Netlify environment variables only. Never put secret keys in this file. */
 window.JR_CONFIG = {
-  SUPABASE_URL: "",        // e.g. https://abcdefgh.supabase.co
-  SUPABASE_ANON_KEY: ""    // the long "anon" / "public" key
+  SUPABASE_URL: "https://vazvjmqtfcxtaqswywih.supabase.co",
+  SUPABASE_ANON_KEY: "sb_publishable_pyu8ySsfEULJyY9loApk4A_ZttkPe-G"
 };

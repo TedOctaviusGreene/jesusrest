@@ -35,10 +35,11 @@ There are **two kinds of keys**:
 ## STEP 4 — Copy your Supabase keys
 
 1. Left sidebar → **Project Settings** (gear) → **API**.
-2. You'll see:
+2. You'll see (newer projects name them "publishable" / "secret"):
    - **Project URL** — *public* (looks like `https://abcd1234.supabase.co`)
-   - **anon / public** key — *public* (a long string)
-   - **service_role** key — **SECRET** (click "reveal"; keep this private)
+   - **anon / public** (a.k.a. **publishable**, starts `sb_publishable_...`) — *public*
+   - **service_role** (a.k.a. **secret**, starts `sb_secret_...`) — **SECRET**
+     (click "reveal"; keep this private)
 
 ---
 
@@ -74,8 +75,8 @@ they're safe to share. Do NOT send the secret keys.)
    | Key | Value |
    |-----|-------|
    | `SUPABASE_URL` | your Project URL (same as above) |
-   | `SUPABASE_ANON_KEY` | your anon/public key (same as above) |
-   | `SUPABASE_SERVICE_ROLE_KEY` | your **service_role** secret key |
+   | `SUPABASE_ANON_KEY` | your **publishable** key (`sb_publishable_...`) |
+   | `SUPABASE_SERVICE_ROLE_KEY` | your **secret** key (`sb_secret_...`) |
    | `ANTHROPIC_API_KEY` | your **sk-ant-...** secret key |
 
 2. Click **Save**.
