@@ -345,6 +345,26 @@ a { color: var(--clay-deep); }
 .reader-cta h3 { font-family: var(--display); font-weight: 600; font-size: 1.55rem; margin-bottom: .5rem; }
 .reader-cta p { color: var(--ink-soft); margin-bottom: 1.3rem; }
 
+/* ---------- Interactive "see it work" accordion ---------- */
+.ex { max-width: 760px; margin: 0 auto; }
+.ex .q { background: #fff; border: 1px solid var(--line); border-radius: 16px; margin-bottom: 1rem; overflow: hidden; }
+.ex .q-head { width: 100%; text-align: left; border: 0; background: transparent; cursor: pointer; padding: 1.25rem 1.4rem; display: flex; justify-content: space-between; gap: 1rem; align-items: center; font-family: var(--display); font-weight: 600; font-size: 1.2rem; color: var(--ink); }
+.ex .plus { flex: 0 0 auto; width: 26px; height: 26px; border-radius: 50%; background: var(--paper-2); color: var(--clay); display: grid; place-items: center; font-family: var(--body); font-weight: 800; transition: .25s; }
+.ex .q.open .plus { background: var(--clay); color: #fff; transform: rotate(45deg); }
+.ex .body { max-height: 0; overflow: hidden; transition: max-height .45s ease; }
+.ex .body-in { padding: 0 1.4rem 1.4rem; }
+.ex .verse { border-left: 3px solid var(--sage); background: var(--paper); border-radius: 0 10px 10px 0; padding: .7rem .9rem; margin: .6rem 0; }
+.ex .verse .t { font-family: var(--display); font-style: italic; font-size: 1.08rem; }
+.ex .verse .r { font-size: .72rem; text-transform: uppercase; letter-spacing: .14em; font-weight: 800; color: var(--sage-deep); margin-top: .3rem; }
+.ex .concl { margin-top: 1rem; padding: 1rem 1.1rem; background: linear-gradient(135deg,#fff4ea,#f6e7d6); border-radius: 12px; font-family: var(--display); font-size: 1.12rem; }
+.ex .concl b { color: var(--clay-deep); }
+
+/* ---------- Email signup ---------- */
+.signup { max-width: 540px; margin: 1.4rem auto 0; display: flex; gap: .6rem; flex-wrap: wrap; justify-content: center; }
+.signup input[type="email"] { flex: 1; min-width: 240px; padding: .9rem 1.2rem; border: 1.5px solid var(--line); border-radius: 999px; font-family: var(--body); font-size: 1rem; background: #fff; color: var(--ink); }
+.signup input[type="email"]:focus { outline: none; border-color: var(--clay); }
+.signup .fine { width: 100%; text-align: center; color: var(--ink-soft); font-size: .85rem; margin-top: .8rem; }
+
 /* ---------- Reveal on scroll ---------- */
 .reveal { opacity: 0; transform: translateY(22px); transition: opacity .8s ease, transform .8s ease; }
 .reveal.in { opacity: 1; transform: none; }

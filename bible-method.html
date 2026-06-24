@@ -151,18 +151,6 @@
   </div>
 </section>
 
-<!-- SEE IT WORK -->
-<section class="section alt" style="background:var(--paper-2);">
-  <div class="container">
-    <div class="section-head reveal">
-      <p class="eyebrow">See It Work</p>
-      <h2>The method in action</h2>
-      <p>Tap a question. Watch the answer assembled only from Scripture.</p>
-    </div>
-    <div class="ex" id="ex"></div>
-  </div>
-</section>
-
 <!-- OUTSIDE WORK -->
 <section class="section">
   <div class="container measure">
@@ -228,18 +216,6 @@ var SCALE=[
  ["Light Inference","Reasonable and consistent with Scripture, but resting on fewer or weaker witnesses. Offered as a likely reading, plainly labeled."],
  ["Silent","Scripture gives no revelation and no tension. Named as secret and left there. Not built upon."]
 ];
-var EX=[
-  { q:"Does “rest” in Hebrews mean a weekly day, or a Person?",
-    verses:[["“There remaineth therefore a rest to the people of God.”","Hebrews 4:9"],
-            ["“For he that is entered into his rest, he also hath ceased from his own works.”","Hebrews 4:10"],
-            ["“Come unto me… and I will give you rest.”","Matthew 11:28"]],
-    c:"Comparing the verses, Scripture defines its own term: the promised <b>rest is ceasing from your own works and coming to Christ Himself</b> — not merely a day on the calendar." },
-  { q:"Is a person justified by faith, or by works?",
-    verses:[["“A man is justified by faith without the deeds of the law.”","Romans 3:28"],
-            ["“By grace are ye saved through faith… not of works.”","Ephesians 2:8–9"],
-            ["“To him that worketh not, but believeth… his faith is counted for righteousness.”","Romans 4:5"]],
-    c:"Three plain passages agree, so the meaning is settled: <b>justification is by faith, apart from works</b> — and any unclear verse must bow to this clear testimony." }
-];
 function esc(s){return (s||'').replace(/[&<>]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;'}[c];});}
 (function(){
   var wrap=document.getElementById('groups');
@@ -259,19 +235,6 @@ function esc(s){return (s||'').replace(/[&<>]/g,function(c){return{'&':'&amp;','
   document.getElementById('scale').innerHTML=SCALE.map(function(s){
     return '<div class="tier reveal"><b>'+esc(s[0])+'</b><span>'+esc(s[1])+'</span></div>';
   }).join('');
-
-  var ex=document.getElementById('ex');
-  ex.innerHTML=EX.map(function(it){
-    var v=it.verses.map(function(x){return '<div class="verse"><div class="t">'+esc(x[0])+'</div><div class="r">'+esc(x[1])+'</div></div>';}).join('');
-    return '<div class="q"><button class="q-head"><span>'+esc(it.q)+'</span><span class="plus">+</span></button><div class="body"><div class="body-in">'+v+'<div class="concl">'+it.c+'</div></div></div></div>';
-  }).join('');
-  ex.querySelectorAll('.q-head').forEach(function(btn){
-    btn.addEventListener('click',function(){
-      var q=btn.parentElement, body=q.querySelector('.body');
-      if(q.classList.contains('open')){q.classList.remove('open');body.style.maxHeight=0;return;}
-      q.classList.add('open');body.style.maxHeight=body.firstElementChild.scrollHeight+40+'px';
-    });
-  });
 
   var els=document.querySelectorAll('.reveal');
   if(!('IntersectionObserver'in window)){els.forEach(function(e){e.classList.add('in');});}
