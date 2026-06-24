@@ -126,5 +126,12 @@ window.JR_ARTICLES = [
     "category": "Honest Answers",
     "blurb": "JesusRest.com — The Gospel That Works While We Rest",
     "featured": false
+  },
+  {
+    "file": "youve-been-reading-the-wrong-evidence.md",
+    "title": "You've Been Reading the Wrong Evidence",
+    "category": "Grace & the Gospel",
+    "blurb": "On the mistake of trying to tell whether God loves you by looking at your life — and the proof that was settled long before you asked.",
+    "featured": false
   }
 ];
