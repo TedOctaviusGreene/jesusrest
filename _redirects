@@ -1,6 +1,14 @@
+# Clean short links for share cards (must come BEFORE the catch-all below)
+/die     /read.html?file=what-really-happens-when-you-die.md       301!
+/door    /read.html?file=the-door-no-one-was-allowed-to-close.md    301!
+/loved      /read.html?file=youve-been-reading-the-wrong-evidence.md   301!
+/scoreboard /read.html?file=the-scoreboard-god-doesnt-exist.md        301!
+/system            /salvation-system.html    200
+/salvation-system  /salvation-system.html    200
+
 # Always serve existing files normally
 /*    /:splat    200!
 
 # Allow /thank-you without the .html extension
-/thank-you    /thank-you.html    200
-/thank-you /thank-you.html 200
+/thank-you           /thank-you.html           200
+/thank-you-booklet   /thank-you-booklet.html   200

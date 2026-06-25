@@ -1,6 +1,7 @@
 /* AUTO-GENERATED metadata for Jesus Rest articles. Edit titles/categories/blurbs here;
    filenames must match /articles exactly. */
 window.JR_CATEGORIES = [
+  "The Salvation System",
   "Christ in You",
   "Grace & the Gospel",
   "Honest Answers",
@@ -8,6 +9,7 @@ window.JR_CATEGORIES = [
 ];
 
 window.JR_CATEGORY_BLURBS = {
+  "The Salvation System": "An eight-part series, read in order: the one connected system of salvation — the gift you cannot lose, the family you are born into, and the glory the whole thing is built toward.",
   "Christ in You": "The indwelling life — who you are now that Christ lives in you.",
   "Grace & the Gospel": "The good news, recovered: rest in His finished work, not your effort.",
   "Honest Answers": "Straight, Scripture-first answers to the questions believers actually ask.",
@@ -15,6 +17,62 @@ window.JR_CATEGORY_BLURBS = {
 };
 
 window.JR_ARTICLES = [
+  {
+    "file": "salvation-is-a-gift.md",
+    "title": "Salvation Is a Gift You Cannot Earn or Lose",
+    "category": "The Salvation System",
+    "blurb": "Part 1 — The foundation of the whole system, and the one part everything else depends on: salvation is received, never achieved, and once received it cannot be lost.",
+    "featured": false
+  },
+  {
+    "file": "a-begotten-child-not-yet-born.md",
+    "title": "A Saved Person Is a Begotten Child, Not Yet Born",
+    "category": "The Salvation System",
+    "blurb": "Part 2 — What the gift actually makes you: a true son or daughter of God right now, already alive in the family, not yet born into glory.",
+    "featured": false
+  },
+  {
+    "file": "disciplined-never-disowned.md",
+    "title": "A Son or Daughter Is Disciplined, Never Disowned",
+    "category": "The Salvation System",
+    "blurb": "Part 3 — What God does with a child who still sins: correction from a Father who keeps the child, never rejection by a judge who casts the child out.",
+    "featured": false
+  },
+  {
+    "file": "the-fruit-is-christs-life.md",
+    "title": "The Fruit Is Christ's Life, Not Your Effort",
+    "category": "The Salvation System",
+    "blurb": "Part 4 — How a son or daughter of God lives a life that pleases God: not by trying harder, but by yielding to Christ and letting Christ bear His own fruit within.",
+    "featured": false
+  },
+  {
+    "file": "gain-or-forfeit-the-inheritance.md",
+    "title": "You Can Gain or Forfeit the Inheritance and Still Be Saved",
+    "category": "The Salvation System",
+    "blurb": "Part 5 — The system keeps two separate accounts: salvation, which is secure forever, and reward, the inheritance a son or daughter of God can gain or lose.",
+    "featured": false
+  },
+  {
+    "file": "what-james-means-by-faith-without-works.md",
+    "title": "What James Means by Faith Without Works",
+    "category": "The Salvation System",
+    "blurb": "Part 6 — The hardest objection answered: read in its own context, James proves the system instead of breaking it — faith receives righteousness, works gather reward.",
+    "featured": false
+  },
+  {
+    "file": "why-only-this-system-holds-together.md",
+    "title": "Why Only This System Holds Together",
+    "category": "The Salvation System",
+    "blurb": "Part 7 — The test any true system must pass: every promise keeps its place, every warning keeps its force, and not one verse has to be bent to fit.",
+    "featured": false
+  },
+  {
+    "file": "and-then-born.md",
+    "title": "And Then, Born",
+    "category": "The Salvation System",
+    "blurb": "Part 8 — The end the whole system is built toward: the begotten son or daughter of God, finally born into glory and made fully like Christ.",
+    "featured": false
+  },
   {
     "file": "are-you-satisfied-with-the-works-of-jesus.md",
     "title": "Are You Satisfied with the Works of Jesus?",

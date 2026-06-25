@@ -107,7 +107,7 @@ exports.handler = async (event) => {
       blocked: true,
       message:
         'We welcome honest, even strong disagreement — but this didn’t pass our check for respect and kindness. ' +
-        (reason ? 'Reason: ' + reason + ' ' : '') +
+        (reason ? 'Reason: ' + reason.replace(/[.!?]?\s*$/, '') + '. ' : '') +
         'Please reword it and try again.',
     });
   }

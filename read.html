@@ -92,6 +92,15 @@
     <a class="btn btn-primary" href="donate.html">Partner With Us</a>
   </div>
 
+  <section class="read-next" id="read-next" hidden>
+    <div class="jr-c-section-head">
+      <p class="eyebrow" id="read-next-eyebrow">Keep Reading</p>
+      <h2 id="read-next-title">What to read next</h2>
+    </div>
+    <div class="read-next-grid" id="read-next-grid"></div>
+    <p class="read-next-more" id="read-next-more"></p>
+  </section>
+
   <section class="jr-c-section" style="margin-top:3.5rem;">
     <div class="jr-c-section-head">
       <p class="eyebrow">Join the Conversation</p>
@@ -164,6 +173,66 @@
     // recompute after the markdown renders
     window.addEventListener('load',function(){ setTimeout(update,300); });
     setTimeout(update,1200);
+  })();
+</script>
+
+<!-- Keep Reading / Next in the series -->
+<script src="assets/js/articles-data.js"></script>
+<script>
+  (function () {
+    var mount = document.getElementById('read-next'); if (!mount) return;
+    var arts = window.JR_ARTICLES || [];
+    var file; try { file = new URLSearchParams(location.search).get('file'); } catch (e) { file = null; }
+    if (!file || !arts.length) return;
+    var cur = arts.filter(function (a) { return a.file === file; })[0];
+    if (!cur) return;
+
+    function esc(s){return (s||'').replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+    function card(a, label){
+      return '<a class="article-card" href="read.html?file=' + encodeURIComponent(a.file) + '">' +
+        '<span class="cat">' + esc(label || a.category) + '</span>' +
+        '<h3>' + esc(a.title) + '</h3>' +
+        '<p>' + esc(a.blurb || '') + '</p>' +
+        '<span class="more">Read →</span></a>';
+    }
+
+    var grid = document.getElementById('read-next-grid');
+    var eyebrow = document.getElementById('read-next-eyebrow');
+    var title = document.getElementById('read-next-title');
+    var more = document.getElementById('read-next-more');
+    var html = '';
+
+    if (cur.category === 'The Salvation System') {
+      // Walk the series in manifest order
+      var series = arts.filter(function (a) { return a.category === 'The Salvation System'; });
+      var idx = -1;
+      series.forEach(function (a, i) { if (a.file === file) idx = i; });
+      var next = idx >= 0 ? series[idx + 1] : null;
+      if (next) {
+        eyebrow.textContent = 'The Salvation System';
+        title.textContent = 'Next in the series';
+        html = card(next, 'Part ' + (idx + 2) + ' of 8');
+      } else {
+        eyebrow.textContent = 'The Salvation System';
+        title.textContent = 'You’ve reached the end of the series';
+        html = card(series[0], 'Start again — Part 1 of 8');
+      }
+      more.innerHTML = '<a href="salvation-system.html">Browse the whole series &amp; get the booklet →</a>';
+    } else {
+      // Suggest other articles from the same category, then fill from the rest
+      eyebrow.textContent = 'Keep Reading';
+      title.textContent = 'If you found this helpful';
+      var same = arts.filter(function (a) { return a.category === cur.category && a.file !== file; });
+      var rest = arts.filter(function (a) { return a.category !== cur.category && a.file !== file && a.category !== 'The Salvation System'; });
+      function shuffle(arr){ for (var i=arr.length-1;i>0;i--){ var j=Math.floor(Math.random()*(i+1)); var t=arr[i];arr[i]=arr[j];arr[j]=t; } return arr; }
+      var picks = shuffle(same).slice(0, 3);
+      if (picks.length < 3) picks = picks.concat(shuffle(rest).slice(0, 3 - picks.length));
+      html = picks.map(function (a) { return card(a); }).join('');
+      more.innerHTML = '<a href="articles.html">Browse the full library →</a>';
+    }
+
+    grid.innerHTML = html;
+    mount.hidden = false;
   })();
 </script>
 

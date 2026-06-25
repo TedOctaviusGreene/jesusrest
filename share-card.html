@@ -21,16 +21,18 @@
   .picker button{background:#23201b;color:#cabfb0;border:1px solid #393429;border-radius:999px;padding:.4rem .8rem;font-family:var(--body);font-weight:700;font-size:.78rem;cursor:pointer;}
   .picker button.on{background:var(--clay);color:#fff;border-color:var(--clay);}
   .stage{position:relative;width:min(430px,96vw);aspect-ratio:9/16;max-height:84vh;border-radius:26px;overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.55);user-select:none;}
-  .slide{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;gap:1.1rem;padding:2.4rem 2rem 3.2rem;opacity:0;pointer-events:none;transition:opacity .4s ease;}
+  .slide{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;gap:1.05rem;padding:2.2rem 1.9rem 3rem;opacity:0;pointer-events:none;transition:opacity .4s ease;}
   .slide.on{opacity:1;}
-  .slide .kick{font-family:var(--body);text-transform:uppercase;letter-spacing:.26em;font-size:.72rem;font-weight:800;opacity:0;}
-  .slide .big{font-family:var(--display);font-weight:600;line-height:1.08;font-size:clamp(2rem,8vw,2.9rem);opacity:0;}
-  .slide .sub{font-family:var(--body);font-size:1.05rem;line-height:1.5;opacity:0;}
-  .slide .ref{font-family:var(--display);font-style:italic;font-size:1.05rem;opacity:0;}
-  .slide.on .kick{animation:rise .6s .05s forwards;}
-  .slide.on .big{animation:rise .7s .22s forwards;}
-  .slide.on .sub{animation:rise .7s .45s forwards;}
-  .slide.on .ref{animation:rise .7s .6s forwards;}
+  .slide .kick{font-family:var(--body);text-transform:uppercase;letter-spacing:.17em;font-size:1.06rem;font-weight:800;opacity:0;}
+  .slide .big{font-family:var(--display);font-weight:600;line-height:1.08;font-size:clamp(2rem,7.4vw,2.85rem);opacity:0;}
+  .slide .big.link{font-size:clamp(1.7rem,6.2vw,2.25rem);word-break:break-word;}
+  .slide .big.quote{font-size:clamp(1.55rem,5.6vw,2.05rem);line-height:1.18;}
+  .slide .sub{font-family:var(--body);font-size:1.07rem;line-height:1.5;opacity:0;}
+  .slide .ref{font-family:var(--display);font-style:italic;font-size:1.36rem;opacity:0;}
+  .slide.on .big{animation:rise .7s .05s forwards;}
+  .slide.on .kick{animation:rise .6s .5s forwards;}
+  .slide.on .sub{animation:rise .7s .95s forwards;}
+  .slide.on .ref{animation:rise .7s 1.35s forwards;}
   @keyframes rise{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:none;}}
   .t-ink{background:radial-gradient(120% 100% at 50% 0,#2c2620,#15120e);color:#F4ECE0;}
   .t-ink .kick{color:var(--clay);}
@@ -71,6 +73,66 @@
 
 <script>
 var SETS={
+  "when-you-die":{label:"When You Die",slides:[
+    {theme:"t-ink",kick:"JesusRest.com",big:"What really happens when you die?",sub:"Almost everyone believes the same thing — and almost no one has ever checked it."},
+    {theme:"t-clay",kick:"The story we're handed",big:"You die, and go straight to heaven or hell — forever.",sub:"It's what most of us were taught. But it isn't what the Bible actually says."},
+    {theme:"t-paper",kick:"The first surprise",big:"Nobody has been sorted yet.",sub:"The dead are waiting. A resurrection and a judgment are still ahead of us.",ref:"Acts 2:34"},
+    {theme:"t-sage",kick:"So what decides where you stand?",big:"Not your record — a free gift.",sub:"Salvation can't be earned, and it can't be lost. You receive it by trusting Christ.",ref:"Ephesians 2:8–9"},
+    {theme:"t-ink",kick:"But there's something you can add — or miss",big:"A reward: the inheritance.",sub:"To reign with Christ in His Kingdom — a throne, a crown, a new name.",ref:"Revelation 3:21 · 2:17"},
+    {theme:"t-clay",kick:"Here's the timeline",big:"That Kingdom reigns a thousand years.",sub:"The final judgment — the Great White Throne — comes only after it. Not the moment you die.",ref:"Revelation 20:4–7"},
+    {theme:"t-paper",kick:"Then the books are opened",big:"Some who missed the Kingdom are still in the Book of Life.",sub:"They are truly saved — yet they never inherited a throne in the thousand-year Kingdom. They kept their salvation, but they missed the reward.",ref:"Revelation 20:12"},
+    {theme:"t-ink",kick:"And the judgment isn't an instant",big:"It is a period of time.",sub:"Like the thousand-year reign, the rest are raised, taught, and offered Christ — a real, fair chance, by grace. The Book stays open; names can still be written in.",ref:"Isaiah 11:9"},
+    {theme:"t-sage",kick:"So who ends in the fire?",big:"Only those who refuse Christ — after the truth is revealed in every way.",sub:"No one is cast in without that full offer; it was never something you could earn. It is a final death, not endless torture.",ref:"Revelation 20:14"},
+    {theme:"t-clay",kick:"The whole article is free to read.",big:"JesusRest.com/die",sub:"Open “What Really Happens When You Die.”",brand:true,link:true}
+  ]},
+  "the-door":{label:"The Door",slides:[
+    {theme:"t-ink",kick:"JesusRest.com",big:"A lie slammed a door that God left wide open.",sub:"It has shut more people out of God than almost any sin ever could."},
+    {theme:"t-clay",kick:"Here is the lie",big:"They say your fate is sealed the instant you die — heaven or hell, forever.",sub:"It is preached and sung everywhere. Yet the Bible never says it, and the rest of Scripture breaks if that were true.",ref:"John 10:35"},
+    {theme:"t-paper",kick:"Think of who that lie imprisons",big:"One is the gentle person, sure they have sinned past all forgiveness.",sub:"They live in quiet terror that they blasphemed the Spirit — the one sin they were told can never be undone.",ref:"Matthew 12:32"},
+    {theme:"t-sage",kick:"So hear the freedom in this",big:"If you fear you have done it, that fear is the proof you have not.",sub:"The truly hardened feel no dread at all. Your longing to be right with God is His Spirit, still alive in you and calling you home.",ref:"John 6:37"},
+    {theme:"t-ink",kick:"And the second lie is just as bad",big:"Someone struggling with sin is told they were never really saved.",sub:"They were handed a verdict that God never gave."},
+    {theme:"t-clay",kick:"These would-be gatekeepers have a word from Jesus",big:"“Ye shut up the kingdom of heaven against men.”",sub:"He gave them the rule they forgot: “With what measure ye mete, it shall be measured to you again.” The door they guarded was never theirs to shut.",ref:"Matthew 23:13 · 7:2",quote:true},
+    {theme:"t-paper",kick:"So what does God, the real Gatekeeper, say?",big:"“Come unto Me, all ye that labour and are heavy laden, and I will give you rest.”",sub:"And if they never heard it — because they lived in an age before the gospel — God is fair. They will hear it, and they will be given a chance to respond.",ref:"Matthew 11:28 · Isaiah 11:9",quote:true},
+    {theme:"t-sage",kick:"This is the door, flung open",big:"Anyone who comes to Christ, He will never cast out.",sub:"“Whosoever will, let him take the water of life freely.” You need no church and no religion to reach Him — only Christ.",ref:"John 6:37 · Revelation 22:17"},
+    {theme:"t-clay",kick:"The whole booklet is free to read.",big:"JesusRest.com/door",sub:"Open “The Door No One Was Allowed to Close.”",brand:true,link:true}
+  ]},
+  "wrong-evidence":{label:"Wrong Evidence",slides:[
+    {theme:"t-ink",kick:"JesusRest.com",big:"Almost everyone quietly carries one question: does God love me?",sub:"And almost everyone tries to answer that question the wrong way."},
+    {theme:"t-clay",kick:"Here is the wrong way",big:"People read their own circumstances for the verdict.",sub:"A good season feels like God's approval. A hard season feels like God's displeasure. Health, money, and answered prayers become the scoreboard."},
+    {theme:"t-paper",kick:"But that makes love a transaction",big:"Turning love into a transaction is the oldest religious error there is.",sub:"This belief says a person must perform in order to be loved, and that life keeps the running total. The belief feels like faith, but it is the very opposite of faith."},
+    {theme:"t-sage",kick:"Here is the truth",big:"The proof of God's love is behind you, not around you.",sub:"God did not leave the verdict to be tallied from today's circumstances. God settled it once, in the past, before you could earn a single thing."},
+    {theme:"t-clay",kick:"And here is that proof",big:"“While we were yet sinners, Christ died for us.”",sub:"Christ did not wait for people to clean themselves up. Christ proved the love at their very worst, when they owed everything and deserved nothing.",ref:"Romans 5:8",quote:true},
+    {theme:"t-ink",kick:"But doesn't the Bible say obey and be blessed?",big:"The Bible does say it — in one covenant, with one nation.",sub:"At Mount Sinai, God promised the nation of Israel blessing for obedience and hardship for disobedience. That covenant governed Israel's land, harvests, and cities.",ref:"Deuteronomy 28:1–2"},
+    {theme:"t-paper",kick:"But that covenant was never yours",big:"God sends sun and rain on the evil and the good alike.",sub:"Circumstances never measured anyone's standing with God. The heroes of faith shared one faith yet lived opposite lives: some conquered kingdoms, and some were sawn in two.",ref:"Matthew 5:45 · Hebrews 11:35–39"},
+    {theme:"t-sage",kick:"So what about the curse for disobedience?",big:"Christ carried the curse so that it would never land on you.",sub:"The curse did not evaporate. The curse fell on Christ at the cross. For everyone who is in Christ, there is now no condemnation at all.",ref:"Galatians 3:13 · Romans 8:1"},
+    {theme:"t-ink",kick:"So here is where it all lands",big:"The love of God came first. Obedience does not earn that love — obedience answers it.",sub:"“We love Him, because He first loved us.” So stop reading the wrong evidence. The proof is finished, and the proof is behind you.",ref:"1 John 4:19"},
+    {theme:"t-sage",kick:"So is this a return to keeping rules?",big:"No. The obedience is not a checklist. The obedience is a Person.",sub:"The one thing left is to yield to Christ and let Christ live His own life through you. Christ becomes the obedience inside you. This is surrender, not performance.",ref:"Galatians 2:20"},
+    {theme:"t-clay",kick:"The whole article is free to read.",big:"JesusRest.com/loved",sub:"Open “You've Been Reading the Wrong Evidence.”",brand:true,link:true}
+  ]},
+  "scoreboard":{label:"The Scoreboard",slides:[
+    {theme:"t-ink",kick:"JesusRest.com",big:"Why does God seem to bless the comfortable and abandon the suffering child?",sub:"That question is not an attack on faith. The question is right to ask — and the Bible asks it more fiercely than any skeptic ever has."},
+    {theme:"t-clay",kick:"Underneath it lies one quiet assumption",big:"We treat life as a scoreboard.",sub:"We read prosperity as God's approval and suffering as God's guilt. Almost everyone carries this scoreboard, believer and skeptic alike."},
+    {theme:"t-paper",kick:"But the Bible attacks the scoreboard hardest",big:"Jesus was asked whether the slain were worse sinners, and Jesus said, “Nay.”",sub:"The horror did not measure their guilt. Jesus refused the scoreboard outright, once for each tragedy.",ref:"Luke 13:2–5"},
+    {theme:"t-sage",kick:"And who receives the good things?",big:"God sends sun and rain on the evil and the good alike.",sub:"Comfort is most often simple providence falling where it falls, not a medal pinned on a person's character. The scoreboard was never there. People projected it.",ref:"Matthew 5:45"},
+    {theme:"t-ink",kick:"So where does the harm come from?",big:"The harm does not come from God.",sub:"God tempts no one with evil. The harm comes from a real enemy, from human will set free, and from a world broken since the beginning.",ref:"James 1:13"},
+    {theme:"t-clay",kick:"But why a world where harm is even possible?",big:"A love that cannot be refused is not love.",sub:"God made people free to truly choose. The same freedom that lets a mother love her child is the freedom that, in another person, can wound one."},
+    {theme:"t-paper",kick:"Then why does God not act now?",big:"The books are not yet closed.",sub:"After death comes the judgment — exact and proportional, weighed to what each person knew and did. The one who knew better is beaten with many stripes; the one who did not, with few.",ref:"Hebrews 9:27 · Luke 12:47–48"},
+    {theme:"t-sage",kick:"And the one who was wronged?",big:"The victim does not have to carry the scales.",sub:"“Vengeance is Mine; I will repay, saith the Lord.” Justice is not cancelled. It is moved to a courtroom that cannot be bribed, escaped, or lost.",ref:"Romans 12:19"},
+    {theme:"t-ink",kick:"And the deepest answer is not an explanation",big:"The answer is a God who walked into the suffering Himself.",sub:"“He was wounded for our transgressions… and with His stripes we are healed.” God would rather bear the wound than keep His distance from it.",ref:"Isaiah 53:5"},
+    {theme:"t-clay",kick:"And the child no one protected?",big:"The child is not lost in the gap.",sub:"A grieving king said of his dead son, “I shall go to him.” And God has promised to wipe away every tear, and to end death and sorrow forever.",ref:"2 Samuel 12:23 · Revelation 21:4"},
+    {theme:"t-sage",kick:"The scoreboard god does not exist.",big:"JesusRest.com/scoreboard",sub:"Open “The Scoreboard God Doesn't Exist.”",brand:true,link:true}
+  ]},
+  "system":{label:"The Salvation System",slides:[
+    {theme:"t-ink",kick:"JesusRest.com",big:"Most confusion about salvation comes from reading one verse where the Bible gives ten.",sub:"Here is the whole thing, in order, as one connected system."},
+    {theme:"t-clay",kick:"It begins with a gift",big:"Salvation is a gift you cannot earn and cannot lose.",sub:"Eternal life is not wages a person works for. Eternal life is given, and it is sealed the moment a person believes.",ref:"Ephesians 2:8–9"},
+    {theme:"t-paper",kick:"And the gift makes you family",big:"The moment you receive Christ, you become a son or daughter of God.",sub:"You are a true child, alive in the family now — begotten, though not yet born into glory.",ref:"1 John 3:2"},
+    {theme:"t-sage",kick:"So what happens when a child of God sins?",big:"A wandering child is disciplined by a Father, never disowned.",sub:"God corrects the children God keeps. The discipline is the proof of belonging, not a threat to it.",ref:"Hebrews 12:6"},
+    {theme:"t-ink",kick:"And the holy life itself?",big:"The fruit is not your effort. The fruit is Christ’s own life in you.",sub:"A branch does not strain to make grapes. The branch stays joined to the vine, and the vine bears the fruit.",ref:"John 15:5"},
+    {theme:"t-clay",kick:"There is a reward as well",big:"A yielded life gains an inheritance — to reign with Christ.",sub:"A throne, a crown, a new name. A son or daughter of God can gain it or forfeit it, while salvation itself stays untouched.",ref:"Revelation 3:21"},
+    {theme:"t-paper",kick:"And the end it is all built toward",big:"The begotten child is finally born into glory.",sub:"The waiting ends, the struggle ends, and the son or daughter of God is made fully like Christ.",ref:"1 Corinthians 15:49"},
+    {theme:"t-sage",kick:"From the first gift to the final crown",big:"No one is left with anything to boast about.",sub:"It was Christ from beginning to end. The system is fair, it is loving, and it is humbling.",ref:"1 Corinthians 1:31"},
+    {theme:"t-clay",kick:"Read the whole system, free and in order.",big:"JesusRest.com/system",sub:"Begin “The Salvation System,” Part One of Eight.",brand:true,link:true}
+  ]},
   "the-model":{label:"The Model",slides:[
     {theme:"t-ink",kick:"Jesus Rest",big:"You rest in two works.",sub:"The model that dissolves every tension in the Christian life."},
     {theme:"t-clay",kick:"Work one — it saves you",big:"His finished work.",sub:"Salvation is done. You add nothing to it.",ref:"Ephesians 2:8–9"},
@@ -109,8 +171,8 @@ var SETS={
     {theme:"t-clay",kick:"Read the answers",big:"JesusRest.com",brand:true}
   ]}
 };
-var ORDER=["the-model","gospel","satisfied","sabbath","qa"];
-var DUR=4200;
+var ORDER=["system","when-you-die","the-door","wrong-evidence","scoreboard","the-model","gospel","satisfied","sabbath","qa"];
+var DUR=5400;
 
 var stage=document.getElementById('stage'), bars=document.getElementById('bars'), picker=document.getElementById('picker');
 var slides=[], fills=[], idx=0, timer=null, start=0, remain=DUR, paused=false, cur="the-model";
@@ -124,7 +186,7 @@ function buildSlides(){
   SL.forEach(function(s){
     var d=document.createElement('div'); d.className='slide '+s.theme;
     d.innerHTML=(s.kick?'<div class="kick">'+s.kick+'</div>':'')+
-      '<div class="big">'+s.big+'</div>'+
+      '<div class="big'+(s.link?' link':'')+(s.quote?' quote':'')+'">'+s.big+'</div>'+
       (s.sub?'<div class="sub">'+s.sub+'</div>':'')+
       (s.ref?'<div class="ref">— '+s.ref+'</div>':'')+
       (s.brand?'<svg class="wave" viewBox="0 0 64 64" fill="none"><path d="M2 40c6 0 10-8 16-8s10 8 16 8 10-8 16-8 10 8 16 8" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>':'');
